@@ -27,7 +27,7 @@ Quand vous annoncez "L'IA va automatiser vos tâches", l'équipe traverse 4 phas
 
 Action : Identifiez où se trouve votre interlocuteur. On ne parle pas à quelqu'un en colère comme à quelqu'un en acceptation.
 
-<!-- TODO: ajouter une image de la courbe du deuil dans docs/assets/images/ -->
+> **La courbe du deuil** suit 5 phases : Déni → Colère → Marchandage → Dépression → Acceptation. Face à un changement d'outil ou de process, vos interlocuteurs traversent ces étapes à leur rythme. Votre rôle est d'identifier où ils se trouvent pour adapter votre discours.
 
 L'équation du changement  
 D'après Beckhard et Harris. Le changement se produit seulement si :

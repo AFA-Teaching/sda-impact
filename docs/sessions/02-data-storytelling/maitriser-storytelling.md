@@ -56,7 +56,7 @@ Le voyage est un cycle qui commence dans le monde ordinaire, passe par un monde 
 - Le concept : "C'est dans la caverne où vous craignez d'entrer que se trouve le trésor que vous cherchez."  
 - La dynamique : status Quo → appel à l'aventure → épreuves/crise → trésor → retour (nouvelle vie).
 
-<!-- TODO: ajouter une image du cycle du héros dans docs/assets/images/ -->
+> **Le cycle du héros** : Monde ordinaire → Appel à l'aventure → Passage du seuil → Épreuves et alliés → Crise majeure → Trésor/révélation → Retour transformé. C'est la structure narrative universelle qu'on retrouve dans tous les grands récits, de l'Odyssée à Star Wars.
 
 La transposition pour un projet data/IA  
 Utilisez cette structure pour métaphoriser votre présentation technique :

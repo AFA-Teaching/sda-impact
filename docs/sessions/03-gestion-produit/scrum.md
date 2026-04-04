@@ -31,7 +31,7 @@ Si vous voulez comprendre la théorie pure, il existe un document sacré : le **
 - Le contenu : 15 pages seulement. C'est simple, concis.  
 - Le principe : Des rôles, des événements (rituels) et des artefacts définis pour créer de la valeur de manière itérative.
 
-![][image4]
+> Le framework Scrum repose sur trois piliers : **transparence** (tout le monde voit l'avancement), **inspection** (on vérifie régulièrement) et **adaptation** (on ajuste le tir). Il définit 3 rôles (Product Owner, Scrum Master, Développeurs), 5 événements (Sprint, Sprint Planning, Daily, Review, Retrospective) et 3 artefacts (Product Backlog, Sprint Backlog, Incrément).
 
 **⚠️ Remarque**  
 J'ai rarement vu une entreprise appliquer le Scrum à la lettre.  

@@ -26,7 +26,7 @@ En tant que data scientist : Vous ne livrez pas un modèle pour l'oublier ensuit
 
 C'est la méthode classique. On fait les étapes une par une, sans retour en arrière possible.
 
-![][image3]
+> **Spécifications** ➡️ **Conception** ➡️ **Développement** ➡️ **Test** ➡️ **Déploiement** — chaque étape doit être terminée avant de passer à la suivante. Pas de retour en arrière.
 
 - Process : Spécifications détaillées ➡️ Conception ➡️ Développement ➡️ Test ➡️ Déploiement.  
 - Philosophie : On part du Besoin (tout ce qu'on veut faire) pour estimer le temps (souvent très long).  

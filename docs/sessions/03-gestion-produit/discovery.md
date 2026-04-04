@@ -38,7 +38,7 @@ La discovery sert à éviter de gaspiller votre temps de cerveau disponible.
 
 C'est le modèle mental fondamental pour structurer votre pensée et éviter de sauter sur la première idée venue. Il se compose de deux phases (deux diamants) d'expansion (divergence) et de sélection (convergence).
 
-![][image5]
+> Le double diamant se lit de gauche à droite : **Diamant 1 (Problème)** — on diverge pour explorer toutes les causes possibles, puis on converge pour définir le vrai problème. **Diamant 2 (Solution)** — on diverge pour imaginer toutes les solutions, puis on converge pour prototyper et tester la meilleure.
 
 - 💎 Diamant 1 : L'espace du problème  
   - Diverger (explorer) : On ne suppose rien. Pourquoi le taux de clic est bas sur la Home Page ? (Prix ? Photos ? Confiance ? Géographie ?). On ouvre toutes les portes.  
@@ -53,7 +53,7 @@ C'est le modèle mental fondamental pour structurer votre pensée et éviter de 
 
 Ne vous laissez pas intimider par le terme. C'est simplement l'application de la rigueur scientifique au monde du business.
 
-![][image6]
+> Le design thinking suit 5 étapes : **Empathize** → **Define** → **Ideate** → **Prototype** → **Test**. C'est un cycle itératif — on revient en arrière si les tests invalident les hypothèses.
 
 | Étape Design Thinking | Équivalent Scientifique (Votre langage) |
 | :---- | :---- |
@@ -69,7 +69,7 @@ Si vous savez faire de la recherche, vous savez faire du design thinking.
 
 Populaire dans les startups, ce concept s'applique parfaitement à la data science expérimentale.
 
-![][image7]
+> La boucle lean startup : **Build** (construire un MVP) ➡️ **Measure** (mesurer les résultats) ➡️ **Learn** (apprendre et décider : pivoter ou persévérer). L'objectif est de boucler ce cycle le plus vite possible.
 
 Le principe : Build ➡️ Measure ➡️ Learn.
 
@@ -79,13 +79,13 @@ Le principe : Build ➡️ Measure ➡️ Learn.
 
 ## Le lien entre design thinking, lean startup et agile
 
-![][image8]
+> Ces trois approches sont complémentaires : le **design thinking** aide à comprendre le problème, le **lean startup** aide à valider la solution rapidement, et l'**agile** (Scrum) structure la livraison itérative. En pratique, on passe de l'une à l'autre selon la phase du projet.
 
 ## Jobs To Be Done (JTBD)
 
 C'est une théorie puissante pour définir le besoin. Elle dit que les utilisateurs n'achètent pas des produits, ils les embauchent pour accomplir une tâche (job).
 
-![][image9]
+> Le JTBD se formule ainsi : **« Quand je suis dans [situation], je veux [action] pour pouvoir [résultat attendu]. »** On ne regarde pas qui est l'utilisateur, mais ce qu'il cherche à accomplir.
 
 - Le concept : On se fiche du profil démographique (Homme, 35 ans, CSP+). On s'intéresse à la mission.  
 - Exemple Leboncoin :  

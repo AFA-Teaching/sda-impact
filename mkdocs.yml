@@ -1,0 +1,136 @@
+site_name: "Impact Data Scientist"
+site_description: "Les soft skills essentiels pour le data scientist - Sorbonne Data Analytics"
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Mode sombre
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  icon:
+    logo: material/school
+  font:
+    text: Inter
+    code: Fira Code
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Accueil: index.md
+  - Productivite IA:
+    - sessions/01-productivite-ia/index.md
+    - Apprendre:
+      - Maitriser un concept: sessions/01-productivite-ia/maitriser-concept.md
+      - Sublimer ses notes: sessions/01-productivite-ia/sublimer-notes.md
+      - Exercice - Notes brouillon: sessions/01-productivite-ia/test-notes-brouillon.md
+      - Ingerer la connaissance: sessions/01-productivite-ia/ingerer-connaissance.md
+      - Apprendre a coder: sessions/01-productivite-ia/apprendre-coder.md
+      - Exercice - Logs erreur: sessions/01-productivite-ia/test-logs-erreur.md
+    - Carriere:
+      - Construire son CV: sessions/01-productivite-ia/construire-cv.md
+      - Exercice - Experience: sessions/01-productivite-ia/test-experience.md
+      - Creer son coach carriere: sessions/01-productivite-ia/coach-carriere.md
+      - Cibler et postuler: sessions/01-productivite-ia/cibler-postuler.md
+      - Preparer ses entretiens: sessions/01-productivite-ia/preparer-entretiens.md
+    - Travailler:
+      - Delivrer un projet: sessions/01-productivite-ia/delivrer-projet.md
+      - Lire et visualiser: sessions/01-productivite-ia/lire-visualiser.md
+      - Realiser un benchmark: sessions/01-productivite-ia/realiser-benchmark.md
+      - Automatiser les CR: sessions/01-productivite-ia/automatiser-cr.md
+      - Exercice - Transcript: sessions/01-productivite-ia/test-transcript.md
+      - Construire une app: sessions/01-productivite-ia/construire-app.md
+    - Comprendre l'IA:
+      - Adopter le reflexe IA: sessions/01-productivite-ia/adopter-reflexe-ia.md
+      - Comprendre les LLMs: sessions/01-productivite-ia/comprendre-llms.md
+      - Pratiquer l'IA: sessions/01-productivite-ia/pratiquer-ia.md
+  - Data Storytelling:
+    - sessions/02-data-storytelling/index.md
+    - "L'operationnel":
+      - Scenario de projet: sessions/02-data-storytelling/scenario-projet.md
+      - Maitriser Google Slides: sessions/02-data-storytelling/maitriser-google-slides.md
+      - Creer une slide: sessions/02-data-storytelling/creer-slide.md
+      - Pratique - Creer une slide: sessions/02-data-storytelling/pratique-creer-slide.md
+      - Construire la presentation: sessions/02-data-storytelling/construire-presentation.md
+      - Pratique - Construire la presentation: sessions/02-data-storytelling/pratique-construire-presentation.md
+      - Critique constructive: sessions/02-data-storytelling/critique-constructive.md
+      - "S'aider d'outils": sessions/02-data-storytelling/aider-outils.md
+      - Suivre un process: sessions/02-data-storytelling/suivre-process.md
+      - Pratique - Suivre un process: sessions/02-data-storytelling/pratique-suivre-process.md
+      - Utiliser Gemini: sessions/02-data-storytelling/utiliser-gemini.md
+      - Pratique - Utiliser Gemini: sessions/02-data-storytelling/pratique-utiliser-gemini.md
+    - Le strategique:
+      - Presenter son projet: sessions/02-data-storytelling/presenter-projet.md
+      - Maitriser le storytelling: sessions/02-data-storytelling/maitriser-storytelling.md
+      - "Maitriser l'art oratoire": sessions/02-data-storytelling/maitriser-art-oratoire.md
+      - Organiser des reunions: sessions/02-data-storytelling/organiser-reunions.md
+      - Conduire le changement: sessions/02-data-storytelling/conduire-changement.md
+      - Comprendre le ProcessCom: sessions/02-data-storytelling/comprendre-processcom.md
+  - Gestion de Produit:
+    - sessions/03-gestion-produit/index.md
+    - "L'immersion":
+      - Scenario de produit: sessions/03-gestion-produit/scenario-produit.md
+      - Organisation: sessions/03-gestion-produit/organisation.md
+      - Roles: sessions/03-gestion-produit/roles.md
+      - Onboarding: sessions/03-gestion-produit/onboarding.md
+      - OKR: sessions/03-gestion-produit/okr.md
+      - Exemple - OKR: sessions/03-gestion-produit/exemple-okr.md
+    - "L'action (Delivery)":
+      - Agile vs Cascade: sessions/03-gestion-produit/agile-cascade.md
+      - Scrum: sessions/03-gestion-produit/scrum.md
+      - Rituels: sessions/03-gestion-produit/rituels.md
+      - Artefacts: sessions/03-gestion-produit/artefacts.md
+      - Exemple - Backlog: sessions/03-gestion-produit/exemple-backlog.md
+    - La vision (Discovery):
+      - Product Management: sessions/03-gestion-produit/product-management.md
+      - Discovery: sessions/03-gestion-produit/discovery.md
+      - Exemple - Design Thinking: sessions/03-gestion-produit/exemple-design-thinking.md
+      - Exemple - Lean Startup: sessions/03-gestion-produit/exemple-lean-startup.md
+      - Exemple - JTBD: sessions/03-gestion-produit/exemple-jtbd.md
+      - Entretiens utilisateurs: sessions/03-gestion-produit/entretiens.md
+      - Exemple - Plan de recherche: sessions/03-gestion-produit/exemple-plan-recherche.md
+      - Exemple - Guide entretien: sessions/03-gestion-produit/exemple-guide-entretien.md
+      - Exemple - Synthese: sessions/03-gestion-produit/exemple-synthese.md
+      - Metriques: sessions/03-gestion-produit/metriques.md
+      - Ethique et perennite: sessions/03-gestion-produit/ethique-perennite.md
+      - Bon sens: sessions/03-gestion-produit/bon-sens.md
+  - Travaux Pratiques:
+    - sessions/04-travaux-pratiques/index.md
+    - Todo: sessions/04-travaux-pratiques/todo.md
+    - Canvas: sessions/04-travaux-pratiques/canvas.md

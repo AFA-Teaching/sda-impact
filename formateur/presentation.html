@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer des Présentations Impactantes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .slide-container {
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .slide-hidden-left {
+            transform: translateX(-100%);
+            opacity: 0;
+            position: absolute;
+        }
+        .slide-hidden-right {
+            transform: translateX(100%);
+            opacity: 0;
+            position: absolute;
+        }
+        .slide-active {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        .progress-bar-fill {
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-50 to-slate-100 flex flex-col h-screen overflow-hidden">
+
+    <div id="presentation-container" class="flex-grow flex items-center justify-center p-4 md:p-8">
+        <div id="slide-wrapper" class="aspect-[16/9] w-full max-w-6xl bg-white rounded-2xl shadow-2xl relative overflow-hidden border border-slate-200">
+            </div>
+    </div>
+
+    <div id="controls" class="glassmorphism shadow-lg p-4 w-full flex items-center justify-between border-t border-slate-200">
+        <div class="flex items-center space-x-4 flex-1">
+             <h1 class="text-xl font-bold gradient-text">Présentations Impactantes</h1>
+             <p id="slide-title-display" class="text-slate-600 hidden md:block text-sm"></p>
+        </div>
+        <div class="flex items-center space-x-3">
+            <button id="prev-btn" class="p-2.5 rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 text-slate-700 hover:from-slate-200 hover:to-slate-300 disabled:opacity-40 disabled:cursor-not-allowed transition-all shadow-sm hover:shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+            </button>
+            <span id="slide-counter" class="text-sm font-semibold text-slate-700 w-20 text-center bg-slate-100 px-3 py-1.5 rounded-lg">1 / 49</span>
+            <button id="next-btn" class="p-2.5 rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 text-slate-700 hover:from-slate-200 hover:to-slate-300 disabled:opacity-40 disabled:cursor-not-allowed transition-all shadow-sm hover:shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+            </button>
+        </div>
+        <div class="w-1/4 hidden md:block ml-6">
+            <div class="bg-slate-200 rounded-full h-2 overflow-hidden">
+                <div id="progress-bar" class="gradient-bg h-2 rounded-full progress-bar-fill" style="width: 2.04%"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const slidesData = [
+            {
+                type: 'cover',
+                title: 'Créer des Présentations Impactantes',
+                main_subtitle: 'De la page blanche aux slides efficaces',
+                secondary_subtitle: 'Ressources : <a href="https://adamfaik.github.io/sda-soft-skills/" target="_blank" class="text-indigo-100 underline hover:text-white">adamfaik.github.io/sda-soft-skills</a>',
+                presenter: 'Adam Faik - SDA | Contact : adam.faik.perso@gmail.com',
+                date: ''
+            },
+            {
+                type: 'content',
+                title: 'Pourquoi cette session est cruciale pour vous (Data Scientists) ?',
+                content: `
+                    <div class="h-full flex flex-col justify-center">
+                        <p class="text-xl text-slate-600 mb-8 leading-relaxed text-center">L'excellence technique ne suffit pas si la présentation échoue.</p>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-gradient-to-br from-red-50 to-rose-50 p-6 rounded-2xl border-2 border-red-200 shadow-lg card-hover">
+                                <h3 class="text-2xl font-bold text-red-900 mb-3">Le problème</h3>
+                                <p class="text-lg text-red-800 leading-relaxed">Difficulté à communiquer des idées complexes à des non-experts.</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-2xl border-2 border-blue-200 shadow-lg card-hover">
+                                <h3 class="text-2xl font-bold text-blue-900 mb-3">L'objectif (cette session)</h3>
+                                <p class="text-lg text-blue-800 leading-relaxed">Développer vos soft skills en présentation. Votre travail n'a de valeur que s'il est compris et adopté.</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: 'Présentation du Formateur',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <h2 class="text-center text-5xl font-bold gradient-text mb-6">Adam Faik</h2>
+                        <p class="text-center text-2xl text-slate-600 mb-8">Product Manager, AI</p>
+                        <div class="text-lg text-slate-700 space-y-4">
+                            <h3 class="text-xl font-semibold text-slate-800 border-b-2 border-indigo-200 pb-2">Expérience : 10 ans dans la tech</h3>
+                            <ul class="list-disc list-inside pl-4 space-y-2">
+                                <li><strong>Conseil (EY - 6 ans)</strong> : Beaucoup de slides !</li>
+                                <li>Pernod Ricard, SeLoger</li>
+                                <li><strong>Actuel : Bedrock Streaming</strong> (Sujets IA)</li>
+                                <li>Ancien élève SDA</li>
+                            </ul>
+                            <p class="mt-6 pt-4 border-t border-slate-200">
+                                <strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/adam-faik/" target="_blank" class="text-indigo-600 hover:underline">linkedin.com/in/adam-faik</a>
+                                <br>
+                                <strong>Newsletter IA :</strong> <a href="https://adamfaik.substack.com/" target="_blank" class="text-indigo-600 hover:underline">adamfaik.substack.com</a>
+                            </p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: 'Agenda de la Session',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-5xl mx-auto">
+                        <p class="text-lg text-slate-600 mb-6 text-center leading-relaxed">Durée Totale : ~2h30 (incluant pause)</p>
+                        <div class="grid md:grid-cols-2 gap-x-6 gap-y-3 text-sm">
+                            <div class="p-3 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200"><strong class="font-semibold text-indigo-800 text-base">🎙️ 1. Introduction et Attentes</strong> (15 min)</div>
+                            <div class="p-3 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200"><strong class="font-semibold text-indigo-800 text-base">🛠️ 2. Google Slides pas à pas</strong> (30 min)</div>
+                            <div class="p-3 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200"><strong class="font-semibold text-indigo-800 text-base">💡 3. Gamma.app et l'IA</strong> (15 min)</div>
+                            <div class="p-3 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200"><strong class="font-semibold text-indigo-800 text-base">🧐 4. Analyse critique de slides</strong> (15 min)</div>
+                            <div class="p-3 bg-gradient-to-r from-yellow-50 to-amber-100 rounded-xl border-2 border-yellow-300 col-span-2 text-center"><strong class="font-semibold text-yellow-900 text-base">☕️ --- Pause et Questions Ouvertes (15 min) ---</strong></div>
+                            <div class="p-3 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200"><strong class="font-semibold text-indigo-800 text-base">📖 5. Structure narrative et audience</strong> (15 min)</div>
+                            <div class="p-3 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200"><strong class="font-semibold text-indigo-800 text-base">🧠 6. Le processus : Penser avant de slider</strong> (15 min)</div>
+                            <div class="p-3 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200"><strong class="font-semibold text-indigo-800 text-base">🤖 7. IA (Gemini) comme co-pilote</strong> (20 min)</div>
+                            <div class="p-3 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200"><strong class="font-semibold text-indigo-800 text-base">🏁 8. Synthèse et Points Clés</strong> (10 min)</div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'title',
+                title: 'Atelier 1',
+                subtitle: 'Introduction et Attentes'
+            },
+            {
+                type: 'content',
+                title: '🎙️ Atelier 1 - Introduction et Attentes',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <h2 class="text-5xl font-bold text-slate-800 mb-6">Objectifs</h2>
+                        <p class="text-3xl text-slate-600 leading-relaxed">Cadrer, comprendre l'importance, recueillir vos attentes/défis.</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🎙️ Atelier 1 - Vos Attentes et Défis',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <p class="text-xl text-slate-600 mb-6 leading-relaxed"><strong>Temps : 15 min.</strong></p>
+                        <div class="bg-slate-100 p-8 rounded-2xl border-2 border-slate-200 shadow-inner">
+                            <h3 class="text-xl font-semibold text-slate-800">4 questions clés :</h3>
+                            <p class="text-slate-600 mt-3 text-lg">Attentes, Outils, IA, Défis</p>
+                            <a href="https://www.figma.com/board/dqB3BoSQtsGimp5alOxFfM/SDA---Soft-Skills---Pr%C3%A9sentations-impactantes--template-?node-id=0-1&t=4GYvHX2ZRozi6vBj-1" target="_blank" class="block mt-6 text-lg font-semibold text-indigo-600 break-all hover:underline">
+                                Lien FigJam
+                            </a>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'title',
+                title: 'Atelier 2',
+                subtitle: 'Google Slides pas à pas'
+            },
+            {
+                type: 'content',
+                title: '🛠️ Atelier 2 - Notre Cas Pratique',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-4xl mx-auto">
+                        <p class="text-lg text-slate-600 mb-6 text-center leading-relaxed">Pour illustrer l'atelier, nous allons utiliser un projet de classification d'images.</p>
+                        <div class="space-y-4 text-lg">
+                            <div class="p-4 bg-slate-100 rounded-lg border border-slate-200 card-hover">
+                                <strong>1. Énoncé du Projet :</strong> <a href="https://drive.google.com/file/d/1rkoiD-MVazCQ-SQuYX8JPCCzFmVU72R2/view?usp=drive_link" target="_blank" class="text-indigo-600 hover:underline break-all">Google Drive</a>
+                            </div>
+                            <div class="p-4 bg-slate-100 rounded-lg border border-slate-200 card-hover">
+                                <strong>2. Notebook Technique :</strong> <a href="https://www.kaggle.com/code/adamfaik05/92-accuracy-in-natural-scene-classification" target="_blank" class="text-indigo-600 hover:underline break-all">Kaggle</a>
+                            </div>
+                            <div class="p-4 bg-slate-100 rounded-lg border border-slate-200 card-hover">
+                                <strong>3. Slides Finales :</strong> <a href="https://gamma.app/docs/Deep-learning-for-natural-scene-classification-q1h9rvnnpbvh298" target="_blank" class="text-indigo-600 hover:underline break-all">Gamma</a>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🛠️ Atelier 2 - Mise en Pratique : Créez votre Présentation (30 min)',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <ul class="space-y-6">
+                            <li class="p-6 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover">
+                                <h3 class="text-xl font-bold text-indigo-800">Consigne 1</h3>
+                                <p class="text-lg text-slate-700 mt-1">Allez sur Google Drive -> Nouveau -> Google Slides.</p>
+                            </li>
+                            <li class="p-6 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover">
+                                <h3 class="text-xl font-bold text-indigo-800">Consigne 2</h3>
+                                <p class="text-lg text-slate-700 mt-1">Choisissez un "Thème" (template) professionnel.</p>
+                            </li>
+                            <li class="p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl border-2 border-blue-200 card-hover">
+                                <h3 class="text-xl font-bold text-blue-900">Rappel</h3>
+                                <p class="text-lg text-blue-800 mt-1">"Template = Gain de temps + Cohérence."</p>
+                            </li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🛠️ Atelier 2 - Slide 1 : La Couverture Essentielle',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <div class="bg-slate-100 p-8 rounded-2xl border-2 border-slate-200">
+                            <h3 class="text-2xl font-bold text-slate-800 mb-4">Contenu</h3>
+                            <ul class="list-disc list-inside text-xl text-slate-700 space-y-2">
+                                <li>Titre Projet</li>
+                                <li>Noms Équipe</li>
+                                <li>Date</li>
+                                <li>Prof/Cours (SDA)</li>
+                            </ul>
+                            <p class="text-lg text-indigo-800 mt-6 pt-4 border-t border-indigo-200 font-semibold">Objectif : Identifier clairement le travail et les auteurs.</p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🛠️ Atelier 2 - Slide 2 : L\'Agenda Stratégique',
+                content: `
+                    <div class="h-full flex flex-col justify-center">
+                        <p class="text-center text-3xl text-slate-800 font-bold mb-2">LA CLÉ : Adapter à l'Audience !</p>
+                        <p class="text-center text-xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">Leçon : Demandez au prof ses attentes ! (Timing SDA : 15 min + 5 min Q&A).</p>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-6 rounded-2xl border-2 border-slate-200 card-hover shadow-lg">
+                                <h3 class="text-xl font-bold text-slate-800 mb-3">Cas 1 : Prof SDA</h3>
+                                <p class="text-slate-600 leading-relaxed">Plan reflète la grille d'évaluation / énoncé (Méthode, Outils spécifiques).</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-2xl border-2 border-indigo-200 card-hover shadow-xl">
+                                <h3 class="text-xl font-bold text-indigo-900 mb-3">Cas 2 : CEO</h3>
+                                <p class="text-indigo-800 leading-relaxed">Plan commence par ROI / Valeur Business.</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-6 rounded-2xl border-2 border-slate-200 card-hover shadow-lg">
+                                <h3 class="text-xl font-bold text-slate-800 mb-3">Cas 3 : Équipe Tech</h3>
+                                <p class="text-slate-600 leading-relaxed">Plan focus sur Archi / Sécurité / Scalabilité.</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🛠️ Atelier 2 - Slide 3 : Anatomie d\'une Slide',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <p class="text-center text-xl text-slate-600 mb-6">Schéma simplifié de la lecture en "Z".</p>
+                        <ul class="space-y-6 text-xl">
+                            <li class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg card-hover">
+                                <strong class="font-semibold text-blue-800">Titre = La Conclusion</strong>
+                                <p class="text-slate-700 text-lg mt-1">Ex: "CNN -> 92% Accuracy"</p>
+                            </li>
+                            <li class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg card-hover">
+                                <strong class="font-semibold text-blue-800">Corps = 2-3 points max</strong>
+                                <p class="text-slate-700 text-lg mt-1">Support visuel : Icônes Flaticon, Images Unsplash</p>
+                            </li>
+                            <li class="p-4 bg-slate-50 border-l-4 border-slate-300 rounded-r-lg card-hover">
+                                <strong class="font-semibold text-slate-800">(Optionnel) Bas = Transition</strong>
+                            </li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🛠️ Atelier 2 - Slide 4 : Le Piège du Screenshot',
+                content: `
+                    <div class="h-full flex flex-col justify-center">
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-gradient-to-br from-red-50 to-rose-50 p-6 rounded-2xl border-2 border-red-200 shadow-lg card-hover">
+                                <h3 class="text-2xl font-bold text-red-900 mb-3">À NE PAS FAIRE (❌)</h3>
+                                <p class="text-lg text-red-800 leading-relaxed">Screenshot complet illisible.</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-2xl border-2 border-green-200 shadow-lg card-hover">
+                                <h3 class="text-2xl font-bold text-green-900 mb-3">LA BONNE PRATIQUE (✅)</h3>
+                                <p class="text-lg text-green-800 leading-relaxed">Screenshot + Focus (Rectangle Rouge) + Explication.</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🛠️ Atelier 2 - Slide 5 : Illustrer avec des Diagrammes',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-4xl mx-auto">
+                        <p class="text-lg text-slate-600 mb-6 text-center leading-relaxed">Pourquoi ? Essentiel pour Archi Cloud, Flux Data, Process MLOps.</p>
+                        <div class="space-y-4">
+                            <div class="p-4 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl border-2 border-indigo-200 card-hover"><h4 class="font-bold text-base text-indigo-800">Option 1 (Top!) : Fait Main + Photo</h4><p class="text-slate-700 text-sm mt-1">Montre la réflexion.</p></div>
+                            <div class="p-4 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover"><h4 class="font-bold text-base text-slate-800">Option 2 : Outils (FigJam, Draw.io, Napkin.ai, etc.)</h4><p class="text-slate-700 text-sm mt-1">Clarté > Outil.</p></div>
+                            <div class="p-4 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover"><h4 class="font-bold text-base text-slate-800">Option 3 (Astuce) : IA</h4><p class="text-slate-700 text-sm mt-1">Demander à Gemini de redessiner un schéma fait main.</p></div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🛠️ Atelier 2 - Les Indispensables : Backup et Annexes',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <div class="bg-gradient-to-br from-red-50 to-rose-50 p-6 rounded-2xl border-2 border-red-200 shadow-lg card-hover mb-6">
+                            <h3 class="text-2xl font-bold text-red-900 mb-3">Backup Démo</h3>
+                            <p class="text-lg text-red-800 leading-relaxed">Préparez TOUJOURS screenshots + VIDÉO (L'effet démo est réel !).</p>
+                        </div>
+                        <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-2xl border-2 border-blue-200 shadow-lg card-hover">
+                            <h3 class="text-2xl font-bold text-blue-900 mb-3">Annexes</h3>
+                            <p class="text-lg text-blue-800 leading-relaxed">Votre "filet de sécurité" pour les Q&A (Code détaillé, métriques, formules...). Ne pas montrer pendant le pitch principal.</p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'title',
+                title: 'Atelier 3',
+                subtitle: 'Introduction IA et Gamma.app'
+            },
+            {
+                type: 'content',
+                title: '💡 Atelier 3 - Introduction IA et Gamma.app (15 min)',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <h2 class="text-5xl font-bold text-slate-800 mb-6">Objectif</h2>
+                        <p class="text-3xl text-slate-600 leading-relaxed">Découvrir un outil IA, voir un workflow, comprendre les limites.</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '💡 Atelier 3 - Workflow Recommandé',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <div class="space-y-6">
+                            <div class="flex items-start p-5 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl card-hover border-2 border-slate-200"><div class="flex-shrink-0 w-10 h-10 mt-1 mr-4 font-bold text-2xl text-center gradient-text flex items-center justify-center">1</div><div class="text-lg"><strong class="font-semibold text-slate-800 text-xl">Penser et Planifier</strong><p class="text-slate-700">(Ex: <a href="https://gemini.google.com/" target="_blank" class="text-indigo-600 hover:underline">Gemini</a> - pour garder le contrôle).</p></div></div>
+                            <div class="flex items-start p-5 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl card-hover border-2 border-slate-200"><div class="flex-shrink-0 w-10 h-10 mt-1 mr-4 font-bold text-2xl text-center gradient-text flex items-center justify-center">2</div><div class="text-lg"><strong class="font-semibold text-slate-800 text-xl">Générer et Mettre en Forme</strong><p class="text-slate-700">(Ex: <a href="https://gamma.app/" target="_blank" class="text-indigo-600 hover:underline">Gamma</a> - pour la rapidité visuelle).</p></div></div>
+                        </div>
+                        <p class="text-center text-slate-700 mt-8 text-lg bg-slate-100 p-4 rounded-lg"><strong>Démo :</strong> Copier plan Gemini -> Coller dans Gamma</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '💡 Atelier 3 - Limites et Points de Vigilance',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-4xl mx-auto">
+                        <ul class="space-y-4 text-lg text-slate-700 list-disc list-inside">
+                            <li>Trop de texte généré (Simplification nécessaire).</li>
+                            <li>Perte de contrôle / "Hallucinations" (Si prompt vague).</li>
+                            <li>Édition parfois moins intuitive.</li>
+                            <li class="p-4 bg-red-50 border-l-4 border-red-500 rounded-r-lg card-hover">
+                                <strong class="font-semibold text-red-800">CONFIDENTIALITÉ ⚠️ : JAMAIS de données sensibles d'entreprise !</strong>
+                                <p class="text-red-700 text-base mt-1">(Utiliser outils validés : Gemini Suite, Copilot...).</p>
+                            </li>
+                            <li><strong class="font-semibold text-indigo-800">Discernement : IA = Assistant, pas remplaçant.</strong> Vérification humaine cruciale.</li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                type: 'title',
+                title: 'Atelier 4',
+                subtitle: 'Analyse Critique de Slides'
+            },
+            {
+                type: 'content',
+                title: '🧐 Atelier 4 - Analyse Critique de Slides (15 min)',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <h2 class="text-5xl font-bold text-slate-800 mb-6">Objectif</h2>
+                        <p class="text-3xl text-slate-600 leading-relaxed">"Entraînons notre œil ensemble."</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🧐 Atelier 4 - Exemples à Analyser',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <p class="text-xl text-slate-600 mb-6 leading-relaxed">Discutons de 3 exemples. Qu'est-ce qui fonctionne ? Qu'est-ce qui peut être amélioré ?</p>
+                        <div class="space-y-4 text-lg">
+                            <div class="p-4 bg-slate-100 rounded-lg border border-slate-200 card-hover">
+                                <strong>Présentation 1 (Gamma) :</strong> <a href="https://gamma.app/docs/VinoMatch-An-NLP-powered-wine-recommendation-system-haklrltho2a3752" target="_blank" class="text-indigo-600 hover:underline break-all">VinoMatch (NLP Wine Recommendation)</a>
+                            </div>
+                            <div class="p-4 bg-slate-100 rounded-lg border border-slate-200 card-hover">
+                                <strong>Présentation 2 (GitHub Page) :</strong> <a href="https://adamfaik.github.io/loan-default-prediction/presentation.html" target="_blank" class="text-indigo-600 hover:underline break-all">Loan Default Prediction</a>
+                            </div>
+                            <div class="p-4 bg-slate-100 rounded-lg border border-slate-200 card-hover">
+                                <strong>Présentation 3 (PDF) :</strong> <a href="https://app-media.virtualspeech.com/samples/airbnb-pitch-deck.pdf" target="_blank" class="text-indigo-600 hover:underline break-all">Airbnb Pitch Deck (Sample)</a>
+                            </div>
+                        </div>
+                        <a href="https://www.figma.com/board/dqB3BoSQtsGimp5alOxFfM/SDA---Soft-Skills---Pr%C3%A9sentations-impactantes--template-?node-id=0-1&t=4GYvHX2ZRozi6vBj-1" target="_blank" class="block text-slate-600 hover:text-indigo-600 underline mt-8 text-base font-semibold">
+                            Lien FigJam pour vos retours
+                        </a>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: 'Pause et Questions Ouvertes',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <h2 class="text-7xl font-bold gradient-text mb-6">Pause ☕️</h2>
+                        <p class="text-4xl text-slate-700">5 minutes de pause</p>
+                        <p class="text-4xl text-slate-700 mt-4">10 minutes de questions ouvertes</p>
+                    </div>
+                `
+            },
+            {
+                type: 'title',
+                title: 'Atelier 5',
+                subtitle: 'Structure Narrative et Audience'
+            },
+            {
+                type: 'content',
+                title: '📖 Atelier 5 - Discussion Collective',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <p class="text-xl text-slate-600 mb-6 leading-relaxed">Avant la théorie, échangeons sur vos expériences :</p>
+                        <div class="bg-slate-100 p-8 rounded-2xl border-2 border-slate-200 shadow-inner">
+                            <h3 class="text-xl font-semibold text-slate-800">Comment structurez-vous une présentation ?</h3>
+                            <p class="text-slate-600 mt-3 text-lg">Avez-vous déjà adapté un plan pour un public différent ?</p>
+                            <a href="https://www.figma.com/board/dqB3BoSQtsGimp5alOxFfM/SDA---Soft-Skills---Pr%C3%A9sentations-impactantes--template-?node-id=0-1&t=4GYvHX2ZRozi6vBj-1" target="_blank" class="block mt-6 text-lg font-semibold text-indigo-600 break-all hover:underline">
+                                Partagez vos idées sur FigJam
+                            </a>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '📖 Atelier 5 - Structure Narrative et Audience',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <h2 class="text-5xl font-bold text-slate-800 mb-6">Objectif</h2>
+                        <p class="text-3xl text-slate-600 leading-relaxed">Comprendre comment raconter une histoire et l'adapter.</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '📖 Atelier 5 - Pourquoi une Histoire ?',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <ul class="space-y-6">
+                            <li class="flex items-start"><svg class="h-10 w-10 text-indigo-500 mr-6 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-semibold text-2xl text-slate-800">Engagement</h3><p class="text-xl text-slate-600 leading-relaxed">Engage l'audience émotionnellement.</p></div></li>
+                            <li class="flex items-start"><svg class="h-10 w-10 text-indigo-500 mr-6 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg><div><h3 class="font-semibold text-2xl text-slate-800">Mémorisation</h3><p class="text-xl text-slate-600 leading-relaxed">Aide à la mémorisation.</p></div></li>
+                            <li class="flex items-start"><svg class="h-10 w-10 text-indigo-500 mr-6 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg><div><h3 class="font-semibold text-2xl text-slate-800">Logique</h3><p class="text-xl text-slate-600 leading-relaxed">Donne un "fil rouge" logique.</p></div></li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '📖 Atelier 5 - Structures Simples et Efficaces',
+                content: `
+                    <div class="h-full flex flex-col justify-center">
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-2xl border-2 border-blue-200 shadow-lg card-hover">
+                                <h3 class="text-2xl font-bold text-blue-900 mb-3">Problème / Solution</h3>
+                                <p class="text-lg text-blue-800 leading-relaxed">Idéal pour le business.</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-2xl border-2 border-indigo-200 shadow-lg card-hover">
+                                <h3 class="text-2xl font-bold text-indigo-900 mb-3">Voyage du Héros (Simplifié)</h3>
+                                <p class="text-lg text-indigo-800 leading-relaxed">Client/Projet = Héros, Vous = Mentor.</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '📖 Atelier 5 - Adaptation Audience : Rappel Prof vs. Pro',
+                content: `
+                    <div class="h-full flex flex-col justify-center">
+                        <p class="text-center text-2xl text-slate-700 font-bold mb-8">=> Votre PLAN doit refléter ces priorités.</p>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-gradient-to-br from-slate-50 to-slate-100 p-6 rounded-2xl border-2 border-slate-200 shadow-lg card-hover">
+                                <h3 class="text-2xl font-bold text-slate-800 mb-3">Prof</h3>
+                                <p class="text-lg text-slate-700 leading-relaxed">Méthode, Rigueur, Application Cours.</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-2xl border-2 border-indigo-200 shadow-lg card-hover">
+                                <h3 class="text-2xl font-bold text-indigo-900 mb-3">Pro</h3>
+                                <p class="text-lg text-indigo-800 leading-relaxed">ROI, Impact Business, Solution Rapide.</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '📖 Atelier 5 - Adaptation Culturelle (France vs. Anglo)',
+                content: `
+                    <div class="h-full flex flex-col justify-center">
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="p-6 rounded-2xl shadow-lg card-hover bg-slate-100 border-2 border-slate-200">
+                                <h3 class="text-2xl font-bold text-slate-800 mb-3">France = Principles-first</h3>
+                                <p class="text-lg text-slate-700 leading-relaxed">Le "Pourquoi" avant le "Comment". Débat = Respect.</p>
+                            </div>
+                            <div class="p-6 rounded-2xl shadow-lg card-hover bg-slate-100 border-2 border-slate-200">
+                                <h3 class="text-2xl font-bold text-slate-800 mb-3">Anglo = Applications-first</h3>
+                                <p class="text-lg text-slate-700 leading-relaxed">Le "Comment" / Résultat d'abord. Harmonie > Confrontation.</p>
+                            </div>
+                        </div>
+                        <p class="text-center text-red-700 mt-8 text-lg bg-red-100 p-4 rounded-lg">Attention au "Paradoxe de la Crédibilité".</p>
+                    </div>
+                `
+            },
+            {
+                type: 'title',
+                title: 'Atelier 6',
+                subtitle: 'Processus : Penser avant de Slider'
+            },
+            {
+                type: 'content',
+                title: '🧠 Atelier 6 - Processus : Penser avant de Slider',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <h2 class="text-5xl font-bold text-slate-800 mb-6">Objectif</h2>
+                        <p class="text-3xl text-slate-600 leading-relaxed">Présenter le workflow de création hors IA.</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🧠 Atelier 6 - Règle d\'Or : PAS de PowerPoint d\'abord !',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-28 w-28 text-red-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" /></svg>
+                        <p class="text-5xl font-bold text-red-700 max-w-4xl mx-auto leading-tight mt-8">PAS de PowerPoint d'abord !</p>
+                        <p class="text-2xl text-slate-600 mt-6 max-w-3xl mx-auto leading-relaxed">L'outil contraint et limite la pensée initiale.</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🧠 Atelier 6 - Étape 1 : Le Narratif Oral (Démo Rapide)',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <div class="bg-slate-100 p-8 rounded-2xl border-2 border-slate-200 shadow-inner">
+                            <h3 class="text-2xl font-semibold text-slate-800">Objectif</h3>
+                            <p class="text-xl text-slate-700 mt-2">Tout sortir, sans filtre. Capturer le flux naturel.</p>
+                            <a href="https://docs.google.com/document/d/1EBVAWIgURXmKYYDMljrCp9yzSq3l7nSe9suq7g_yKJ8/edit?usp=sharing" target="_blank" class="block mt-6 text-lg font-semibold text-indigo-600 break-all hover:underline">
+                                Voir l'exemple (Google Doc)
+                            </a>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🧠 Atelier 6 - Étape 2 : Le "TOM"',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <ul class="space-y-6 text-xl">
+                            <li class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg card-hover">
+                                <strong class="font-semibold text-blue-800">Thème</strong>
+                                <p class="text-slate-700 text-lg mt-1">Sujet</p>
+                            </li>
+                            <li class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg card-hover">
+                                <strong class="font-semibold text-blue-800">Objectif</strong>
+                                <p class="text-slate-700 text-lg mt-1">Ce que je veux</p>
+                            </li>
+                            <li class="p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded-r-lg card-hover">
+                                <strong class="font-semibold text-indigo-800">Message</strong>
+                                <p class="text-slate-700 text-lg mt-1">LA phrase clé = Fil Rouge</p>
+                            </li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🧠 Atelier 6 - Étapes 3 et 4 : Du Plan aux Slides',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <div class="space-y-6">
+                            <div class="flex items-start p-5 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl card-hover border-2 border-slate-200"><div class="flex-shrink-0 w-10 h-10 mt-1 mr-4 font-bold text-2xl text-center gradient-text flex items-center justify-center">3</div><div class="text-lg"><strong class="font-semibold text-slate-800 text-xl">Plan</strong><p class="text-slate-700">Structure logique basée sur TOM + Audience.</p></div></div>
+                            <div class="flex items-start p-5 bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl card-hover border-2 border-slate-200"><div class="flex-shrink-0 w-10 h-10 mt-1 mr-4 font-bold text-2xl text-center gradient-text flex items-center justify-center">4</div><div class="text-lg"><strong class="font-semibold text-slate-800 text-xl">Slides</strong><p class="text-slate-700">Traduction visuelle du Plan (SEULEMENT APRÈS).</p></div></div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🧠 Atelier 6 - Bonus : Présenter Efficacement en Ligne',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-4xl mx-auto">
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div class="p-4 text-center bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover"><p class="text-lg font-semibold text-slate-800">Caméra ON !</p></div>
+                            <div class="p-4 text-center bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover"><p class="text-lg font-semibold text-slate-800">Arrière-plan neutre</p></div>
+                            <div class="p-4 text-center bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover"><p class="text-lg font-semibold text-slate-800">Tenue correcte</p></div>
+                            <div class="p-4 text-center bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover"><p class="text-lg font-semibold text-slate-800">Regardez la caméra</p></div>
+                            <div class="p-4 text-center bg-gradient-to-r from-slate-50 to-slate-100 rounded-xl border-2 border-slate-200 card-hover"><p class="text-lg font-semibold text-slate-800">Micro OK (casque)</p></div>
+                            <div class="p-4 text-center bg-gradient-to-r from-red-50 to-rose-100 rounded-xl border-2 border-red-200 card-hover"><p class="text-lg font-semibold text-red-800">Pas de notifications</p></div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'title',
+                title: 'Atelier 7',
+                subtitle: 'IA (Gemini) comme Co-pilote'
+            },
+            {
+                type: 'content',
+                title: '🤖 Atelier 7 - IA (Gemini) comme Co-pilote',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <h2 class="text-5xl font-bold text-slate-800 mb-6">Objectif</h2>
+                        <p class="text-3xl text-slate-600 leading-relaxed">Tester des prompts Gemini pour assister la création.</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🤖 Atelier 7 - Prompt 1 : Créer un Plan',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-4xl mx-auto">
+                        <div class="bg-slate-100 p-8 rounded-2xl border-2 border-slate-200 shadow-inner">
+                            <h3 class="text-xl font-semibold text-slate-800">Prompt :</h3>
+                            <p class="text-slate-600 mt-3 text-lg font-mono bg-slate-200 p-4 rounded-lg">"Je dois créer une présentation [...] Propose-moi un plan [...] logique."</p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🤖 Atelier 7 - Prompt 2 : Simplifier un Concept',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-4xl mx-auto">
+                        <div class="bg-slate-100 p-8 rounded-2xl border-2 border-slate-200 shadow-inner">
+                            <h3 class="text-xl font-semibold text-slate-800">Prompt :</h3>
+                            <p class="text-slate-600 mt-3 text-lg font-mono bg-slate-200 p-4 rounded-lg">"Explique-moi ce qu'est [X] avec une analogie simple..."</p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🤖 Atelier 7 - Prompt 3 : Feedback Critique',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-4xl mx-auto">
+                        <div class="bg-slate-100 p-8 rounded-2xl border-2 border-slate-200 shadow-inner">
+                            <h3 class="text-xl font-semibold text-slate-800">Prompt :</h3>
+                            <p class="text-slate-600 mt-3 text-lg font-mono bg-slate-200 p-4 rounded-lg">"Agis comme un [professeur de ML sévère] [...] Donne-moi un feedback critique et direct..."</p>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🤖 Atelier 7 - Rappel : IA = Assistant, Pas Magicien',
+                content: `
+                    <div class="h-full flex flex-col justify-center max-w-3xl mx-auto">
+                        <ul class="space-y-6">
+                            <li class="flex items-start"><svg class="h-8 w-8 text-indigo-500 mr-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><div><h3 class="font-semibold text-xl text-slate-800">Vérification humaine INDISPENSABLE</h3></div></li>
+                            <li class="flex items-start"><svg class="h-8 w-8 text-indigo-500 mr-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg><div><h3 class="font-semibold text-xl text-slate-800">Votre expertise prime TOUJOURS</h3></div></li>
+                            <li class="flex items-start"><svg class="h-8 w-8 text-red-500 mr-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.876c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg><div><h3 class="font-semibold text-xl text-red-800">Respectez la confidentialité</h3></div></li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                type: 'title',
+                title: 'Atelier 8',
+                subtitle: 'Synthèse et Points Clés'
+            },
+            {
+                type: 'content',
+                title: '🏁 Atelier 8 - Synthèse et Points Clés',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <h2 class="text-5xl font-bold text-slate-800 mb-6">Objectif</h2>
+                        <p class="text-3xl text-slate-600 leading-relaxed">Consolider les apprentissages.</p>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🏁 Atelier 8 - Votre Apprentissage Clé ?',
+                content: `
+                    <div class="h-full flex flex-col justify-center text-center max-w-4xl mx-auto">
+                        <div class="bg-slate-100 p-8 rounded-2xl border-2 border-slate-200 shadow-inner">
+                            <h3 class="text-2xl font-semibold text-slate-800">"En une phrase, qu'est-ce que vous retenez d'aujourd'hui ?"</h3>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: '🏁 Atelier 8 - Mes 4 Messages Clés à Retenir',
+                content: `
+                    <div class="h-full flex flex-col justify-center">
+                        <p class="text-lg text-slate-600 mb-6 text-center">Les 4 points essentiels de cette session :</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="border-2 border-yellow-400 p-4 rounded-lg bg-yellow-50 card-hover"><h4 class="font-bold text-yellow-800 text-lg">1. Audience d'abord !</h4><p class="text-yellow-700 mt-1">Adaptez plan, style, message.</p></div>
+                            <div class="border-2 border-orange-400 p-4 rounded-lg bg-orange-50 card-hover"><h4 class="font-bold text-orange-800 text-lg">2. Processus > Outil</h4><p class="text-orange-700 mt-1">Pensez avant de slider (Narratif -> TOM -> Plan).</p></div>
+                            <div class="border-2 border-green-400 p-4 rounded-lg bg-green-50 card-hover"><h4 class="font-bold text-green-800 text-lg">3. Clarté et Simplicité</h4><p class="text-green-700 mt-1">1 idée/slide, visuels lisibles.</p></div>
+                            <div class="border-2 border-red-400 p-4 rounded-lg bg-red-50 card-hover"><h4 class="font-bold text-red-800 text-lg">4. IA avec Discernement</h4><p class="text-red-700 mt-1">Assistant utile, mais critique + confidentialité.</p></div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                type: 'content',
+                title: 'Conclusion et Prochaines Étapes',
+                content: `
+                    <div class="h-full flex flex-col justify-center items-center text-center">
+                        <h2 class="text-8xl font-bold gradient-text">Merci !</h2>
+                        <p class="text-2xl text-slate-600 mt-6">Ressources disponibles sur <a href="https://adamfaik.github.io/sda-soft-skills/" target="_blank" class="text-indigo-600 hover:underline">adamfaik.github.io/sda-soft-skills</a></p>
+                        <p class="text-2xl text-slate-600 mt-2">Sujet de la prochaine session.</p>
+                        <p class="text-3xl text-slate-700 mt-12 font-semibold">Vos questions ?</p>
+                    </div>
+                `
+            }
+        ];
+
+        const slideWrapper = document.getElementById('slide-wrapper');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const slideCounter = document.getElementById('slide-counter');
+        const slideTitleDisplay = document.getElementById('slide-title-display');
+        const progressBar = document.getElementById('progress-bar');
+        
+        let currentSlide = 0;
+
+        function renderSlide(slide, index) {
+            const slideContainer = document.createElement('div');
+            slideContainer.className = 'slide-container w-full h-full p-8 md:p-12 lg:p-14 flex flex-col absolute';
+            
+            if (index < currentSlide) {
+                slideContainer.classList.add('slide-hidden-left');
+            } else if (index > currentSlide) {
+                 slideContainer.classList.add('slide-hidden-right');
+            } else {
+                slideContainer.classList.add('slide-active');
+            }
+
+            if (slide.type === 'cover') {
+                slideContainer.classList.add('gradient-bg', 'text-white', 'text-center', 'justify-center');
+                slideContainer.innerHTML = `
+                    <div class="max-w-4xl mx-auto">
+                        <h2 class="text-2xl md:text-3xl text-indigo-200 mb-4">${slide.main_subtitle}</h2>
+                        <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">${slide.title}</h1>
+                        <p class="mt-8 text-xl md:text-2xl text-indigo-100 leading-relaxed">${slide.secondary_subtitle}</p>
+                        <div class="mt-16 text-lg text-indigo-200 space-y-2">
+                           ${slide.presenter ? `<p class="text-indigo-100">${slide.presenter}</p>` : ''}
+                           ${slide.date ? `<p class="text-indigo-100">${slide.date}</p>` : ''}
+                        </div>
+                    </div>
+                `;
+            } else if (slide.type === 'title') {
+                slideContainer.classList.add('bg-gradient-to-br', 'from-slate-50', 'to-slate-100', 'text-center', 'justify-center');
+                slideContainer.innerHTML = `
+                    <div>
+                        <h1 class="text-6xl font-bold gradient-text mb-4">${slide.title}</h1>
+                        <p class="mt-4 text-3xl text-slate-600">${slide.subtitle}</p>
+                    </div>
+                `;
+            } else if (slide.type === 'content') {
+                 slideContainer.innerHTML = `
+                    <div class="mb-5">
+                        <h2 class="text-sm font-bold text-indigo-600 tracking-wider uppercase mb-1">${slide.title}</h2>
+                        <div class="h-1 w-16 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"></div>
+                    </div>
+                    <div class="flex-grow overflow-y-auto pr-4 -mr-4">${slide.content}</div>
+                `;
+            }
+
+            return slideContainer;
+        }
+
+        function showSlides() {
+            slideWrapper.innerHTML = '';
+            slidesData.forEach((slide, index) => {
+                slideWrapper.appendChild(renderSlide(slide, index));
+            });
+            updateControls();
+        }
+
+        function updateControls() {
+            // Mis à jour du compteur total de slides à 49
+            slideCounter.textContent = `${currentSlide + 1} / ${slidesData.length}`;
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === slidesData.length - 1;
+            
+            const currentSlideData = slidesData[currentSlide];
+            slideTitleDisplay.textContent = currentSlideData.type === 'cover' ? 'Title Slide' : currentSlideData.title;
+
+            // Mis à jour du calcul de la barre de progression
+            const progressPercentage = ((currentSlide + 1) / slidesData.length) * 100;
+            progressBar.style.width = `${progressPercentage}%`;
+        }
+
+        function changeSlide(direction) {
+            const newSlide = currentSlide + direction;
+            if (newSlide >= 0 && newSlide < slidesData.length) {
+                currentSlide = newSlide;
+                showSlides();
+            }
+        }
+        
+        prevBtn.addEventListener('click', () => changeSlide(-1));
+        nextBtn.addEventListener('click', () => changeSlide(1));
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                changeSlide(1);
+            } else if (e.key === 'ArrowLeft') {
+                changeSlide(-1);
+            }
+        });
+        
+        showSlides();
+    </script>
+</body>
+</html>

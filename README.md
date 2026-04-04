@@ -1,12 +1,12 @@
 # Impact Data Scientist
 
-**Les soft skills essentiels pour le data scientist** - Sorbonne Data Analytics
+**Les competences transversales essentielles pour le data scientist** - Sorbonne Data Analytics
 
-Ce repo contient les supports de cours pour le module de soft skills du [Diplome Sorbonne Data Analytics](https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/diplome-d-universite-DU/diplome-d-universite-KBVXM363/diplome-d-universite-sorbonne-data-analytics-KPMK3V7Z.html).
+Ce repo contient les supports de cours pour le module Impact Data Scientist du [Diplome Sorbonne Data Analytics](https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/diplome-d-universite-DU/diplome-d-universite-KBVXM363/diplome-d-universite-sorbonne-data-analytics-KPMK3V7Z.html).
 
 ## Acceder au portail
 
-Le site est disponible ici : **[Acceder au portail etudiant](https://adamfaik.github.io/sda-soft-skills/)**
+Le site est disponible ici : **[Acceder au portail etudiant](https://adamfaik.github.io/sda-impact/)**
 
 ## Sessions
 

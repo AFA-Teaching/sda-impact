@@ -5,6 +5,8 @@ description: "Transformer des papiers de recherche denses en schémas logiques c
 
 # 👓 Lire et visualiser
 
+![Infographie](../../assets/images/s1-lire-visualiser.png)
+
 **Objectif :** Ne plus subir la lecture linéaire d'un papier de recherche dense. Transformer des paragraphes techniques indigestes en schémas logiques clairs pour comprendre le flux de données d'un coup d'œil.
 
 **Le scénario**  

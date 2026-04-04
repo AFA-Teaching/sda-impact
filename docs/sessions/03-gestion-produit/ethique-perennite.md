@@ -5,6 +5,8 @@ description: "Data drift, boucles de feedback, biais algorithmiques et la décis
 
 # Éthique et pérennité
 
+![Infographie](../../assets/images/s3-ethique-perennite.png)
+
 **Ce n'est pas du code, c'est une plante verte**  
 Un logiciel classique (ex: une calculette) fonctionnera pareil dans 10 ans.  
 Un produit Data se dégrade dès l'instant où il est mis en production.

@@ -5,6 +5,8 @@ description: "Configurer un Gem dédié qui connaît votre parcours par cœur po
 
 # 🎯 Créer son coach carrière
 
+![Infographie](../../assets/images/s1-coach-carriere.png)
+
 **Objectif :** Ne plus naviguer à vue. Transformer votre master CV en un mentor virtuel qui connaît votre parcours par cœur. Il vous aidera à identifier vos lacunes, définir votre stratégie et simuler des entretiens difficiles.
 
 **Le scénario**  

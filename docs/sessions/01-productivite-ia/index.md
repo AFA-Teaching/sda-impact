@@ -5,6 +5,10 @@ description: "Intégrer l'IA dans votre quotidien d'étudiant et futur data scie
 
 # 📕 Productivité IA
 
+![Infographie](../../assets/images/s1-cover.png)
+
+![Infographie](../../assets/images/s1-productivite-ia.png)
+
 **Le constat : L'IA n'est pas une option**  
 Pour être honnête avec vous, j'utilise l'IA dans absolument chacune de mes activités aujourd'hui.
 

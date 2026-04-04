@@ -5,6 +5,10 @@ description: "Comparaison des approches projet (cascade) et produit (agile) appl
 
 # Agile vs Cascade
 
+![Infographie](../../assets/images/s3-agile-cascade-1.png)
+
+![Infographie](../../assets/images/s3-agile-cascade-2.png)
+
 **Projet vs produit : Le changement d'état d'esprit**  
 Avant de parler de méthode, parlons de l'objectif.
 

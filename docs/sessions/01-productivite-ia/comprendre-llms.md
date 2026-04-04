@@ -5,6 +5,8 @@ description: "Les concepts fondamentaux des LLMs pour data scientists : tokeniza
 
 # 🕹️ Comprendre les LLMs
 
+![Infographie](../../assets/images/s1-comprendre-llms.png)
+
 Je vous ai promis de privilégier la pratique, mais pour bien piloter une F1, il faut comprendre comment fonctionne le moteur. En tant que data scientists, ces concepts vous aideront à intuiter pourquoi le modèle réagit de telle ou telle façon.
 
 👉 Pour visualiser ces concepts de manière interactive, j'ai créé avec Gemini un site dédié qui illustre les principes clés : [https://adamfaik.github.io/llm-explainer/](https://adamfaik.github.io/llm-explainer/) 

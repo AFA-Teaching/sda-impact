@@ -5,6 +5,20 @@ description: "La phase de discovery : double diamant, design thinking, lean star
 
 # Discovery
 
+![Infographie](../../assets/images/s3-discovery-1.png)
+
+![Infographie](../../assets/images/s3-discovery-2.png)
+
+![Infographie](../../assets/images/s3-discovery-3.png)
+
+![Infographie](../../assets/images/s3-discovery-4.png)
+
+![Infographie](../../assets/images/s3-discovery-5.png)
+
+![Infographie](../../assets/images/s3-discovery-6.png)
+
+![Infographie](../../assets/images/s3-discovery-7.png)
+
 **Discovery vs delivery**  
 Dans une équipe produit, il y a deux moteurs qui tournent en permanence, mais pas à la même vitesse :
 

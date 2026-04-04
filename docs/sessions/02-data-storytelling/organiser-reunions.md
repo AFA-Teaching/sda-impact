@@ -5,6 +5,8 @@ description: "Transformer les réunions en outils de décision efficaces et prot
 
 # 🗓️ Organiser des réunions
 
+![Infographie](../../assets/images/s2-organiser-reunions.png)
+
 **Objectif :** Transformer les réunions en outils de décision redoutables et protéger votre temps de production en éliminant impitoyablement les rencontres sans valeur ajoutée.
 
 **La philosophie**  

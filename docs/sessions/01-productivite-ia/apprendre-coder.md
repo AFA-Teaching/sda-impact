@@ -5,6 +5,8 @@ description: "Utiliser Gemini comme mentor pour construire sa mémoire musculair
 
 # 🐍 Apprendre à coder
 
+![Infographie](../../assets/images/s1-apprendre-coder.png)
+
 **Objectif :** Utiliser Gemini pour construire votre mémoire musculaire en Python. L'objectif n'est pas d'obtenir le script final le plus vite possible, mais de comprendre chaque ligne pour être capable de l'expliquer lors d'une évaluation technique.
 
 **Le scénario**  

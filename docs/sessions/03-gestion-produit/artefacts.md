@@ -5,6 +5,8 @@ description: "Les artefacts Scrum : product backlog, roadmap, sprint backlog, us
 
 # Artefacts
 
+![Infographie](../../assets/images/s3-artefacts.png)
+
 On a vu les rituels (les réunions). Maintenant, regardons les objets que nous produisons et manipulons.
 
 **Le product backlog**  

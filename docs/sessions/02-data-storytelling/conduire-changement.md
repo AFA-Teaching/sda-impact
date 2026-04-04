@@ -5,6 +5,10 @@ description: "Faciliter l'adoption de votre solution en maîtrisant la psycholog
 
 # 🌱 Conduire le changement
 
+![Infographie](../../assets/images/s2-conduire-changement-1.png)
+
+![Infographie](../../assets/images/s2-conduire-changement-2.png)
+
 **Objectif :** Faciliter l'adoption de votre solution en maîtrisant la psychologie du changement, afin de transformer votre réussite technique en un succès opérationnel durable et plébiscité par les utilisateurs.
 
 **La théorie : Pourquoi résistent-ils ?**  

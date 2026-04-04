@@ -5,6 +5,8 @@ description: "Présentation du projet fil rouge AudioFuture : analyse de sentime
 
 # 💼 Scénario de projet
 
+![Infographie](../../assets/images/s2-scenario-projet.png)
+
 **Objectif :** Avoir un projet de référence réaliste pour la formation. Il servira d'exemple pour construire nos slides.
 
 **Le sujet du projet**

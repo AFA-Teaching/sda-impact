@@ -5,6 +5,8 @@ description: "Simuler des entretiens avec votre coach IA, adopter la bonne attit
 
 # 🎙️ Préparer ses entretiens
 
+![Infographie](../../assets/images/s1-preparer-entretiens.png)
+
 **Objectif :** Remplacer les chasseurs de têtes hors de prix par votre Coach IA. L'objectif n'est jamais de tricher pendant l'entretien (ça se voit et c'est éliminatoire), mais d'arriver tellement préparé que vous n'avez besoin que d'un papier et d'un stylo.
 
 **Le scénario**  

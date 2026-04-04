@@ -5,6 +5,8 @@ description: "Acquérir une maîtrise fluide et efficace de Google Slides pour c
 
 # 📐 Maîtriser Google Slides
 
+![Infographie](../../assets/images/s2-maitriser-google-slides.png)
+
 **Objectif :** Acquérir une maîtrise fluide et efficace de Google Slides pour concevoir des supports professionnels, en libérant votre attention pour ce qui compte vraiment : la valeur de votre contenu.
 
 **Démarrage et initialisation**  

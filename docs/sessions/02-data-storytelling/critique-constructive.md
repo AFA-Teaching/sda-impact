@@ -5,6 +5,8 @@ description: "Développer un œil critique pour distinguer le brouillon du profe
 
 # 👀 Critique constructive
 
+![Infographie](../../assets/images/s2-critique-constructive.png)
+
 **Objectif :** Développer un œil critique aiguisé pour distinguer instantanément le brouillon du professionnel et élever le standard visuel de vos livrables.
 
 **Atelier pratique**  

@@ -5,6 +5,10 @@ description: "Introduction à la gestion de produit pour data scientists : compr
 
 # Gestion de produit
 
+![Infographie](../../assets/images/s3-cover.png)
+
+![Infographie](../../assets/images/s3-gestion-produit.png)
+
 **Pourquoi ce module ?**  
 Jusqu'à présent, vous avez eu plusieurs cours sur la technique. Aujourd'hui, nous allons parler de contexte.
 

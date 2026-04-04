@@ -5,6 +5,8 @@ description: "Maîtriser les codes du design visuel pour transformer vos résult
 
 # 🎨 Créer une slide
 
+![Infographie](../../assets/images/s2-creer-slide.png)
+
 **Objectif :** Maîtriser les codes du design visuel pour transformer vos résultats bruts en messages clairs et percutants. Chaque slide doit devenir un support de décision évident pour votre audience.
 
 **Atelier pratique**  

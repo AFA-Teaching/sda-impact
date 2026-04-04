@@ -5,6 +5,8 @@ description: "Les rituels Scrum au quotidien : sprint planning, daily, refinemen
 
 # Rituels
 
+![Infographie](../../assets/images/s3-rituels.png)
+
 **Le moteur scrum : Un cycle infini**  
 Imaginez le Scrum comme un moteur à 4 temps qui tourne toutes les 2 semaines.  
 Tout part du product backlog : la liste de tout ce qu'on voudrait faire un jour (bugs, features, idées).

@@ -5,6 +5,10 @@ description: "Le framework Scrum : théorie, réalité du terrain et adaptation 
 
 # Scrum
 
+![Infographie](../../assets/images/s3-scrum-1.png)
+
+![Infographie](../../assets/images/s3-scrum-2.png)
+
 **Le cadre de travail (framework)**  
 Nous avons choisi d'être Agile. Mais "être Agile" est une philosophie. Pour l'appliquer au quotidien, il faut des règles du jeu. C'est là qu'intervient Scrum.
 

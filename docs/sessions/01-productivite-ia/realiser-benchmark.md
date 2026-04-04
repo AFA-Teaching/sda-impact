@@ -5,6 +5,8 @@ description: "Automatiser la phase de benchmark technique avec Gemini Deep Resea
 
 # 🔍 Réaliser un benchmark
 
+![Infographie](../../assets/images/s1-realiser-benchmark.png)
+
 **Objectif :** Ne pas passer 3 jours à ouvrir 50 onglets pour comparer des technologies. Automatiser la phase de benchmark ou d'étude de marché pour obtenir un rapport sourcé, pendant que vous faites autre chose.
 
 **Le scénario**  

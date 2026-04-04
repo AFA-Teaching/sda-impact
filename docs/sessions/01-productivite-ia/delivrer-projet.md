@@ -5,6 +5,8 @@ description: "Transformer Gemini en membre d'équipe pour planifier, coder, déb
 
 # 🚀 Délivrer un projet
 
+![Infographie](../../assets/images/s1-delivrer-projet.png)
+
 **Objectif :** Ne pas subir la "montagne" du projet de fin de module. Transformer Gemini en un membre supplémentaire de votre équipe qui gère la planification, le pair-programming, la documentation et la préparation de la soutenance.
 
 **Le scénario**  

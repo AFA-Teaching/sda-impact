@@ -5,6 +5,8 @@ description: "Transformer les transcriptions de réunions en comptes-rendus stru
 
 # 📋 Automatiser les comptes-rendus
 
+![Infographie](../../assets/images/s1-automatiser-cr.png)
+
 **Objectif :** Ne plus jamais perdre 30 minutes à rédiger un mail récapitulatif après une réunion. Transformer un flux de parole désordonné en un plan d'action structuré, sans rien oublier (même ce que vous n'avez pas écouté).
 
 **Le scénario**  

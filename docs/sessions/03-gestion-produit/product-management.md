@@ -5,6 +5,8 @@ description: "Le rôle du product manager : sources d'idées, priorisation RICE 
 
 # Product management
 
+![Infographie](../../assets/images/s3-product-management.png)
+
 **Que fait le PM pendant le sprint ?**  
 Pendant que vous, data scientists et développeurs, êtes concentrés sur le code du sprint en cours (le delivery), le product manager, lui, doit se projeter dans le futur.  
 Son rôle est de préparer le terrain pour les sprints suivants. C'est ce qu'on appelle le discovery.

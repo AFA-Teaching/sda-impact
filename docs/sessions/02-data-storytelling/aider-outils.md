@@ -5,6 +5,8 @@ description: "Gagner du temps et garantir un rendu professionnel en s'appuyant s
 
 # 🧰 S'aider d'outils
 
+![Infographie](../../assets/images/s2-aider-outils.png)
+
 **Objectif :** Gagner un temps précieux et garantir un rendu professionnel instantané en s'appuyant sur des ressources externes validées, plutôt que de tout créer soi-même.
 
 **Modèles et inspiration**  

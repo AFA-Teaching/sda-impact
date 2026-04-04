@@ -5,6 +5,10 @@ description: "Introduction au module Data Storytelling : transformer l'expertise
 
 # 📗 Data storytelling
 
+![Infographie](../../assets/images/s2-cover.png)
+
+![Infographie](../../assets/images/s2-data-storytelling.png)
+
 **Objectif :** Comprendre pourquoi la compétence technique seule ne suffit plus et comment ce module va vous transformer en traducteur capable de relier la complexité de l'IA à la réalité du Business.
 
 **Pourquoi ce module est critique pour vous ?**  

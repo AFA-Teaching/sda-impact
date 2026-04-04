@@ -5,6 +5,8 @@ description: "Transformer une masse de documents hétérogènes en base de conna
 
 # 🎧 Ingérer la connaissance
 
+![Infographie](../../assets/images/s1-ingerer-connaissance.png)
+
 **Objectif :** Ne plus laisser dormir vos notes dans un dossier. Transformer une masse de documents hétérogènes (PDFs, sites web, vidéos) en une base de connaissance interactive et auditive pour réviser efficacement, même dans le métro.
 
 **Le scénario**  

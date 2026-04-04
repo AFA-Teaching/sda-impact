@@ -5,6 +5,8 @@ description: "Les rôles clés d'une squad produit : product manager, designer, 
 
 # Rôles
 
+![Infographie](../../assets/images/s3-roles.png)
+
 **Qui fait quoi dans la squad ?**  
 Une squad (équipe produit autonome) est une petite équipe pluridisciplinaire. Imaginez un commando où chacun a sa spécialité mais où tout le monde partage la même mission.
 

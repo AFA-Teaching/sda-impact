@@ -5,6 +5,8 @@ description: "Mise en situation : intégrer l'équipe Data de Leboncoin et compr
 
 # Scénario de produit
 
+![Infographie](../../assets/images/s3-scenario-produit.png)
+
 Imaginez que vous venez de signer votre contrat. Vous rejoignez l'équipe Data de [Leboncoin](https://www.leboncoin.fr/).
 
 Pourquoi cet exemple ? Parce que tout le monde connaît l'interface, mais peu de gens voient la machinerie derrière.

@@ -5,6 +5,10 @@ description: "Travaux pratiques en squad : concevoir et prototyper une fonctionn
 
 # Travaux pratiques
 
+![Infographie](../../assets/images/s4-cover.png)
+
+![Infographie](../../assets/images/s4-travaux-pratiques.png)
+
 **Votre mission**  
 Vous êtes une squad data product chez Leboncoin.
 

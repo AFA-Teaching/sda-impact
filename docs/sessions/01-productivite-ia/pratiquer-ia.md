@@ -5,6 +5,8 @@ description: "Six défis pratiques de 10-15 minutes pour ancrer les réflexes IA
 
 # 🏁 Pratiquer l'IA
 
+![Infographie](../../assets/images/s1-pratiquer-ia.png)
+
 La théorie ne suffit pas. Pour ancrer l'utilisation de l'IA dans vos réflexes professionnels, il faut pratiquer. Voici des exercices concrets, conçus pour être réalisés en 10 à 15 minutes chacun. Ils couvrent les compétences critiques du data scientist : la débrouillardise technique, la qualité du code, la communication et la préparation aux entretiens.
 
 À vous de jouer !

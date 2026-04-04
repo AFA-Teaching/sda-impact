@@ -5,6 +5,8 @@ description: "Pyramide des métriques, loi de Goodhart, garde-fous et A/B testin
 
 # Métriques
 
+![Infographie](../../assets/images/s3-metriques.png)
+
 **Le grand malentendu : Model vs business**  
 C'est une cause d'échec des projets data.
 

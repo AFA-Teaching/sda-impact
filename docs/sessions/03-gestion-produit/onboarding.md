@@ -5,6 +5,8 @@ description: "Plan de bataille pour la première semaine en entreprise : documen
 
 # Onboarding
 
+![Infographie](../../assets/images/s3-onboarding.png)
+
 Vous venez d'arriver, votre badge fonctionne à peine, et vous avez envie de coder tout de suite. Attendez.
 
 Les erreurs de débutant viennent souvent d'une mauvaise compréhension du contexte ("Pourquoi on fait ça comme ça ?").

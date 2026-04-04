@@ -5,6 +5,8 @@ description: "Utiliser Gemini comme accélérateur de réflexion pour structurer
 
 # 🤖 Utiliser Gemini
 
+![Infographie](../../assets/images/s2-utiliser-gemini.png)
+
 **Objectif :** Utiliser Gemini comme un accélérateur de réflexion et non comme un générateur automatique. Vous gardez le contrôle, Gemini gère la structure et le polissage.
 
 **⚠️ Avertissement : Les outils magiques (Text-to-Slide)**  

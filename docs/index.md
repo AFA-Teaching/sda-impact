@@ -5,6 +5,8 @@ description: "Maîtriser les compétences transversales soft skills et product s
 
 # Impact data scientist
 
+![Infographie](assets/images/intro-programme.png)
+
 **Objectif :** Maîtriser les compétences transversales soft skills et product skills qui feront la différence entre un bon data scientist technique et un excellent data scientist impactant.
 
 **Pourquoi ce cours ?**  

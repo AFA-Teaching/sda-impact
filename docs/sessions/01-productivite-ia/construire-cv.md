@@ -5,6 +5,8 @@ description: "Passer de descriptions passives à des démonstrations d'impact qu
 
 # 💼 Construire son CV
 
+![Infographie](../../assets/images/s1-construire-cv.png)
+
 **Objectif :** Ne plus jamais écrire de bullet points vagues ou faibles sur son CV. Passer d'une description passive ("J'ai travaillé sur...") à une démonstration d'impact quantifié ("J'ai amélioré X de Y% en faisant Z").
 
 **Le scénario**  

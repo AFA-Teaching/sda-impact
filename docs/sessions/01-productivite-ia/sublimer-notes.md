@@ -5,6 +5,8 @@ description: "Capturer l'information en vrac puis laisser Gemini structurer, cor
 
 # 📝 Sublimer ses notes
 
+![Infographie](../../assets/images/s1-sublimer-notes.png)
+
 **Objectif :** Ne plus perdre de temps à faire de la mise en page pendant le cours. L'objectif est de capturer l'information en vrac, puis de laisser Gemini structurer, corriger et surtout enrichir vos notes pour en faire une fiche de révision parfaite.
 
 **Le scénario**  

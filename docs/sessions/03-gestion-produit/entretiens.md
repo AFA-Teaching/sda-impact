@@ -5,6 +5,8 @@ description: "L'art de l'entretien utilisateur pour data scientists : Mom Test, 
 
 # Entretiens utilisateurs
 
+![Infographie](../../assets/images/s3-entretiens.png)
+
 **Pourquoi quitter son écran ?**  
 En data science, on a tendance à croire que la donnée ne ment pas. C'est vrai, mais la donnée (les logs) ne raconte que le passé. Elle vous dit ce que l'utilisateur a fait, mais jamais pourquoi il l'a fait, ni ce qu'il aurait aimé faire.
 

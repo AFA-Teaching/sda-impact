@@ -5,6 +5,8 @@ description: "Transformer le stress en énergie communicative et gérer les impr
 
 # 🎤 Présenter son projet
 
+![Infographie](../../assets/images/s2-presenter-projet.png)
+
 **Objectif :** Transformer le stress en énergie communicative et gérer les imprévus techniques comme un professionnel. C'est le moment de vendre votre travail.
 
 **La préparation**  

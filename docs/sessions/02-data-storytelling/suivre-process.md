@@ -5,6 +5,8 @@ description: "Adopter une méthodologie séquentielle en 5 étapes pour créer d
 
 # 👟 Suivre un process
 
+![Infographie](../../assets/images/s2-suivre-process.png)
+
 **Objectif :** Adopter une méthodologie séquentielle pour gagner en efficacité et en sérénité, en alignant parfaitement la réflexion stratégique avant de passer à la mise en forme.
 
 **⚠️ Le piège à éviter**  

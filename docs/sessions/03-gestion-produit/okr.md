@@ -5,6 +5,8 @@ description: "La méthode OKR pour aligner la stratégie d'entreprise jusqu'à l
 
 # Objectifs et résultats clés (OKR)
 
+![Infographie](../../assets/images/s3-okr.png)
+
 Vous arrivez dans l'équipe et vous voyez une liste de 10 idées de modèles possibles (recommandation par prix, par géolocalisation, par historique...). Pourquoi travaille-t-on sur le projet A et pas le B ?
 
 Le product manager est responsable de cette priorisation. Mais en tant que data scientist, comprendre la logique derrière cette décision est ce qui fera de vous un partenaire stratégique et non un simple exécutant.

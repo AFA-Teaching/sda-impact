@@ -5,6 +5,10 @@ description: "Élever votre posture de data scientist en maîtrisant le storytel
 
 # 🐲 Maîtriser le storytelling
 
+![Infographie](../../assets/images/s2-storytelling-1.png)
+
+![Infographie](../../assets/images/s2-storytelling-2.png)
+
 **Objectif :** Élever votre posture pour devenir un partenaire stratégique influent, capable de transformer une expertise technique complexe en récits décisionnels qui valorisent l'impact business.
 
 **Le changement de posture**  

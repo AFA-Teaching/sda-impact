@@ -5,6 +5,8 @@ description: "Transformer une idée en application fonctionnelle en quelques min
 
 # 🏗️ Construire une app
 
+![Infographie](../../assets/images/s1-construire-app.png)
+
 **Objectif :** Transformer une idée abstraite en une application fonctionnelle en quelques minutes. Ce n'est pas encore du code de production, mais c'est le moyen le plus rapide de visualiser un concept (MVP) avant de se lancer dans le développement lourd.
 
 **Note :** Ce sujet sera approfondi lors du module [Gestion de produit]() et du [TP]().

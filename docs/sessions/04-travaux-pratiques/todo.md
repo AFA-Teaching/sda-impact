@@ -5,6 +5,8 @@ description: "Checklist étape par étape pour réaliser le travail pratique : d
 
 # Todo
 
+![Infographie](../../assets/images/s4-todo.png)
+
 **⏱️ Étape 1 : Démarrer (10 min)**
 
 - [ ] Ouvrez un nouveau Google Doc.  

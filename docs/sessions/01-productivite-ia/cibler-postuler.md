@@ -5,6 +5,8 @@ description: "Créer des candidatures sur-mesure qui passent les filtres ATS en 
 
 # 🤝 Cibler et postuler
 
+![Infographie](../../assets/images/s1-cibler-postuler.png)
+
 **Objectif :** Arrêter d'envoyer le même CV générique à 50 entreprises (ce qui ne marche pas). Utiliser votre coach pour créer une candidature sur-mesure, qui passe les filtres ATS (robots de tri) et parle le langage exact de l'offre.
 
 **Le scénario**  

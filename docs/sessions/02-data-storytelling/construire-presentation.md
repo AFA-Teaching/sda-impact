@@ -5,6 +5,8 @@ description: "Organiser vos idées pour construire un récit fluide et stratégi
 
 # 🏗️ Construire la présentation
 
+![Infographie](../../assets/images/s2-construire-presentation.png)
+
 **Objectif :** Organiser vos idées pour construire un récit fluide et stratégique, en distinguant clairement ce qui doit être montré (la vitrine) de ce qui doit être prouvé (le laboratoire).
 
 **Atelier pratique**  

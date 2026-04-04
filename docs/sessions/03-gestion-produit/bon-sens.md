@@ -5,6 +5,8 @@ description: "Les principes premiers du bon sens produit : écriture, résolutio
 
 # Bon sens
 
+![Infographie](../../assets/images/s3-bon-sens.png)
+
 **Au-delà des frameworks**  
 Vous pouvez apprendre Scrum, Lean Startup et Design Thinking par cœur. Cela ne fera pas de vous un bon product manager.
 

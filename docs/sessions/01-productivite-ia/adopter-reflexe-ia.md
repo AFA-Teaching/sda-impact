@@ -5,6 +5,8 @@ description: "Les 5 casquettes de votre co-pilote IA, la courbe d'adoption et la
 
 # 💭 Adopter le réflexe IA
 
+![Infographie](../../assets/images/s1-adopter-reflexe-ia.png)
+
 Maîtriser les outils AI est une chose, mais adopter le bon état d'esprit est ce qui fera de vous un data scientist augmenté.
 
 Ne voyez plus Gemini comme un simple chatbot, mais comme une équipe polyvalente assise à côté de vous. Pour chaque tâche, demandez-vous : "À quel membre de mon équipe virtuelle dois-je déléguer cette partie ?"

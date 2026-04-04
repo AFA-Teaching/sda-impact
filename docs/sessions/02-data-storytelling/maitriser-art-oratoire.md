@@ -5,6 +5,8 @@ description: "Développer votre executive presence pour inspirer confiance et au
 
 # 🎙️ Maîtriser l'art oratoire
 
+![Infographie](../../assets/images/s2-art-oratoire.png)
+
 **Objectif :** Développer votre executive presence pour inspirer confiance et autorité dès votre entrée dans la pièce, en transformant votre corps et votre voix en instruments de persuasion.
 
 **La méthode R.D.V.**  

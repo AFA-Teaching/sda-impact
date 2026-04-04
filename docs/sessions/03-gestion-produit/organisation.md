@@ -5,6 +5,8 @@ description: "Comment une entreprise tech s'organise en domaines, feature teams 
 
 # Organisation
 
+![Infographie](../../assets/images/s3-organisation.png)
+
 **La structure en domaines**  
 Une entreprise tech comme Leboncoin ne s'organise pas par métier (tous les devs ensemble, tous les marketeux ensemble), mais autour du client. C'est ce qu'on appelle souvent des tribes ou des domaines.
 

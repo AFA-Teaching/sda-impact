@@ -5,6 +5,8 @@ description: "Transformer Gemini en tuteur personnel pour apprendre mieux et en 
 
 # 💭 Maîtriser un concept
 
+![Infographie](../../assets/images/s1-maitriser-concept.png)
+
 **Objectif :** Transformer Gemini en un tuteur personnel disponible 24/7. L'idée n'est pas d'apprendre vite, mais d'apprendre mieux et en profondeur, en sollicitant l'IA pour qu'elle s'adapte à votre besoin (théorie, visuel, code).
 
 **Le scénario**  

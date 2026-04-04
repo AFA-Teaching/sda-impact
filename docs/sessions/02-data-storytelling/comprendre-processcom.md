@@ -5,6 +5,8 @@ description: "Décoder la personnalité de vos interlocuteurs avec le Process Co
 
 # 📡 Comprendre le Process Communication (PCM)
 
+![Infographie](../../assets/images/s2-processcom.png)
+
 **Objectif :** Décoder la personnalité de vos interlocuteurs pour adapter votre discours à leur fréquence et éviter les malentendus, transformant ainsi la diversité des profils en levier de performance.
 
 **Le principe : Nous émettons sur des fréquences différentes**  

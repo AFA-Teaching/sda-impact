@@ -3,13 +3,18 @@ title: "Agile vs Cascade"
 description: "Comparaison des approches projet (cascade) et produit (agile) appliquées à la data science."
 ---
 
-# Agile vs Cascade
+# ⚡ Agile vs Cascade
 
 ![Infographie](../../assets/images/s3-agile-cascade-1.png)
 
 ![Infographie](../../assets/images/s3-agile-cascade-2.png)
 
-**Projet vs produit : Le changement d'état d'esprit**  
+## Objectif
+
+Comprendre la différence entre l'approche projet (cascade) et l'approche produit (agile), et savoir pourquoi l'agile est plus adapté à la data science.
+
+## Projet vs produit : le changement d'état d'esprit
+
 Avant de parler de méthode, parlons de l'objectif.
 
 - Un projet a un début et une fin (ex: construire un pont). Le but est de livrer le périmètre prévu en respectant le budget et le délai.  
@@ -17,7 +22,8 @@ Avant de parler de méthode, parlons de l'objectif.
 
 En tant que data scientist : Vous ne livrez pas un modèle pour l'oublier ensuite. Vous gérez un produit data qui devra être ré-entraîné, surveillé et amélioré.
 
-**La méthode cascade (Cycle en V)**  
+## La méthode cascade (Cycle en V)
+
 C'est la méthode classique. On fait les étapes une par une, sans retour en arrière possible.
 
 ![][image3]
@@ -28,7 +34,8 @@ C'est la méthode classique. On fait les étapes une par une, sans retour en arr
   * *Exemple : Construire un avion. On ne peut pas construire un demi-avion pour voir si ça vole.*  
 - Le risque : L'effet tunnel. Passer 6 mois à développer un modèle complexe pour réaliser à la fin que les données sont sales ou que le besoin client a changé.
 
-**La méthode agile**  
+## La méthode agile
+
 C'est la méthode adaptée pour le Digital. On découpe le projet en petites boucles (itérations).
 
 - Process : On répète un cycle court (Sprint de 2 à 4 semaines) : Planifier ➡️ Faire ➡️ Tester ➡️ Livrer.  
@@ -37,10 +44,11 @@ C'est la méthode adaptée pour le Digital. On découpe le projet en petites bou
 - Avantage : On livre de la valeur tout de suite. Si on se trompe, on le sait vite (fail fast).  
 - Inconvénient : Peut créer de la dette technique (code vite fait, mal fait) si on ne prend pas le temps de refactoriser.
 
-**Application au cas Leboncoin**  
+## Application au cas Leboncoin
+
 Voyons la différence concrète sur notre projet de Recommandation Homepage.
 
-❌Option A : En cascade (risqué)
+❌ Option A : En cascade (risqué)
 
 - Mois 1 : Rédaction des specs mathématiques d'un modèle Deep Learning complexe.  
 - Mois 2-3 : Nettoyage des données historiques sur 5 ans.  
@@ -49,7 +57,7 @@ Voyons la différence concrète sur notre projet de Recommandation Homepage.
 
 Résultat : Pendant 6 mois, l'utilisateur n'a rien vu. Si le modèle ne convertit pas, on a perdu 6 mois.
 
-✅Option B : En agile (product mindset)  
+✅ Option B : En agile (product mindset)  
 L'objectif est d'avoir quelque chose en production à la fin de chaque Sprint.
 
 - Sprint 1 (la baseline) :  
@@ -66,12 +74,18 @@ L'objectif est d'avoir quelque chose en production à la fin de chaque Sprint.
 
 **Leçon :** En agile, on a de la valeur dès la semaine 2. On réduit l'incertitude petit à petit.
 
-**Scrum Life**  
-[Mode projet ou mode produit ? Quelles différences ? - Scrum Life 60](https://youtu.be/-BiHmdJroXs?si=v3spsXM698AvP-i-)
+## Ce qu'il faut retenir
 
-**Pour aller plus loin**  
-[Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)  
-[scrum.org](https://www.scrum.org/)  
-[Large-Scale Scrum](https://less.works/)  
-[Scaled Agile Framework](https://framework.scaledagile.com/)  
-[Ryan Singer, Shape Up](https://basecamp.com/shapeup)
+- Un **projet** a une fin, un **produit** vit et s'améliore en continu.
+- La cascade fonctionne pour les projets physiques ; l'agile est adapté au digital et à la data science.
+- En agile, on livre de la valeur dès le premier sprint et on réduit l'incertitude petit à petit.
+- Ne promettez pas un résultat ("90% de précision"), promettez une activité ("explorer cet algorithme et livrer les résultats").
+
+## Pour aller plus loin
+
+- [Scrum Life, Mode projet ou mode produit ?](https://youtu.be/-BiHmdJroXs?si=v3spsXM698AvP-i-) — les differences fondamentales entre les deux approches
+- [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html) — les 12 principes fondateurs de l'agilite
+- [Scrum.org](https://www.scrum.org/) — le site officiel de Scrum avec guides et certifications
+- [Large-Scale Scrum (LeSS)](https://less.works/) — framework pour appliquer Scrum a grande echelle
+- [Scaled Agile Framework (SAFe)](https://framework.scaledagile.com/) — framework d'agilite a l'echelle de l'entreprise
+- [Ryan Singer, Shape Up](https://basecamp.com/shapeup) — methode alternative a Scrum par Basecamp

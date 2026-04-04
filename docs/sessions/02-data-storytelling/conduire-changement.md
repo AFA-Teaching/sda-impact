@@ -9,7 +9,9 @@ description: "Faciliter l'adoption de votre solution en maîtrisant la psycholog
 
 ![Infographie](../../assets/images/s2-conduire-changement-2.png)
 
-**Objectif :** Faciliter l'adoption de votre solution en maîtrisant la psychologie du changement, afin de transformer votre réussite technique en un succès opérationnel durable et plébiscité par les utilisateurs.
+## Objectif
+
+Faciliter l'adoption de votre solution en maîtrisant la psychologie du changement, afin de transformer votre réussite technique en un succès opérationnel durable et plébiscité par les utilisateurs.
 
 **La théorie : Pourquoi résistent-ils ?**  
 Ce n'est pas parce qu'ils sont "bêtes" ou "rétrogrades". C'est parce qu'ils sont humains.
@@ -25,7 +27,8 @@ Quand vous annoncez "L'IA va automatiser vos tâches", l'équipe traverse 4 phas
 
 Action : Identifiez où se trouve votre interlocuteur. On ne parle pas à quelqu'un en colère comme à quelqu'un en acceptation.
 
-![][image2]  
+<!-- TODO: ajouter une image de la courbe du deuil dans docs/assets/images/ -->
+
 L'équation du changement  
 D'après Beckhard et Harris. Le changement se produit seulement si :
 
@@ -89,3 +92,16 @@ Brûler les ponts (doucement)
 Une fois l'adoption lancée, il faut couper l'alternative.
 
 - "À partir du 1er mars, l'ancien fichier Excel ne sera plus mis à jour."
+
+## Ce qu'il faut retenir
+
+- La résistance au changement n'est pas de la bêtise : c'est une réaction humaine prévisible (courbe de Kubler-Ross) que vous devez anticiper.
+- Trouvez votre "Christine" (le KOL informel) et passez 80 % de votre temps à la convaincre : elle convaincra les autres.
+- Vendez le bénéfice égoïste (WIIFM) et non le ROI global : "Tu partiras plus tôt le vendredi" est plus puissant que "L'entreprise gagne 1M".
+- Livrez des quick wins tôt pour créer un crédit confiance avant de demander un changement d'habitude majeur.
+
+## Pour aller plus loin
+
+- [Switch: How to Change Things When Change Is Hard - Chip & Dan Heath](https://heathbrothers.com/books/switch/) — méthode pratique pour conduire le changement en combinant raison et émotion
+- [Kotter's 8-Step Change Model](https://www.kotterinc.com/methodology/8-steps/) — le modèle en 8 étapes de John Kotter pour mener la transformation
+- [Harvard Business Review - The Real Reason People Won't Change](https://hbr.org/2001/11/the-real-reason-people-wont-change) — article fondateur sur les freins psychologiques au changement

@@ -3,16 +3,21 @@ title: "OKR"
 description: "La méthode OKR pour aligner la stratégie d'entreprise jusqu'à l'équipe data science."
 ---
 
-# Objectifs et résultats clés (OKR)
+# 🎯 Objectifs et résultats clés (OKR)
 
 ![Infographie](../../assets/images/s3-okr.png)
+
+## Objectif
+
+Comprendre comment la méthode OKR aligne la stratégie d'entreprise jusqu'au choix de vos projets data.
 
 Vous arrivez dans l'équipe et vous voyez une liste de 10 idées de modèles possibles (recommandation par prix, par géolocalisation, par historique...). Pourquoi travaille-t-on sur le projet A et pas le B ?
 
 Le product manager est responsable de cette priorisation. Mais en tant que data scientist, comprendre la logique derrière cette décision est ce qui fera de vous un partenaire stratégique et non un simple exécutant.
 
-**La méthode OKR (Objectives & Key Results)**  
-Les entreprises matures (comme Google, Amazon, Spotify) n'avancent pas au hasard. Elles utilisent les OKR pour aligner tout le monde, du PDG au stagiaire.
+## La méthode OKR (Objectives & Key Results)
+
+Les entreprises matures (comme Google, Amazon, Spotify) n'avancent pas au hasard. Elles utilisent les **OKR** (Objectives & Key Results) pour aligner tout le monde, du PDG au stagiaire.
 
 L'objectif (O) : La direction (qualitatif)  
 C'est une phrase inspirante qui dit OÙ on veut aller. Elle découle de la vision de l'entreprise, de l'analyse du marché et de la concurrence.
@@ -26,7 +31,8 @@ Règle d'or : Un KR est un Outcome (résultat business), jamais un Output (livra
 *Mauvais KR : "Mettre en prod le nouveau modèle" (C'est une tâche).*  
 *Bon KR : "Augmenter le revenu mode de 10%" (C'est un impact).*
 
-**L'alignement en cascade (exemple Leboncoin)**  
+## L'alignement en cascade (exemple Leboncoin)
+
 Comment cela descend-il jusqu'à votre clavier ?
 
 Niveau 1 : Entreprise (La direction)
@@ -42,7 +48,8 @@ Niveau 2 : Votre squad (Homepage & Recommandation)
 - Objective : Rendre la page d'accueil irrésistible et pertinente.  
 - Key Result : Augmenter le Taux de Clic (CTR) sur les blocs de recommandation de 5% à 8%.
 
-**La sélection du projet**  
+## La sélection du projet
+
 C'est là que le Product Manager (avec votre aide) priorise.  
 Il regarde le backlog d'idées et se pose une seule question :
 
@@ -50,13 +57,18 @@ Il regarde le backlog d'idées et se pose une seule question :
 
 C'est pour cela que parfois, un projet techniquement fascinant est mis de côté : s'il ne bouge pas le KR, il n'est pas prioritaire.
 
-En tant que Data Scientist, votre but est de proposer des modèles qui impactent directement ce KR.
+En tant que data scientist, votre but est de proposer des modèles qui impactent directement ce KR.
 
-**Scrum Life**  
-[La Vision Produit](https://youtu.be/5gOxSjWiVPc?si=FYZw4mkQlPy_NxeZ)  
-[Bien utiliser les OKR ! Objective Key Results selon "Radical Focus" de Christina Wodtke](https://youtu.be/cJ3nALTiMdU?si=uZzh07ynrWV6HTGg)
+## Ce qu'il faut retenir
 
-**Pour aller plus loin**  
-[Octo, Culture OKR](https://publication.octo.com/culture-okr)  
-[Octo, Piloter le produit par l'impact](https://publication.octo.com/fr/piloter-produit-impact-okr)  
-[Itamar Gilad, OKRs Done Right](https://itamargilad.com/ebook-okr/)
+- Un **Objective** est qualitatif (la direction), un **Key Result** est quantitatif (le GPS).
+- Un bon KR mesure un **outcome** (résultat business), jamais un **output** (livrable technique).
+- Si votre projet ne fait pas bouger le KR de l'équipe, il n'est probablement pas prioritaire, même s'il est techniquement passionnant.
+
+## Pour aller plus loin
+
+- [Scrum Life, La Vision Produit](https://youtu.be/5gOxSjWiVPc?si=FYZw4mkQlPy_NxeZ) — vidéo sur la vision produit et son lien avec les OKR
+- [Scrum Life, Bien utiliser les OKR](https://youtu.be/cJ3nALTiMdU?si=uZzh07ynrWV6HTGg) — les OKR selon "Radical Focus" de Christina Wodtke
+- [Octo, Culture OKR](https://publication.octo.com/culture-okr) — livre blanc sur la mise en place des OKR en entreprise
+- [Octo, Piloter le produit par l'impact](https://publication.octo.com/fr/piloter-produit-impact-okr) — guide pratique pour piloter par l'impact
+- [Itamar Gilad, OKRs Done Right](https://itamargilad.com/ebook-okr/) — ebook gratuit sur les bonnes pratiques OKR

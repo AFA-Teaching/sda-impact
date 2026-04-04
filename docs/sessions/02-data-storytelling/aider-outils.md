@@ -7,7 +7,9 @@ description: "Gagner du temps et garantir un rendu professionnel en s'appuyant s
 
 ![Infographie](../../assets/images/s2-aider-outils.png)
 
-**Objectif :** Gagner un temps précieux et garantir un rendu professionnel instantané en s'appuyant sur des ressources externes validées, plutôt que de tout créer soi-même.
+## Objectif
+
+Gagner un temps précieux et garantir un rendu professionnel instantané en s'appuyant sur des ressources externes validées, plutôt que de tout créer soi-même.
 
 **Modèles et inspiration**  
 Ne partez pas d'une page blanche. D'autres ont déjà résolu vos problèmes de mise en page.
@@ -64,3 +66,15 @@ En Data Science, vous devrez souvent expliquer des pipelines complexes. Google S
 - [Draw.io](http://draw.io/)  
   - Style : Industriel, carré, normé.  
   - Pourquoi l'utiliser ? C'est l'équivalent gratuit de Microsoft Visio. À utiliser pour les diagrammes formels en Annexes (UML, MCD, Architecture Cloud précise) où la rigueur technique est primordiale.
+
+## Ce qu'il faut retenir
+
+- Ne partez jamais d'une page blanche : utilisez des modèles (Slidesgo, galerie native) pour gagner du temps et garantir la cohérence visuelle.
+- Gardez une cohérence de style pour les icônes (toutes du même pack) et les couleurs (une palette restreinte de 3-4 couleurs).
+- Pour les diagrammes techniques, un schéma dessiné à la main ou sur Excalidraw est souvent plus clair qu'un diagramme UML complexe.
+
+## Pour aller plus loin
+
+- [Unsplash](https://unsplash.com/) — banque d'images libres de droits en haute qualité pour vos slides de couverture
+- [Flaticon](https://www.flaticon.com/) — la plus grande base d'icônes vectorielles pour baliser vos slides
+- [Excalidraw](https://excalidraw.com/) — outil de schéma à main levée, standard actuel dans la Tech pour expliquer des concepts

@@ -3,7 +3,7 @@ title: "Exemple : Lean Startup"
 description: "Application du cycle Build-Measure-Learn à un projet de recommandation : du MVP au pivot data-driven."
 ---
 
-# Projet lean startup : Le cycle build, measure, learn
+# 🔬 Projet lean startup : le cycle build, measure, learn
 
 **Contexte**  
 Vous sortez de la phase design thinking. L'idée "Afficher des recommandations basées sur l'historique" semble plaire sur papier.
@@ -12,14 +12,14 @@ Le piège à éviter : S'enfermer 3 mois dans un tunnel pour coder l'architectur
 
 L'approche lean : Construire le Minimum Viable Product (MVP) pour valider l'hypothèse business le plus vite possible.
 
-**🏁 Phase 1 : L'hypothèse (ce qu'on veut vérifier)**  
+## Phase 1 : L'hypothèse (ce qu'on veut vérifier)  
 Avant d'écrire une ligne de code, nous devons formuler notre pari.
 
 **L'hypothèse risquée (The riskiest assumption) :** "Nous pensons que personnaliser la Home Page avec un algorithme de filtrage collaboratif augmentera le nombre de clics (CTR) par rapport à l'affichage générique actuel."
 
 **Le critère de succès (KPI) :** Pour valider l'hypothèse, le CTR (Click-Through Rate) du bloc MVP doit être supérieur de 10% au bloc actuel ("trending").
 
-**🏗️ Phase 2 : Construire le MVP**  
+## Phase 2 : Construire le MVP  
 Objectif : Mettre l'idée en prod avec le minimum d'effort technique.
 
 🔴 La version parfaite (ce qu'on ne fait PAS tout de suite) :
@@ -37,7 +37,7 @@ Objectif : Mettre l'idée en prod avec le minimum d'effort technique.
 - Temps estimé : 4 jours.
 
 **Leçon data :** Votre code est sale, pas optimisé, pas scalable. C'est normal. Si le produit ne marche pas, on n'aura perdu que 4 jours, pas 3 mois.  
-**📏 Phase 3 : Mesurer l'impact**  
+## Phase 3 : Mesurer l'impact  
 On lance le MVP sur 10% du trafic (A/B Test) pendant 1 semaine.
 
 Le tableau de bord de l'expérience :
@@ -53,7 +53,7 @@ Le tableau de bord de l'expérience :
 
 Pourquoi ? Parce que les gens achètent rarement deux voitures de suite. L'historique court terme ne prédit pas bien l'achat futur dans ce cas.
 
-**🧠 Phase 4 : Apprendre et pivoter**  
+## Phase 4 : Apprendre et pivoter  
 Le cycle est bouclé. Qu'avons-nous appris et quelle est la décision ?
 
 **Verdict :** ✅ Persévérer mais avec ajustement.
@@ -65,7 +65,7 @@ L'hypothèse globale est validée (+30% CTR). Cependant, l'insight sur les voitu
 - Nouvelle hypothèse : Pour la catégorie Auto, un algo basé sur la localisation marchera mieux que l'historique.  
 * Nouveau build : Modifier le script pour dire "Si user a regardé Auto → Montrer Auto dans sa région (pas forcément similaire)".
 
-**📝 Synthèse**  
+## Synthèse  
 Voici comment le Lean Startup change votre métier de data scientist :
 
 - Code jetable : Vous devez accepter d'écrire du code qui sera jeté dans 2 semaines. Ce n'est pas du mauvais travail, c'est de l'intelligence économique.  

@@ -7,13 +7,16 @@ description: "Transformer Gemini en membre d'équipe pour planifier, coder, déb
 
 ![Infographie](../../assets/images/s1-delivrer-projet.png)
 
-**Objectif :** Ne pas subir la "montagne" du projet de fin de module. Transformer Gemini en un membre supplémentaire de votre équipe qui gère la planification, le pair-programming, la documentation et la préparation de la soutenance.
+## Objectif
 
-**Le scénario**  
+Ne pas subir la "montagne" du projet de fin de module. Transformer Gemini en un membre supplémentaire de votre équipe qui gère la planification, le pair-programming, la documentation et la préparation de la soutenance.
+
+## Le scénario
+
 Le prof vous donne un PDF d'instructions pour un projet (ex: "Prédire le churn bancaire"). Le sujet est vaste, les consignes parfois floues, et vous ne savez pas par quel bout commencer.  
 Au lieu de foncer tête baissée dans le code, nous allons onboarder Gemini comme un collègue de travail.
 
-**La méthode**
+## La méthode
 
 1\. L'onboarding (planification et contexte)  
 Avant de coder, il faut comprendre.
@@ -59,11 +62,18 @@ Le code est fini, mais il faut le vendre. Vous êtes toujours dans la même conv
 - L'action : Chargez votre README.md ou le code final.  
 - Le prompt : "Je dois présenter ce projet à l'oral. Génère-moi un plan de présentation (slides) qui met en valeur la problématique business et mes choix techniques, sans être ennuyeux."
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
-- Context is king : Liez vos notes de cours au projet via Google Drive pour que Gemini aide à utiliser les méthodes enseignées par votre prof.
+- Context is king : liez vos notes de cours au projet via Google Drive pour que Gemini aide à utiliser les méthodes enseignées par votre prof.
 
-- Capture d'écran > Copier-coller : Pour les erreurs, l'image donne plus d'infos à Gemini que le texte.
+- Capture d'écran > Copier-coller : pour les erreurs, l'image donne plus d'infos à Gemini que le texte.
 
-- La stratégie "good cop / bad cop" : Utilisez Gemini pour construire (le collègue sympa) et Claude pour débloquer les crises (l'expert pointu).  
-- La boucle est bouclée : En restant dans la même conversation du début à la fin, la génération de la documentation et des slides devient triviale car Gemini connaît l'historique du projet.
+- La stratégie "good cop / bad cop" : utilisez Gemini pour construire (le collègue sympa) et Claude pour débloquer les crises (l'expert pointu).
+
+- La boucle est bouclée : en restant dans la même conversation du début à la fin, la génération de la documentation et des slides devient triviale car Gemini connaît l'historique du projet.
+
+## Pour aller plus loin
+
+- [How to Use AI for Project Management](https://youtu.be/Rl7k9YoBGcY) — intégrer l'IA dans la gestion de projets Data de bout en bout
+- [Google Gemini + Google Drive Integration](https://youtu.be/K4HwcPaEqGY) — exploiter la connexion entre Gemini et vos documents Drive
+- [How to Debug Code with AI](https://youtu.be/yp3Eh0Kz3Xw) — techniques de débuggage assisté par l'IA pour développeurs

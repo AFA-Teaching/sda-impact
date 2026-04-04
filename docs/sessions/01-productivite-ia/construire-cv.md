@@ -7,19 +7,22 @@ description: "Passer de descriptions passives à des démonstrations d'impact qu
 
 ![Infographie](../../assets/images/s1-construire-cv.png)
 
-**Objectif :** Ne plus jamais écrire de bullet points vagues ou faibles sur son CV. Passer d'une description passive ("J'ai travaillé sur...") à une démonstration d'impact quantifié ("J'ai amélioré X de Y% en faisant Z").
+## Objectif
 
-**Le scénario**  
+Ne plus jamais écrire de bullet points vagues ou faibles sur son CV. Passer d'une description passive ("J'ai travaillé sur...") à une démonstration d'impact quantifié ("J'ai amélioré X de Y% en faisant Z").
+
+## Le scénario
+
 Vous avez effectué un stage ou un projet. Vous devez l'ajouter à votre CV. Souvent, on se bloque devant son écran à chercher la phrase parfaite, ou on écrit quelque chose de trop simple comme : "J'ai nettoyé des données et fait un modèle." C'est techniquement vrai, mais ça ne vous fera pas embaucher. Nous allons utiliser Gemini pour marketer votre expérience.
 
-**La méthode**
+## La méthode
 
 1\. Le brain dump (narration orale)  
 On s'exprime souvent mieux à l'oral qu'à l'écrit.
 
 - L'action : Ouvrez Gemini et utilisez la dictée vocale sur PC.
 
-- La consigne : Racontez votre expérience comme si vous parliez à un ami. Ne cherchez pas à structurer. Videz votre sac : les galères, les outils utilisés, les chiffres, ce que vous avez appris, l'équipe… Voici [un exemple de narration]().
+- La consigne : Racontez votre expérience comme si vous parliez à un ami. Ne cherchez pas à structurer. Videz votre sac : les galères, les outils utilisés, les chiffres, ce que vous avez appris, l'équipe… Voici [un exemple de narration](test-experience.md).
 
 - Le prompt initial : "Voici une transcription brute de mon expérience de stage. Ne fais rien pour l'instant, dis-moi juste que tu as bien reçu l'info."
 
@@ -50,7 +53,7 @@ Vous allez avoir plusieurs expériences. Ne refaites pas les prompts à chaque f
 
 - Le concept du master CV : Ne jetez rien ! Copiez tout (les versions longues et courtes) dans un document géant (master CV). C'est dans ce réservoir que le Gem vous aidera à piocher pour faire des CVs ciblés plus tard.
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
 - Parlez avant d'écrire : L'IA est excellente pour structurer le chaos. Donnez-lui de la matière orale riche.
 
@@ -60,6 +63,8 @@ Vous allez avoir plusieurs expériences. Ne refaites pas les prompts à chaque f
 
 - Le master CV : Construisez une base de données de vos succès grâce à votre Gem, vous gagnerez un temps fou pour chaque candidature.
 
-**Pour aller plus loin**  
-[Laetitia Vitaud, Recrutement : connaissez-vous la méthode « A » ?](https://www.welcometothejungle.com/fr/articles/who-the-a-method-for-hiring-de-geoff-smart-et-randy-street)  
-[Laszlo Bock, My Personal Formula for a Winning Resume](https://www.linkedin.com/pulse/20140929001534-24454816-my-personal-formula-for-a-better-resume/)
+## Pour aller plus loin
+
+- [Laetitia Vitaud, Recrutement : connaissez-vous la méthode « A » ?](https://www.welcometothejungle.com/fr/articles/who-the-a-method-for-hiring-de-geoff-smart-et-randy-street) — analyse de la méthode de recrutement A, idéale pour comprendre ce que les recruteurs cherchent
+- [Laszlo Bock, My Personal Formula for a Winning Resume](https://www.linkedin.com/pulse/20140929001534-24454816-my-personal-formula-for-a-better-resume/) — la formule X-Y-Z expliquée par l'ancien VP RH de Google
+- [Harvard Business Review, How to Write a Resume That Stands Out](https://hbr.org/2014/12/how-to-write-a-resume-that-stands-out) — conseils concrets pour rédiger un CV percutant selon la Harvard Business Review

@@ -7,12 +7,15 @@ description: "Transformer les transcriptions de réunions en comptes-rendus stru
 
 ![Infographie](../../assets/images/s1-automatiser-cr.png)
 
-**Objectif :** Ne plus jamais perdre 30 minutes à rédiger un mail récapitulatif après une réunion. Transformer un flux de parole désordonné en un plan d'action structuré, sans rien oublier (même ce que vous n'avez pas écouté).
+## Objectif
 
-**Le scénario**  
+Ne plus jamais perdre 30 minutes à rédiger un mail récapitulatif après une réunion. Transformer un flux de parole désordonné en un plan d'action structuré, sans rien oublier (même ce que vous n'avez pas écouté).
+
+## Le scénario
+
 Vous sortez d'une réunion de sprint planning ou d'un point client d'une heure. Beaucoup de choses ont été dites, des décisions techniques ont été prises à la volée, et des tâches ont été assignées. Vous devez envoyer le CR. Au lieu de vous fier à votre mémoire (faillible) ou à vos notes griffonnées, nous allons utiliser la transcription brute.
 
-**La méthode**
+## La méthode
 
 1\. La capture (la donnée brute)  
 La matière première, c'est le texte.
@@ -37,13 +40,13 @@ Comme pour le reste, la structure compte. Créez un Gem pour avoir toujours le m
 - Instructions : Demandez à Gemini de vous les rédiger.
 
 4\. La validation (trust but verify)  
-C'est l'étape critique mentionnée dans notre méthodologie.
+C'est l'étape critique de toute cette méthodologie.
 
 - Le risque : L'hallucination (rare sur du résumé, mais possible sur l'attribution des tâches).
 
 - L'action : Relisez toujours le tableau des actions. Vérifiez que Gemini n'a pas attribué une tâche à la mauvaise personne parce que deux personnes parlaient en même temps. Votre valeur ajoutée n'est plus la rédaction, mais la validation.
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
 - Transcript > Notes manuelles : La transcription capture 100% du signal. Vos notes n'en capturent que 30%. Laissez Gemini faire le tri.
 
@@ -51,5 +54,8 @@ C'est l'étape critique mentionnée dans notre méthodologie.
 
 - Vérification humaine : L'IA est votre scribe, vous êtes le responsable. Ne cliquez jamais sur "Envoyer" sans avoir relu les actions attribuées.
 
-**Pour aller plus loin**  
-[How to Use Gemini to take notes | Beginner to Advanced](https://youtu.be/ZRgTrvwAoJs?si=0nTKWMjnEEyTDRT0)
+## Pour aller plus loin
+
+- [How to Use Gemini to take notes | Beginner to Advanced](https://youtu.be/ZRgTrvwAoJs?si=0nTKWMjnEEyTDRT0) — du niveau débutant au niveau avancé pour la prise de notes et les comptes-rendus avec Gemini
+- [Google Meet Transcription Guide](https://support.google.com/meet/answer/12849551) — documentation officielle pour activer la transcription dans Google Meet
+- [How to Write Effective Meeting Minutes](https://hbr.org/2015/07/the-right-way-to-start-a-meeting) — bonnes pratiques pour structurer un compte-rendu de réunion efficace

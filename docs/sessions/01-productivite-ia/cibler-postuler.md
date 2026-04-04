@@ -7,12 +7,15 @@ description: "Créer des candidatures sur-mesure qui passent les filtres ATS en 
 
 ![Infographie](../../assets/images/s1-cibler-postuler.png)
 
-**Objectif :** Arrêter d'envoyer le même CV générique à 50 entreprises (ce qui ne marche pas). Utiliser votre coach pour créer une candidature sur-mesure, qui passe les filtres ATS (robots de tri) et parle le langage exact de l'offre.
+## Objectif
 
-**Le scénario**  
+Arrêter d'envoyer le même CV générique à 50 entreprises (ce qui ne marche pas). Utiliser votre coach pour créer une candidature sur-mesure, qui passe les filtres **ATS** (Applicant Tracking System — les robots de tri automatique des candidatures) et parle le langage exact de l'offre.
+
+## Le scénario
+
 Vous avez trouvé l'offre de rêve (ex: "Data Scientist Junior chez Spotify"). Vous avez votre master CV (très complet) et votre Gem "Coach Carrière". Plutôt que d'envoyer votre CV tel quel, vous allez demander à votre Coach de tailler un costume sur mesure pour cette offre spécifique.
 
-**La méthode**
+## La méthode
 
 1\. L'audit de compatibilité  
 Avant de postuler, évaluez vos chances et préparez vos arguments.
@@ -47,10 +50,16 @@ Fini la galère de la mise en page sur Word.
 
 - L'avantage : Vous avez un CV unique et parfaitement lisible par les robots.
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
-- Qualité > Quantité : Il vaut mieux 5 candidatures hyper-personnalisées (grâce à votre coach) que 100 candidatures génériques.
+- Qualité > Quantité : il vaut mieux 5 candidatures hyper-personnalisées (grâce à votre coach) que 100 candidatures génériques.
 
-- Mots-clés miroirs : Le coach reformule votre expérience avec les mots du recruteur. C'est la clé pour passer les premiers filtres.
+- Mots-clés miroirs : le coach reformule votre expérience avec les mots du recruteur. C'est la clé pour passer les premiers filtres.
 
-- L'HTML est votre ami : Générer son CV en code permet une flexibilité totale et un rendu PDF impeccable, sans se battre avec les marges d'un traitement de texte.
+- L'HTML est votre ami : générer son CV en code permet une flexibilité totale et un rendu PDF impeccable, sans se battre avec les marges d'un traitement de texte.
+
+## Pour aller plus loin
+
+- [Jobscan: ATS Resume Checker](https://www.jobscan.co/) — outil en ligne pour vérifier la compatibilité de votre CV avec les filtres ATS
+- [How to Beat the ATS in 2025](https://youtu.be/cFMt7Y3s3FY) — stratégies pour optimiser votre CV face aux robots de tri automatique
+- [Welcome to the Jungle, Guide Candidature](https://www.welcometothejungle.com/fr/articles/comment-postuler) — conseils pratiques pour personnaliser chaque candidature

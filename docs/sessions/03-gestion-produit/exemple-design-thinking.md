@@ -3,7 +3,7 @@ title: "Exemple : Design Thinking"
 description: "Atelier design thinking appliqué : de l'empathie utilisateur au prototype magicien d'Oz pour un projet de recommandation."
 ---
 
-# Atelier design thinking : Projet smart home
+# 💎 Atelier design thinking : Projet smart home
 
 **Contexte**  
 Problème : Notre Homepage est un fourre-tout. Les utilisateurs scrollent beaucoup mais cliquent peu (CTR faible). L'expérience est jugée trop générique.
@@ -12,7 +12,7 @@ Objectif : Réinventer l'expérience de découverte pour augmenter l'engagement.
 
 Participants : Product Manager, UX Designer, Data Scientist (Vous), User Researcher.
 
-**💎 Étape 1 : Empathie (comprendre l'utilisateur)**  
+## Étape 1 : Empathie (comprendre l'utilisateur)  
 Sortir des logs serveurs pour comprendre l'humain derrière le clic.
 
 **Ce que nous avons fait :** Au lieu de regarder seulement vos tableaux de données (events\_view), nous avons écouté 5 utilisateurs qui commentaient leur navigation en direct.
@@ -21,9 +21,9 @@ Sortir des logs serveurs pour comprendre l'humain derrière le clic.
 "C'est bizarre, j'ai acheté une poussette hier, et l'appli continue de me proposer des poussettes sur la page d'accueil. C'est inutile." - Julie, 34 ans.  
 "Je ne sais pas quoi chercher. J'aime bien chiner, mais là, on me montre des pneus neige alors que je regarde de la déco." - Thomas, 28 ans.
 
-**🕵️‍♂️ Votre constat data scientist :** En croisant ces dires avec la data, vous réalisez que notre algo actuel ("trending") favorise les articles très cliqués (comme les pneus en hiver), écrasant les goûts de niche des utilisateurs.
+**Votre constat data scientist :** En croisant ces dires avec la data, vous réalisez que notre algo actuel ("trending") favorise les articles très cliqués (comme les pneus en hiver), écrasant les goûts de niche des utilisateurs.
 
-**🎯 Étape 2 : Définition (le vrai problème)**  
+## Étape 2 : Définition (le vrai problème)  
 Transformer les plaintes en une opportunité claire.  
 Nous avons utilisé la méthode "How Might We" (Comment pourrions-nous...) pour cadrer le défi Data.
 
@@ -31,7 +31,7 @@ Nous avons utilisé la méthode "How Might We" (Comment pourrions-nous...) pour 
 
 **Le problème recadré (actionnable pour la data) :** "Comment pourrions-nous utiliser l'historique récent de l'utilisateur pour lui proposer une sélection qui anticipe son besoin immédiat, tout en excluant ce qu'il a déjà acheté ?"
 
-**💡 Étape 3 : Idéation (brainstorming)**  
+## Étape 3 : Idéation (brainstorming)  
 Aucune idée n'est mauvaise. Tout le monde propose, y compris la Tech.
 
 Voici les 3 idées finalistes sorties du brainstorming :
@@ -42,9 +42,9 @@ Voici les 3 idées finalistes sorties du brainstorming :
 | B. Le chineur Visuel | "Tu as liké cette lampe vintage ? Voici un tapis qui va avec." (Computer Vision / Embeddings). | 🔴 Élevée (Deep Learning) | ⭐️⭐️⭐️ Fort (Effet "Whaou") |
 | C. Le météorologue | S'il pleut chez l'utilisateur, pousser des imperméables et jeux de société. | 🟡 Moyenne (API Météo) | ⭐️ Faible (Contextuel seulement) |
 
-**👉 Choix de l'équipe :** On part sur une combinaison A + B simplifiée. On veut de la pertinence visuelle (Idée B) mais en filtrant les achats (Idée A).
+**Choix de l'équipe :** On part sur une combinaison A + B simplifiée. On veut de la pertinence visuelle (Idée B) mais en filtrant les achats (Idée A).
 
-**🔨 Étape 4 : Prototypage (Sans Code !)**  
+## Étape 4 : Prototypage (sans code !)  
 Tester l'idée sans passer 3 mois à entraîner un modèle.
 
 **Le rôle du data scientist ici :** Vous n'allez pas coder le modèle. Vous allez faire du magicien d'Oz.
@@ -57,7 +57,7 @@ Au lieu d'un algo, c'est VOUS, le data scientist, qui sélectionnez manuellement
 
 **Pourquoi faire ça ?** Si l'utilisateur ne clique pas sur une sélection parfaite faite par un humain, ce n'est pas la peine de coder une IA complexe. Le problème est ailleurs (UX, prix, confiance).
 
-**🧪 Étape 5 : Test et apprentissage**  
+## Étape 5 : Test et apprentissage  
 Résultats du test magicien d'Oz.
 
 **Feedback utilisateurs :**

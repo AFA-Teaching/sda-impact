@@ -5,6 +5,12 @@ description: "Exercice pratique avec les données brutes du projet AudioFuture p
 
 # 📄 Pratique : Créer une slide
 
+## Objectif
+
+Appliquer les principes de la fiche [Créer une slide](creer-slide.md) en transformant les données brutes ci-dessous en une slide percutante pour le projet AudioFuture.
+
+**Données brutes du projet AudioFuture**
+
 1\. Performance du modèle (régression logistique v2)
 
 - On a testé plusieurs modèles (SVM, naive bayes), c'est la régression logistique qui performe le mieux.  

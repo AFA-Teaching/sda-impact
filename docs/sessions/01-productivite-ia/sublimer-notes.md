@@ -7,12 +7,15 @@ description: "Capturer l'information en vrac puis laisser Gemini structurer, cor
 
 ![Infographie](../../assets/images/s1-sublimer-notes.png)
 
-**Objectif :** Ne plus perdre de temps à faire de la mise en page pendant le cours. L'objectif est de capturer l'information en vrac, puis de laisser Gemini structurer, corriger et surtout enrichir vos notes pour en faire une fiche de révision parfaite.
+## Objectif
 
-**Le scénario**  
+Ne plus perdre de temps à faire de la mise en page pendant le cours. Capturer l'information en vrac, puis laisser Gemini structurer, corriger et surtout enrichir vos notes pour en faire une fiche de révision parfaite.
+
+## Le scénario
+
 Vous êtes en cours visio. Le prof parle vite. Vous notez tout ce que vous pouvez : des phrases incomplètes, des fautes de frappe, des abréviations, des concepts flous… À la fin, vous avez un brouillon difficile à relire. Au lieu de passer 1h à le remettre au propre ou de revoir la vidéo, nous allons créer un outil qui le fait instantanément.
 
-**La méthode**
+## La méthode
 
 1\. La technique des deux onglets (workflow de création)  
 Pour travailler proprement, séparez la réflexion de la construction. Ouvrez deux onglets Gemini dans votre navigateur :
@@ -41,16 +44,22 @@ Maintenant, on assemble.
 4\. Le test en conditions réelles  
 C'est le moment de vérité.
 
-- L'action : Prenez un bloc de notes brouillon (vos notes d'aujourd'hui ou l'[exemple fourni ici]()). Collez-le dans votre nouveau Gem.
+- L'action : Prenez un bloc de notes brouillon (vos notes d'aujourd'hui ou l'[exemple fourni ici](test-notes-brouillon.md)). Collez-le dans votre nouveau Gem.
 
 - Le résultat : Voyez comment le Gem transforme le chaos en ordre. Il ajoute des titres, des puces, et comble les manques.
 
 - Itération : Si le format ne vous plaît pas (ex: vous voulez plus d'emojis ou un format markdown spécifique), retournez dans l'onglet 1, dites "Modifie les instructions pour ajouter...", et mettez à jour le Gem.
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
-- Séparez les rôles : Utilisez toujours un onglet pour concevoir le prompt et un autre pour configurer l'outil.
+- Séparez les rôles : utilisez toujours un onglet pour concevoir le prompt et un autre pour configurer l'outil.
 
-- Capturez, ne formatez pas : En cours, concentrez-vous sur l'écoute et la prise de notes rapide. Gemini gère la forme (structure) et le fond (complétion) après coup.
+- Capturez, ne formatez pas : en cours, concentrez-vous sur l'écoute et la prise de notes rapide. Gemini gère la forme (structure) et le fond (complétion) après coup.
 
-- L'enrichissement : La vraie valeur ajoutée n'est pas juste la mise en page, mais la capacité du Gem à combler les trous de votre prise de notes grâce à sa base de connaissance.
+- L'enrichissement : la vraie valeur ajoutée n'est pas juste la mise en page, mais la capacité du Gem à combler les trous de votre prise de notes grâce à sa base de connaissance.
+
+## Pour aller plus loin
+
+- [How to Use Gemini to take notes | Beginner to Advanced](https://youtu.be/ZRgTrvwAoJs?si=0nTKWMjnEEyTDRT0) — du niveau débutant au niveau avancé pour la prise de notes avec Gemini
+- [Google Gems Tutorial](https://youtu.be/yO01B8OoXfo?si=BFMOFGcOPhnYphsG) — guide pratique pour créer et personnaliser vos Gems
+- [The ULTIMATE Note-Taking System with AI](https://youtu.be/WqBhjJCYi80) — construire un système de notes complet augmenté par l'IA

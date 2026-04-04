@@ -5,6 +5,10 @@ description: "Application complète des 4 premières étapes du processus de cr�
 
 # 📄 Pratique : Suivre un process
 
+## Objectif
+
+Appliquer les 4 premières étapes du processus décrit dans la fiche [Suivre un process](suivre-process.md) au projet AudioPod X, du cadrage au remplissage moche.
+
 Passons maintenant de la théorie à la pratique : appliquons méthodiquement les 4 premières étapes du processus de création de slides au projet "AudioPod X".
 
 **Étape 1 : Le cadrage**

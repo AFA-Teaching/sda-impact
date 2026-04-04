@@ -3,14 +3,15 @@ title: "Exemple : OKR"
 description: "Document fictif illustrant une roadmap OKR trimestrielle et la sélection d'initiatives pour une squad data."
 ---
 
-# Roadmap & OKR Q3 - Squad Homepage & Reco
+# 📋 Roadmap & OKR Q3 - Squad Homepage & Reco
 
 *⚠️ DOCUMENT FICTIF : Ce document simule une page de définition d'objectifs trimestriels (OKR) chez leboncoin. Il sert à illustrer comment la stratégie d'entreprise redescend jusqu'au choix des algorithmes.*
 
 **Statut :** Validé ✅  
 **Propriétaires :** Head of Product (Demand), Lead Data Scientist, PM Homepage.
 
-**🔻 NIVEAU 1 : Objectifs entreprise**  
+## Niveau 1 : Objectifs entreprise
+
 Ce que notre CEO a annoncé lors du dernier All-Hands meeting. La stratégie repose sur 3 piliers majeurs pour cette année.
 
 🦁O1 : Devenir le réflexe quotidien des Français (Engagement)  
@@ -31,9 +32,7 @@ Prouver que la seconde main est le premier choix citoyen.
 - KR 3.1 : Atteindre 5 Millions de tonnes de CO2 évitées grâce aux ventes d'occasion.  
 - KR 3.2 : Maintenir un Employee Net Promoter Score (eNPS) > 40 (Bien-être interne).
 
-## 
-
-**🔻 NIVEAU 2 : Objectifs de la squad**  
+## Niveau 2 : Objectifs de la squad  
 Comment la Squad Homepage contribue-t-elle à ces +15% de temps passé (O1 > KR 1.2) ?
 
 Hypothèse : Si on montre des annonces pertinentes dès l'ouverture, l'utilisateur cliquera et restera plus longtemps.
@@ -44,7 +43,7 @@ L'utilisateur ne doit pas avoir à chercher. L'application doit anticiper son be
 - KR-Squad 1 (Principal) : Augmenter le CTR (Taux de Clic) du bloc "Recommandé pour vous" de 5% à 8%.  
 - KR-Squad 2 (Secondaire) : Réduire le taux de "Bounce" (gens qui ferment l'app < 5 sec) de 10%.
 
-**💡 NIVEAU 3 : La sélection des initiatives**  
+## Niveau 3 : La sélection des initiatives  
 C'est ici que se joue la priorisation. Nous avons 3 idées de modèles dans les cartons. Lequel on lance ?
 
 | ID | Idée de modèle (Initiative) | Description | Impact estimé sur le CTR (KR) | Effort Data/Eng | Décision |
@@ -53,7 +52,7 @@ C'est ici que se joue la priorisation. Nous avons 3 idées de modèles dans les 
 | B | Collaborative Filtering (Historique) | "Tu as regardé des PS4 hier → Je te montre des jeux vidéo aujourd'hui". | Élevé (+2.5 pts) | Moyen (2 sprints) | ✅ PRIORITAIRE (Meilleur ratio Impact/Effort). |
 | C | Computer Vision sur les images | "Tu aimes les canapés rouges -> J'analyse les pixels pour trouver du rouge". | Incertain (+? pts) | Très Élevé (2 mois + Coût GPU) | ❌ Rejeté (Trop risqué pour ce trimestre). |
 
-**📝 Conclusion pour l'équipe data science**  
+## Conclusion pour l'équipe data science  
 Pour ce trimestre (Q3), notre focus unique est de livrer l'Initiative B (Collaborative Filtering).  
 Pourquoi ?  
 Non pas parce que c'est le modèle le plus "sexy" (le C était plus cool techniquement), mais parce que c'est le levier le plus sûr pour atteindre les 8% de CTR, qui eux-mêmes permettront d'atteindre les +15% de temps passé demandés par l'entreprise.

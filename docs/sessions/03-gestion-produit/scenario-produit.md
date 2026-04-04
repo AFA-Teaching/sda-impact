@@ -3,15 +3,19 @@ title: "Scénario de produit"
 description: "Mise en situation : intégrer l'équipe Data de Leboncoin et comprendre ce qu'est un produit data."
 ---
 
-# Scénario de produit
+# 🎬 Scénario de produit
 
 ![Infographie](../../assets/images/s3-scenario-produit.png)
+
+## Objectif
+
+Se mettre en situation concrète pour comprendre ce qu'est un produit data et quel sera votre rôle dans une équipe de recommandation.
 
 Imaginez que vous venez de signer votre contrat. Vous rejoignez l'équipe Data de [Leboncoin](https://www.leboncoin.fr/).
 
 Pourquoi cet exemple ? Parce que tout le monde connaît l'interface, mais peu de gens voient la machinerie derrière.
 
-**Une réalité invisible : Le produit vivant**  
+## Une réalité invisible : le produit vivant  
 Même si le site peut sembler "figé" (on a toujours la barre de recherche, les photos, le prix), c'est une illusion.
 
 - Le produit évolue constamment.  
@@ -19,7 +23,8 @@ Même si le site peut sembler "figé" (on a toujours la barre de recherche, les 
 - Des déploiements ont lieu quasi-quotidiennement pour des correctifs, et mensuellement pour des fonctionnalités majeures.  
 - Votre application mobile se met à jour silencieusement pour intégrer ces changements.
 
-**Définitions clés**  
+## Définitions clés
+
 Avant de coder, mettons-nous d'accord sur les termes.
 
 Qu'est-ce qu'un produit ?  
@@ -38,7 +43,8 @@ Il peut prendre 3 formes :
 
 **Note importante :** En data science, on gère de l'incertitude. On ne code pas une règle stricte, on entraîne un système à deviner. C'est ce qui change tout dans la gestion de projet.
 
-**Votre mission**  
+## Votre mission
+
 Vous intégrez l'équipe recommandation.  
 Votre champ d'action : La page d'accueil de l'application et du site web.
 
@@ -59,3 +65,15 @@ Vous devez :
 4. Mettre en production une solution fiable.
 
 *⚠️ Disclaimer : Ce cas d'usage est purement fictif. Les données, contextes et problématiques cités sont inventés pour les besoins pédagogiques de cette formation et ne reflètent pas nécessairement la réalité interne ou la stratégie actuelle de l'entreprise Leboncoin.*
+
+## Ce qu'il faut retenir
+
+- Un **produit** n'est pas juste du code : c'est un véhicule qui délivre de la valeur à un utilisateur de manière viable pour l'entreprise.
+- Un **produit data** est souvent probabiliste (il "devine"), contrairement au code déterministe classique.
+- Votre rôle de data scientist dépasse le code : comprendre le problème, définir les métriques, concevoir une stratégie incrémentale, et mettre en production.
+
+## Pour aller plus loin
+
+- [Leboncoin](https://www.leboncoin.fr/) — le site de référence utilisé comme fil rouge de cette session
+- [DJ Patil & Hilary Mason, Data Driven](https://www.oreilly.com/library/view/data-driven/9781491925454/) — introduction aux produits data
+- [Monica Rogati, The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007) — la pyramide des besoins en IA pour prioriser vos efforts

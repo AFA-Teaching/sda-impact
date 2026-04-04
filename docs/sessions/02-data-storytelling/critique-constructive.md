@@ -7,14 +7,16 @@ description: "Développer un œil critique pour distinguer le brouillon du profe
 
 ![Infographie](../../assets/images/s2-critique-constructive.png)
 
-**Objectif :** Développer un œil critique aiguisé pour distinguer instantanément le brouillon du professionnel et élever le standard visuel de vos livrables.
+## Objectif
 
-**Atelier pratique**  
-Nous allons analyser ensemble des exemples réels de présentations.
+Développer un œil critique aiguisé pour distinguer instantanément le brouillon du professionnel et élever le standard visuel de vos livrables.
 
-- La méthode : Je projette une présentation. Vous me partagez ce qui fonctionne ou ce qui ne va pas.
+**Exercice pratique**  
+Analysez les exemples réels de présentations ci-dessous pour aiguiser votre regard critique.
 
-- Le but : Construire ensemble la checklist de qualité que vous utiliserez pour relire vos propres slides avant le jour J.
+- La méthode : Ouvrez chaque présentation et notez ce qui fonctionne et ce qui ne va pas.
+
+- Le but : Construire votre propre checklist de qualité pour relire vos slides avant le jour J.
 
 - Les présentations :  
   - [Analyse interactive des trajets de taxis à New York](https://docs.google.com/presentation/d/1e9XtZiEoOl0Y-sIj5yp6MR6vQ1Ev3dN5H4vjGeVGh_w/edit?usp=sharing)  
@@ -24,7 +26,7 @@ Nous allons analyser ensemble des exemples réels de présentations.
   - [Plateforme de données en temps réel sur les services de transport à la demande](https://adamfaik.github.io/ride-hailing-data-platform/presentation.html)  
   - [Une solution prédictive pour le risque de défaut de paiement sur les prêts](https://adamfaik.github.io/loan-default-prediction/presentation.html)
 
-**❌ À bannir absolument**  
+**À bannir absolument**  
 Ces erreurs tuent votre crédibilité. Si le jury voit ça, il arrête d'écouter le fond pour juger la forme.
 
 Le bruit visuel et la négligence
@@ -57,13 +59,13 @@ Les erreurs de style
 
 La lisibilité
 
-- Le mur de texte  : Des paragraphes entiers copiés de Word. Personne ne lira.  
+- Le mur de texte : Des paragraphes entiers copiés de Word. Personne ne lira.  
   - Correction : Synthétisez en listes à puces (Bullet points).
 
 - Les fins de phrases : Un mot tout seul qui traîne sur une nouvelle ligne en fin de phrase.  
   - Correction : Rédigez plus court ou coupez la ligne différemment pour équilibrer.
 
-**✅ Niveau expert**  
+**Niveau expert**  
 Ces détails subtils signalent que vous maîtrisez votre sujet et respectez votre audience.
 
 La clarté et la hiérarchie
@@ -95,3 +97,15 @@ Les aides à la lecture
 L'impact émotionnel
 
 - Photos pleine page : Pour une slide de transition ou d'intro, utilisez une belle image HD qui prend TOUTE la surface, avec juste un texte blanc par-dessus. Effet garanti.
+
+## Ce qu'il faut retenir
+
+- Le bruit visuel (screenshots sales, images déformées, polices incohérentes) tue votre crédibilité avant même que le jury n'écoute le fond.
+- L'espace blanc est un luxe : une slide aérée signale une pensée claire.
+- Réservez la couleur vive uniquement pour l'information clé et mettez tout le reste en gris.
+
+## Pour aller plus loin
+
+- [Storytelling with Data - Cole Nussbaumer Knaflic](https://www.storytellingwithdata.com/) — le livre de référence sur le design de visualisations claires et percutantes
+- [Presentation Zen - Garr Reynolds](https://www.presentationzen.com/) — les principes du minimalisme appliqués aux présentations
+- [Canva Design School](https://www.canva.com/designschool/) — cours gratuits sur les fondamentaux du design visuel

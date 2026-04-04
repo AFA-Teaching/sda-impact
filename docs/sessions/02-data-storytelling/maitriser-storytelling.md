@@ -9,7 +9,9 @@ description: "Élever votre posture de data scientist en maîtrisant le storytel
 
 ![Infographie](../../assets/images/s2-storytelling-2.png)
 
-**Objectif :** Élever votre posture pour devenir un partenaire stratégique influent, capable de transformer une expertise technique complexe en récits décisionnels qui valorisent l'impact business.
+## Objectif
+
+Élever votre posture pour devenir un partenaire stratégique influent, capable de transformer une expertise technique complexe en récits décisionnels qui valorisent l'impact business.
 
 **Le changement de posture**  
 Le principe de la pyramide (answer first)  
@@ -54,7 +56,7 @@ Le voyage est un cycle qui commence dans le monde ordinaire, passe par un monde 
 - Le concept : "C'est dans la caverne où vous craignez d'entrer que se trouve le trésor que vous cherchez."  
 - La dynamique : status Quo → appel à l'aventure → épreuves/crise → trésor → retour (nouvelle vie).
 
-![][image1]
+<!-- TODO: ajouter une image du cycle du héros dans docs/assets/images/ -->
 
 La transposition pour un projet data/IA  
 Utilisez cette structure pour métaphoriser votre présentation technique :
@@ -89,11 +91,9 @@ D'après Erin Meyer, The Culture Map. On ne convainc pas un américain comme on 
 - Cognitive (task-based) : La confiance vient de la compétence et des résultats (USA).  
 - Affective (relationship-based) : La confiance se bâtit autour d'un café ou d'un déjeuner (France, Amérique Latine, Asie).
 
-En vidéo  
-[Adapter sa présentation aux différences culturelles](https://www.youtube.com/watch?v=_j9L7_tGWmc&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=8)
+**En vidéo :** [Adapter sa présentation aux différences culturelles](https://www.youtube.com/watch?v=_j9L7_tGWmc&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=8)
 
-Pour aller plus loin  
-[Erin Meyer, The Culture Map](https://erinmeyer.com/books/the-culture-map/)
+**Livre :** [Erin Meyer, The Culture Map](https://erinmeyer.com/books/the-culture-map/) — guide pratique pour comprendre les différences culturelles en communication
 
 **Pitcher son projet innovant : La méthode Startup**  
 Pour rendre la valeur de votre travail visible et obtenir les ressources nécessaires.
@@ -126,10 +126,9 @@ La structure du deck (10 slides clés)
 La clé du succès : la répétition  
 La fluidité n'est pas naturelle, elle est travaillée. Répétez jusqu'à ce que les mots s'effacent pour laisser place à l'histoire. Anticipez les 3 questions pièges.
 
-En vidéo  
-[Pitcher un projet innovant : La méthode startup](https://www.youtube.com/watch?v=bi_YLSS0EBs&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=9)
+**En vidéo :** [Pitcher un projet innovant : La méthode startup](https://www.youtube.com/watch?v=bi_YLSS0EBs&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=9)
 
-Pitch decks de startups réelles  
+**Pitch decks de startups réelles**  
 [Airbnb, 2009, Seed, 0.6M](https://www.slideshare.net/slideshow/airbnb-first-pitch-deck-editable/45768374)  
 [Alan, 2017, Series A, 23M](https://www.slideshare.net/slideshow/alans-deck/97408460)  
 [Buffer, 2011, Seed, 0.5M](https://www.slideshare.net/slideshow/buffer-pitch-deck-66719797/66719797)  
@@ -141,12 +140,13 @@ Pitch decks de startups réelles
 [Uber, 2008, Seed, 0.2M](https://www.slideshare.net/slideshow/uber-pitch-deck/79089661)  
 [YouTube, 2005, Series A, 3.5M](https://www.slideshare.net/slideshow/youtube-pitch-deck-87211646/87211646)
 
-Pour aller plus loin  
-[Paul Graham, How to Convince Investors](https://www.paulgraham.com/convince.html)  
-[Kevin Hale, How to Design a Better Pitch Deck](https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck)  
-[First Round Review, Take Your Fundraising Pitch from Mediocre to Memorable with These Storytelling Tips](https://review.firstround.com/tell-stories-like-this-to-take-your-fundraising-pitch-from-mediocre-to-memorable/)  
-[Slidebean, How to Write a Killer Startup Pitch Deck?](https://youtu.be/VapOhmvC8jk?si=Y0v4VgnRs8f3Kacu)  
-[Slidebean, Templates for Startups](https://slidebean.com/presentation-templates/)  
+**Ressources pitch :**
+
+- [Paul Graham, How to Convince Investors](https://www.paulgraham.com/convince.html) — essai fondateur sur la persuasion face aux investisseurs
+- [Kevin Hale, How to Design a Better Pitch Deck](https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck) — conférence YC sur la structure d'un pitch deck
+- [First Round Review, Storytelling Tips for Fundraising](https://review.firstround.com/tell-stories-like-this-to-take-your-fundraising-pitch-from-mediocre-to-memorable/) — conseils narratifs pour rendre un pitch mémorable
+- [Slidebean, How to Write a Killer Startup Pitch Deck?](https://youtu.be/VapOhmvC8jk?si=Y0v4VgnRs8f3Kacu) — vidéo pas à pas sur la construction d'un pitch deck
+- [Slidebean, Templates for Startups](https://slidebean.com/presentation-templates/) — modèles de pitch deck prêts à l'emploi  
 **La leçon d'Amazon : Pourquoi le narratif bat le PowerPoint**  
 Passer de la persuasion à la recherche de vérité.
 
@@ -175,13 +175,26 @@ Avantages vs inconvénients
 - Avantage : Méritocratie des idées et mémoire institutionnelle.  
 - Inconvénient (la taxe narrative) : Cela demande beaucoup de temps (time-to-market ralenti) et crée un stress pour les auteurs.
 
-En vidéo  
-[Pourquoi Amazon a banni PowerPoint : La leçon du narratif écrit](https://www.youtube.com/watch?v=n517ZEpRN4s&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=10)
+**En vidéo :** [Pourquoi Amazon a banni PowerPoint : La leçon du narratif écrit](https://www.youtube.com/watch?v=n517ZEpRN4s&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=10)
 
-Pour aller plus loin  
-[Sachin Rekhi, The Power of Amazon's Written Narratives](https://www.sachinrekhi.com/colin-bryar-working-backwards)  
-[Amazon, An Insider Look at Amazon's Culture and Processes](https://www.aboutamazon.com/news/workplace/an-insider-look-at-amazons-culture-and-processes)  
-[Amazon, Startup Advice: How to Write a Narrative](https://aws.amazon.com/blogs/startups/startup-advice-how-to-write-a-narrative)  
-[Jeff Bezos on Writing Memos at Amazon](https://www.youtube.com/watch?v=NE8DX8_Xg4E)  
-[Marty Cagan, Coaching Tools – The Narrative](https://www.svpg.com/coaching-tools-the-narrative/)  
-[Forbes, Don't Try This At Home: Why Amazon's Culture Isn't Right For Your Business](https://www.forbes.com/sites/chrismyers/2015/08/16/dont-try-this-at-home-why-amazons-culture-isnt-right-for-your-business/)
+**Ressources Amazon :**
+
+- [Sachin Rekhi, The Power of Amazon's Written Narratives](https://www.sachinrekhi.com/colin-bryar-working-backwards) — analyse de la culture du mémo chez Amazon
+- [Amazon, An Insider Look at Amazon's Culture and Processes](https://www.aboutamazon.com/news/workplace/an-insider-look-at-amazons-culture-and-processes) — vision interne des processus Amazon
+- [Amazon, Startup Advice: How to Write a Narrative](https://aws.amazon.com/blogs/startups/startup-advice-how-to-write-a-narrative) — guide pratique pour rédiger un mémo narratif
+- [Jeff Bezos on Writing Memos at Amazon](https://www.youtube.com/watch?v=NE8DX8_Xg4E) — Jeff Bezos explique la philosophie du mémo
+- [Marty Cagan, Coaching Tools - The Narrative](https://www.svpg.com/coaching-tools-the-narrative/) — comment utiliser le narratif comme outil de coaching produit
+- [Forbes, Why Amazon's Culture Isn't Right For Your Business](https://www.forbes.com/sites/chrismyers/2015/08/16/dont-try-this-at-home-why-amazons-culture-isnt-right-for-your-business/) — les limites de la culture narrative d'Amazon
+
+## Ce qu'il faut retenir
+
+- En business, donnez la conclusion d'abord (answer first) : ne racontez pas l'enquête, donnez le nom du coupable.
+- Appliquez le test du "so what ?" à chaque chiffre : transformez le jargon technique en impact business concret.
+- Adaptez votre style de persuasion à la culture de votre audience (applications-first vs principles-first).
+- Le voyage du héros est une structure narrative universelle que vous pouvez transposer à n'importe quel projet data.
+
+## Pour aller plus loin
+
+- [Barbara Minto, Le principe de la pyramide](https://www.editions-eyrolles.com/livre/le-principe-de-la-pyramide-de-barbara-minto) — le livre fondateur sur la communication structurée en consulting
+- [Erin Meyer, The Culture Map](https://erinmeyer.com/books/the-culture-map/) — guide pratique pour adapter sa communication aux différences culturelles
+- [What makes a hero? - Matthew Winkler (TED-Ed)](https://www.youtube.com/watch?v=Hhk4N9A0oCA&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=13) — vidéo sur la structure universelle du voyage du héros

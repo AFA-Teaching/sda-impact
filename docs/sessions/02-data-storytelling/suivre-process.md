@@ -7,9 +7,11 @@ description: "Adopter une méthodologie séquentielle en 5 étapes pour créer d
 
 ![Infographie](../../assets/images/s2-suivre-process.png)
 
-**Objectif :** Adopter une méthodologie séquentielle pour gagner en efficacité et en sérénité, en alignant parfaitement la réflexion stratégique avant de passer à la mise en forme.
+## Objectif
 
-**⚠️ Le piège à éviter**  
+Adopter une méthodologie séquentielle pour gagner en efficacité et en sérénité, en alignant parfaitement la réflexion stratégique avant de passer à la mise en forme.
+
+**Le piège à éviter**  
 Le réflexe naturel est d'ouvrir Google Slides tout de suite. C'est une erreur.  
 C'est comme commencer à coder sans avoir réfléchi à l'architecture. Vous allez écrire, effacer, changer la couleur d'un bouton pendant 20 minutes, pour finalement vous rendre compte que cette slide ne sert à rien.
 
@@ -89,14 +91,22 @@ Temps : 45 min
 - Simplifiez les textes (transformez les paragraphes en bullet points).  
 - Ajoutez les stickers (call-out boxes) pour guider l'œil.
 
-**Atelier pratique**  
-Reprenez le projet "AudioFuture" (avis clients). Définissons :
+**Exercice pratique**  
+Reprenez le projet "AudioFuture" (avis clients). Définissez :
 
 1. L'objectif : Que voulez-vous obtenir du jury ? (Validation technique ? Budget ?)  
 2. Le message clé : La phrase unique.  
 3. Le plan : La liste des 5 à 6 titres de vos slides.
 
-**En vidéo**  
-[Préparer son oral : La méthode TOM (Thème, Objectif, Message)](https://www.youtube.com/watch?v=y91Z4hMqMBQ&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=7)  
-[Présentation data science : La checklist complète](https://www.youtube.com/watch?v=XXcGwJ38ueE&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=2)  
-[Le bon process pour créer vos présentations](https://www.youtube.com/watch?v=p2K0tx4vkkE&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=2)
+## Ce qu'il faut retenir
+
+- L'ordinateur n'intervient qu'à l'étape 3 : cadrage et narration se font d'abord sur papier ou en dictée vocale.
+- Le squelette (étape 3) est la clé : si l'histoire se tient en lisant uniquement les titres, votre plan est validé.
+- Séparez le remplissage brut (étape 4) du design (étape 5) pour ne pas perdre du temps à aligner des pixels sur du contenu qui va changer.
+- Validez le squelette avec votre équipe avant de commencer le contenu pour éviter de travailler pour rien.
+
+## Pour aller plus loin
+
+- [Préparer son oral : La méthode TOM](https://www.youtube.com/watch?v=y91Z4hMqMBQ&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=7) — vidéo sur la méthode Thème, Objectif, Message
+- [Présentation data science : La checklist complète](https://www.youtube.com/watch?v=XXcGwJ38ueE&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=2) — vidéo couvrant tous les points de vérification
+- [Le bon process pour créer vos présentations](https://www.youtube.com/watch?v=p2K0tx4vkkE&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=2) — vidéo détaillant le processus étape par étape

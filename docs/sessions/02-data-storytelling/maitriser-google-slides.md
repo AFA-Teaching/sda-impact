@@ -7,7 +7,9 @@ description: "Acquérir une maîtrise fluide et efficace de Google Slides pour c
 
 ![Infographie](../../assets/images/s2-maitriser-google-slides.png)
 
-**Objectif :** Acquérir une maîtrise fluide et efficace de Google Slides pour concevoir des supports professionnels, en libérant votre attention pour ce qui compte vraiment : la valeur de votre contenu.
+## Objectif
+
+Acquérir une maîtrise fluide et efficace de Google Slides pour concevoir des supports professionnels, en libérant votre attention pour ce qui compte vraiment : la valeur de votre contenu.
 
 **Démarrage et initialisation**  
 Avant de foncer, on prépare le terrain proprement.
@@ -64,3 +66,15 @@ Google Slides brille par son aspect collaboratif. Ne vous envoyez pas de fichier
 
 - Export PDF (la sauvegarde) : Fichier → Télécharger → Document PDF.  
   - Toujours avoir une version PDF sur une clé USB le jour de la soutenance au cas où le wifi lâche. Le PDF fige la mise en page (polices, images) pour toujours.
+
+## Ce qu'il faut retenir
+
+- Nommez vos fichiers avec un format clair ([Date] - [Projet] - [Type]) et utilisez les modèles pour gagner du temps.
+- Importez vos graphes depuis Drive plutôt que depuis votre bureau pour éviter les versions obsolètes.
+- Activez le mode Présentateur le jour J pour avoir vos notes et le chrono, et gardez toujours un export PDF en sauvegarde.
+
+## Pour aller plus loin
+
+- [Google Slides - Centre d'aide officiel](https://support.google.com/docs/topic/9052835) — documentation complète de toutes les fonctionnalités
+- [Slidesgo - Modèles gratuits](https://slidesgo.com/) — bibliothèque de templates professionnels pour Google Slides
+- [Google Workspace Learning Center](https://workspace.google.com/intl/fr/training/) — tutoriels officiels pour maîtriser les outils Google

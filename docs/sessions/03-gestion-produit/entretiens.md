@@ -3,11 +3,16 @@ title: "Entretiens utilisateurs"
 description: "L'art de l'entretien utilisateur pour data scientists : Mom Test, prototypage sans code et techniques de validation."
 ---
 
-# Entretiens utilisateurs
+# 🎙️ Entretiens utilisateurs
 
 ![Infographie](../../assets/images/s3-entretiens.png)
 
-**Pourquoi quitter son écran ?**  
+## Objectif
+
+Maîtriser les techniques d'entretien utilisateur (Mom Test, prototypage sans code) pour réduire le risque avant de coder un modèle.
+
+## Pourquoi quitter son écran ?
+
 En data science, on a tendance à croire que la donnée ne ment pas. C'est vrai, mais la donnée (les logs) ne raconte que le passé. Elle vous dit ce que l'utilisateur a fait, mais jamais pourquoi il l'a fait, ni ce qu'il aurait aimé faire.
 
 L'objectif de cette phase n'est pas de faire du social, mais de réduire le risque.
@@ -15,10 +20,11 @@ L'objectif de cette phase n'est pas de faire du social, mais de réduire le risq
 - Coût d'un entretien : 30 minutes.  
 - Coût de développement d'un modèle inutile : 3 mois de salaire + coûts Cloud.
 
-**L'art de l'entretien**  
+## L'art de l'entretien
+
 Le piège classique : demander "Est-ce que tu aimerais une fonctionnalité de recommandation ?". L'utilisateur répondra "Oui" pour vous faire plaisir. C'est un faux positif.
 
-Pour obtenir de la donnée qualitative fiable, utilisez la méthode du Mom Test (Rob Fitzpatrick).
+Pour obtenir de la donnée qualitative fiable, utilisez la méthode du **Mom Test** (Rob Fitzpatrick). Le principe : si même votre mère ne peut pas vous mentir en répondant à vos questions, c'est que vos questions sont bonnes.
 
 Les 3 règles d'or :
 
@@ -39,7 +45,8 @@ Exemple concret Leboncoin :
   - Réponse réelle : "J'ai mis 3 jours à le faire parce que j'avais la flemme de taper la description sur mon téléphone."  
   - Insight pour le DS : Le problème est la saisie de texte. Une IA "Image-to-text" a donc une vraie valeur ici.
 
-**Le prototypage data**  
+## Le prototypage data
+
 Comment prototyper un algorithme sans le coder ? Le but est de tester la désirabilité (est-ce qu'ils le veulent ?) avant la faisabilité (est-ce qu'on peut le coder ?).
 
 Voici 3 techniques pour les data scientists :
@@ -65,17 +72,26 @@ Faire le service manuellement et totalement personnalisé pour un utilisateur un
 - L'action : Asseyez-vous à côté d'un vendeur professionnel. Aidez-le à rédiger ses annonces pendant 2 heures. Notez toutes les règles que vous appliquez instinctivement (ex: "Il manque des photos", "Le titre est trop court").  
 - L'impact : Ces notes deviendront les "règles" de votre future Baseline (Heuristique).
 
-**Votre rôle en tant que data scientist**  
+## Votre rôle en tant que data scientist
+
 Ne laissez pas le product manager ou le designer faire ça tout seul.
 
 - Participez aux entretiens : Entendre la frustration d'un utilisateur vaut mieux que 1000 graphiques. Cela vous donnera des idées de features pour vos modèles (feature engineering).  
 - Soyez créatifs sur le prototype : Votre défi technique n'est pas "Comment coder ce modèle ?", mais "Comment simuler ce modèle cet après-midi sans coder ?".
 
-**Pour aller plus loin**  
-[Michael Margolis, User Research, Quick 'n' Dirty](https://youtu.be/WpzmOH0hrEM?si=mWasITspuSnmsnNG)  
-[GV, From 'Sprint': The Five-Act Interview](https://youtu.be/U9ZG19XTbd4?si=N4I2QUxCBBk0z05o)  
-[Michael Margolis, GV's Guide to UX Research for Startups](https://library.gv.com/gv-guide-to-uxresearch-for-startups-b6d0c8ac81b3)  
-[Michael Margolis, Learn More Faster](https://www.learnmorefaster.com/)  
-[Tomer Sharon, Asking better questions that can help with your startup](https://youtu.be/8tiuWYs5Z-A?si=aGGSJpP1K5Fr-fLE)  
-[Tomer Sharon, The UX Research Plan That Stakeholders Love](https://www.smashingmagazine.com/2012/01/ux-research-plan-stakeholders-love/)  
-[Steve Krug, Things a therapist would say](https://sensible.com/download-files/)
+## Ce qu'il faut retenir
+
+- Un entretien de 30 minutes coûte infiniment moins qu'un modèle inutile développé pendant 3 mois.
+- Utilisez le **Mom Test** : demandez des faits passés, pas des opinions futures.
+- Trois techniques de prototypage sans code : le **magicien d'Oz**, la **fake door** et le **concierge**.
+- Si un utilisateur ne clique pas sur une sélection parfaite faite par un humain, inutile de coder une IA pour le faire.
+
+## Pour aller plus loin
+
+- [Michael Margolis, User Research, Quick 'n' Dirty](https://youtu.be/WpzmOH0hrEM?si=mWasITspuSnmsnNG) — recherche utilisateur rapide et efficace
+- [GV, From 'Sprint': The Five-Act Interview](https://youtu.be/U9ZG19XTbd4?si=N4I2QUxCBBk0z05o) — structure d'entretien en 5 actes
+- [Michael Margolis, GV's Guide to UX Research for Startups](https://library.gv.com/gv-guide-to-uxresearch-for-startups-b6d0c8ac81b3) — guide complet de recherche UX pour startups
+- [Michael Margolis, Learn More Faster](https://www.learnmorefaster.com/) — méthodes pour apprendre plus vite de vos utilisateurs
+- [Tomer Sharon, Asking better questions](https://youtu.be/8tiuWYs5Z-A?si=aGGSJpP1K5Fr-fLE) — poser de meilleures questions en entretien
+- [Tomer Sharon, The UX Research Plan That Stakeholders Love](https://www.smashingmagazine.com/2012/01/ux-research-plan-stakeholders-love/) — structurer un plan de recherche convaincant
+- [Steve Krug, Things a therapist would say](https://sensible.com/download-files/) — techniques d'écoute pour les entretiens utilisateurs

@@ -3,13 +3,14 @@ title: "Exemple : Backlog"
 description: "Exploration guidée d'un backlog Trello : structure du board, anatomie d'un ticket et glossaire pour data scientists."
 ---
 
-# Backlog Squad Homepage
+# 📝 Backlog Squad Homepage
 
 OBJECTIF : Ce document vous accompagne dans l'exploration du tableau [Trello de l'équipe Homepage](https://trello.com/invite/b/69555f5b6de2878638d926fc/ATTIdf5520730c9a690fc9f12a6ba1e43a62BED0C9A6/backlog-squad-homepage).
 
-Comme vu en cours : La roadmap donne la direction (Q2 : personnalisation), ce backlog est la liste plate pour l'exécuter.
+Comme expliqué dans [la fiche Artefacts](artefacts.md), la roadmap donne la direction (Q2 : personnalisation), ce backlog est la liste plate pour l'exécuter.
 
-**Comprendre la structure du board (les colonnes)**  
+## Comprendre la structure du board (les colonnes)
+
 En parcourant le tableau de gauche à droite, vous remontez le temps du projet : du futur lointain (idées) au passé validé (prod).
 
 Product backlog
@@ -29,7 +30,8 @@ QA / Staging
 
 - C'est quoi ? L'étape tampon avant la mise en ligne. Un ticket n'arrive ici que s'il respecte les specs.
 
-**Anatomie d'un ticket**  
+## Anatomie d'un ticket
+
 Ouvrez le ticket "Implémentation Algo" et observez ces 4 éléments clés :
 
 Le format user story  
@@ -48,17 +50,17 @@ Regardez la section critères d'acceptation (Souvent en format Given / When / Th
   * "Latence < 200ms" : Performance technique non-négociable.  
   * "Cold start" : Gestion du cas "nouvel utilisateur" (souvent oublié).
 
-**La Definition of Done (DoD)**  
+## La Definition of Done (DoD)  
 C'est la checklist finale en bas du ticket.
 
 - Définition : Ce sont les standards non-négociables de l'équipe.
 
-**Les points d'effort (story points 📐)**  
+## Les points d'effort (story points)  
 Regardez le petit badge chiffré sur les cartes (1, 2, 3, 5, 8...).
 
 - Définition : Une estimation de la complexité relative (Suite de Fibonacci), pas une durée en jours.
 
-**Les indices de collaboration**  
+## Les indices de collaboration  
 En regardant l'ensemble du board, essayez de repérer les dépendances entre les métiers.
 
 1. Data et front :  
@@ -66,7 +68,7 @@ En regardant l'ensemble du board, essayez de repérer les dépendances entre les
 2. Data et business :  
    Le ticket dashboard de suivi montre que le travail ne s'arrête pas au model.predict(). Il faut prouver la valeur (KPI).
 
-**📝 Glossaire de survie pour le data scientist**
+## Glossaire de survie pour le data scientist
 
 | Terme | Signification Simple |
 | :---- | :---- |

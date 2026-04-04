@@ -7,16 +7,16 @@ description: "Maîtriser les codes du design visuel pour transformer vos résult
 
 ![Infographie](../../assets/images/s2-creer-slide.png)
 
-**Objectif :** Maîtriser les codes du design visuel pour transformer vos résultats bruts en messages clairs et percutants. Chaque slide doit devenir un support de décision évident pour votre audience.
+## Objectif
 
-**Atelier pratique**  
-Pour cette session, nous allons travailler en temps réel.
+Maîtriser les codes du design visuel pour transformer vos résultats bruts en messages clairs et percutants. Chaque slide doit devenir un support de décision évident pour votre audience.
 
-1. Lien de partage : Google Slides ici en mode éditeur pour tous.
+**Exercice pratique**  
+Mettez-vous en situation pour appliquer immédiatement ces principes.
 
-2. La consigne : Créez une slide vide. À partir des [données brutes du projet]() (88% d'accuracy, problème de batterie identifié), créez une slide unique qui présente ce résultat.
+1. La consigne : Ouvrez Google Slides et créez une slide vide. À partir des [données brutes du projet](pratique-creer-slide.md) (88 % d'accuracy, problème de batterie identifié), créez une slide unique qui présente ce résultat.
 
-3. La contrainte : Vous avez 5 minutes. Pas plus.
+2. La contrainte : Accordez-vous 5 minutes. Pas plus.
 
 **Anatomie d'une slide parfaite**  
 Une fois l'exercice fini, voici les standards à respecter pour transformer vos essais en slides professionnelles.
@@ -86,3 +86,15 @@ En 3 secondes, est-ce que je comprends :
 2. Quelle est la conclusion ?
 
 Si la réponse est non : Simplifiez.
+
+## Ce qu'il faut retenir
+
+- Le titre d'une slide doit être une conclusion (action title), pas une étiquette descriptive.
+- Une slide = un message. Si vous avez deux idées, faites deux slides.
+- Utilisez la couleur de manière sémantique (gris pour le contexte, couleur vive pour l'info clé) et supprimez tout bruit visuel inutile.
+
+## Pour aller plus loin
+
+- [Storytelling with Data - Cole Nussbaumer Knaflic](https://www.storytellingwithdata.com/) — le livre de référence sur la visualisation de données orientée décision
+- [Presentation Zen - Garr Reynolds](https://www.presentationzen.com/) — les principes du design épuré appliqués aux présentations
+- [Data-to-Viz](https://www.data-to-viz.com/) — guide interactif pour choisir le bon type de graphique selon vos données

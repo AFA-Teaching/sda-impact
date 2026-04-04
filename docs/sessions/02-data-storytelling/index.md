@@ -20,8 +20,9 @@ Aujourd'hui, l'IA et la Data sont au cœur des décisions stratégiques.
 
 Sans communication, le meilleur algorithme du monde restera un fichier inerte sur un serveur.
 
-**Le programme : Une approche bottom-up**  
-Nous allons procéder à l'inverse des cours théoriques classiques. Nous partirons du "faire" (opérationnel) pour aller vers le "penser" (stratégique).
+## Programme
+
+Ce module procède à l'inverse des cours théoriques classiques : du "faire" (opérationnel) vers le "penser" (stratégique).
 
 Partie 1 : L'opérationnel (réussir vos projets de formation)  
 L'objectif est immédiat : Vous donner les clés pour avoir d'excellentes notes lors de vos soutenances.
@@ -50,10 +51,13 @@ Pour éviter la théorie abstraite, nous appliquerons chaque concept sur un scé
 - Le projet : Analyse de sentiments (NLP) sur 5000 avis clients pour des écouteurs.  
 - Le défi : Transformer un notebook Python et des métriques techniques en une présentation de décision pour un Directeur Marketing.
 
-**Tour de table : Vos habitudes**  
-Prenons 5 minutes pour échanger.
+**Avant de commencer : Vos habitudes**  
+Prenez un instant pour réfléchir à vos pratiques actuelles.
 
 1. Les outils : Qu'utilisez-vous aujourd'hui ? (PowerPoint, Canva, Beamer/LaTeX, Gamma.app...) ?  
 2. Les douleurs : Quel est votre plus gros cauchemar quand vous devez faire une présentation ? (La page blanche ? Le design moche ? Le stress de l'oral ?).
 
-**Ressources :** [Infographies](https://docs.google.com/presentation/d/1ZzQGKv-WX_eHPan94VOTu3VMChlisap8jiH-4BM5zVw/edit?slide=id.g3b50f16f7bf_1_59#slide=id.g3b50f16f7bf_1_59), [playlist YouTube](https://youtube.com/playlist?list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&si=3LPAKTCQV9vP-iuz).
+## Ressources
+
+- [Infographies du module](https://docs.google.com/presentation/d/1ZzQGKv-WX_eHPan94VOTu3VMChlisap8jiH-4BM5zVw/edit?slide=id.g3b50f16f7bf_1_59#slide=id.g3b50f16f7bf_1_59) — toutes les infographies de la session en un seul deck
+- [Playlist YouTube](https://youtube.com/playlist?list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&si=3LPAKTCQV9vP-iuz) — vidéos complémentaires sur le data storytelling

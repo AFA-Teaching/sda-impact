@@ -7,12 +7,14 @@ description: "Organiser vos idées pour construire un récit fluide et stratégi
 
 ![Infographie](../../assets/images/s2-construire-presentation.png)
 
-**Objectif :** Organiser vos idées pour construire un récit fluide et stratégique, en distinguant clairement ce qui doit être montré (la vitrine) de ce qui doit être prouvé (le laboratoire).
+## Objectif
 
-**Atelier pratique**  
-Reprenons le même projet "AudioFuture" (analyse de sentiments). Vous avez terminé le code. Vous avez vos graphiques. Maintenant, il faut structurer l'histoire.
+Organiser vos idées pour construire un récit fluide et stratégique, en distinguant clairement ce qui doit être montré (la vitrine) de ce qui doit être prouvé (le laboratoire).
 
-À partir des éléments bruts (texte en vrac), vous devez construire le plan de la présentation : une liste ordonnée des slides.
+**Exercice pratique**  
+Reprenez le même projet "AudioFuture" (analyse de sentiments). Vous avez terminé le code. Vous avez vos graphiques. Maintenant, il faut structurer l'histoire.
+
+À partir des éléments bruts (texte en vrac), construisez le plan de la présentation : une liste ordonnée des slides.
 
 **Un principe important : Vitrine vs laboratoire**  
 En data science, la tentation est grande de montrer la complexité (code, équations) pour prouver qu'on a travaillé. C'est une erreur.
@@ -83,5 +85,15 @@ C'est ici que réside votre crédibilité technique. C'est la partie la plus fou
 
 - L'effet magicien : Quand un juré demande "Avez-vous vérifié l'overfitting ?", vous répondez : "Excellente question, j'ai la courbe d'apprentissage en Annexe 3". Vous cliquez, la slide apparaît. Vous avez gagné.
 
-**En vidéo**  
-[Plan type pour une soutenance data science réussie](https://www.youtube.com/watch?v=rJSdiSoe-TA&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=3)
+## Ce qu'il faut retenir
+
+- Séparez la vitrine (slides principales orientées résultat) du laboratoire (annexes techniques) pour ne pas noyer votre audience.
+- Structurez votre présentation en 6 blocs : cover page, executive summary, contexte/agenda, corps (5-8 slides max), traduction technique, conclusion/next steps.
+- Préparez toujours un plan B pour les démos (vidéo enregistrée + screenshots) car l'effet démo frappe toujours au pire moment.
+- Les annexes sont votre arme secrète : elles prouvent votre crédibilité technique quand le jury pose des questions pointues.
+
+## Pour aller plus loin
+
+- [Plan type pour une soutenance data science réussie](https://www.youtube.com/watch?v=rJSdiSoe-TA&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=3) — vidéo détaillant la structure idéale d'une soutenance
+- [Excalidraw](https://excalidraw.com/) — outil de schéma à main levée idéal pour expliquer des pipelines de données
+- [OBS Studio](https://obsproject.com/) — logiciel gratuit pour enregistrer vos démos en vidéo comme plan B

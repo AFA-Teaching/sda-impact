@@ -3,7 +3,7 @@ title: "Exemple : Plan de recherche"
 description: "Plan de recherche utilisateur fictif pour valider une hypothèse de personnalisation via la méthode Wizard of Oz."
 ---
 
-# Projet Reco Homepage : Plan de recherche utilisateur
+# 🗺️ Projet Reco Homepage : Plan de recherche utilisateur
 
 **Contexte**
 
@@ -11,7 +11,8 @@ description: "Plan de recherche utilisateur fictif pour valider une hypothèse d
 - Date : Semaine 1 du projet.  
 - Responsables : Product manager et Data scientist.
 
-**Le contexte et le problème**  
+## Le contexte et le problème
+
 Les données quantitatives (analytics) montrent un problème clair :
 
 - Les utilisateurs passent du temps sur la Home Page (Scroll infini).  
@@ -20,14 +21,14 @@ Les données quantitatives (analytics) montrent un problème clair :
 
 **Notre hypothèse :** Les utilisateurs ignorent ces suggestions car elles sont trop génériques et ne reflètent pas leurs intérêts immédiats.
 
-**Objectifs de la recherche (ce qu'on veut apprendre)**  
+## Objectifs de la recherche (ce qu'on veut apprendre)  
 Nous ne cherchons pas (encore) à valider une solution technique. Nous voulons comprendre la psychologie de la "Découverte".
 
 1. Comprendre les modes de chine : Comment un utilisateur décide-t-il de se balader sans but précis ? Qu'est-ce qui déclenche ce comportement ?  
 2. Identifier les irritants actuels : Pourquoi certains utilisateurs disent-ils "L'algo est nul" ? (Est-ce un problème de prix ? De localisation ? De catégorie ?).  
 3. Tester l'appétence à la personnalisation : Est-ce que les utilisateurs veulent qu'on utilise leur historique, ou trouvent-ils cela intrusif (Privacy) ?
 
-**La méthodologie**  
+## La méthodologie  
 Nous allons combiner deux approches qualitatives lors de la même session :
 
 - Partie A, Entretien exploratoire (15 min) : Discussion ouverte sur les habitudes de navigation passées.  
@@ -36,7 +37,7 @@ Nous allons combiner deux approches qualitatives lors de la même session :
 **Pourquoi cette méthode ?**  
 Le Wizard of Oz nous permet de valider la valeur d'un algorithme parfait avant d'investir du temps de développement Data Science.
 
-**Recrutement (Qui interroger ?)**  
+## Recrutement (Qui interroger ?)  
 Nous visons 6 participants pour couvrir les spectres comportementaux principaux.
 
 **Critères d'inclusion :**
@@ -52,7 +53,7 @@ Nous visons 6 participants pour couvrir les spectres comportementaux principaux.
 | L'occasionnel (2 pers) | Vient pour un besoin précis (Déménagement, Naissance). | Il a besoin d'efficacité. On veut voir si la reco l'aide ou le gêne. |
 | Le sceptique (2 pers) | Refuse souvent les cookies. Méfiant envers la data. | On veut tester la limite de l'intrusion (Privacy). |
 
-**Planning et logistique**
+## Planning et logistique
 
 - Lundi - Mardi : Recrutement (envoi d'emails sur la base opt-in).  
 - Mercredi - Jeudi : Passation des 6 entretiens (30 min chacun) en visio.  
@@ -64,7 +65,7 @@ Nous visons 6 participants pour couvrir les spectres comportementaux principaux.
 - Script d'entretien (voir document suivant).  
 - Grille de prise de notes.
 
-**Livrables attendus (output)**  
+## Livrables attendus (output)  
 À la fin de cette semaine de recherche, nous devons produire :
 
 1. La carte des intérêts : Liste des critères qui comptent vraiment pour un utilisateur (ex: "La distance est plus importante que le prix pour les meubles"). → Input vital pour le feature engineering.  

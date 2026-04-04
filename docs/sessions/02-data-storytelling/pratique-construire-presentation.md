@@ -5,6 +5,12 @@ description: "Exercice pratique : organiser les éléments en vrac du projet Aud
 
 # 📄 Pratique : Construire la présentation
 
+## Objectif
+
+Appliquer les principes de la fiche [Construire la présentation](construire-presentation.md) en organisant les éléments en vrac ci-dessous en un plan de présentation structuré pour le projet AudioFuture.
+
+**Les éléments en vrac**
+
 Voici toutes les idées et éléments que nous avons notés sur le tableau blanc après avoir fini le projet "AudioFuture". C'est le chaos.
 
 Liste des éléments en vrac :

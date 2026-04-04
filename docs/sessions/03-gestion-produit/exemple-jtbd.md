@@ -3,14 +3,14 @@ title: "Exemple : JTBD"
 description: "Jobs to be Done appliqué à la recommandation : identifier les intentions utilisateur plutôt que les profils démographiques."
 ---
 
-# Jobs to be Done (JTBD) : Au-delà du profil utilisateur
+# 🧩 Jobs to be Done (JTBD) : au-delà du profil utilisateur
 
 **Le concept clé :**  
 Vos utilisateurs n'achètent pas votre produit pour ce qu'ils sont (ex: "Homme, 35 ans, Paris"), mais pour la tâche qu'ils essaient d'accomplir (ex: "Me débarrasser d'un vieux canapé avant mon déménagement").
 
 **La phrase magique :** "On embauche (hire) un produit pour faire un job."
 
-**🆚 Le duel : Persona vs JTBD**  
+## Le duel : Persona vs JTBD  
 Imaginez deux utilisateurs sur Leboncoin.
 
 - Profil A : Homme, 73 ans, riche, vit dans un château, aime les chiens.  
@@ -25,7 +25,7 @@ Sauf que...
 
 **Leçon data :** La démographie ne prédit pas l'intention. Le contexte (le "job") le fait.
 
-**🕵️‍♂️ Les 3 "jobs" principaux sur la Homepage Leboncoin**  
+## Les 3 "jobs" principaux sur la Homepage Leboncoin  
 En analysant les comportements (et pas les profils), nous avons identifié 3 "jobs" distincts. Votre algorithme de recommandation doit être capable de détecter quel job l'utilisateur est en train de faire pour adapter l'affichage.
 
 Job 1 : Le chasseur précis
@@ -62,7 +62,7 @@ Job 3 : Le gestionnaire de projet
   - Recommandation de complémentarité (cross-sell).  
   - "Tu as pris le lit ? Voici le matelas qui va avec."
 
-**🧪 Atelier : Traduire le job en feature data**  
+## Atelier : Traduire le job en feature data  
 En tant que data scientist, votre rôle est de traduire ces concepts psychologiques en règles techniques.
 
 | Le job détecté | L'erreur classique (persona) | La solution JTBD (data) |
@@ -71,7 +71,7 @@ En tant que data scientist, votre rôle est de traduire ces concepts psychologiq
 | "Je cherche une voiture" | Lui montrer des voitures après qu'il en ait acheté une. | Détecter l'arrêt soudain de la recherche "Voiture" → Basculer sur "Assurance Auto" ou "Pièces détachées". |
 | "Cadeau de dernière minute" | Lui recommander des objets à l'autre bout de la France (car moins chers). | Prioriser absolument la géolocalisation (< 5km) et la réponse rapide du vendeur. |
 
-**Synthèse**
+## Synthèse
 
 1. L'intention bat l'identité : Ne perdez pas de temps à prédire l'âge ou le genre de l'utilisateur. Essayez de prédire son job actuel à partir de ses 5 derniers clics (session-based reco).  
 2. Un utilisateur change de job : Le matin, je peux être un "chasseur" (je cherche une pièce auto urgemment), et le soir un "flâneur" (je regarde des villas de luxe). Votre modèle doit être temps-réel pour s'adapter.  

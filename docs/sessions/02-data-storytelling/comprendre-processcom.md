@@ -7,7 +7,9 @@ description: "Décoder la personnalité de vos interlocuteurs avec le Process Co
 
 ![Infographie](../../assets/images/s2-processcom.png)
 
-**Objectif :** Décoder la personnalité de vos interlocuteurs pour adapter votre discours à leur fréquence et éviter les malentendus, transformant ainsi la diversité des profils en levier de performance.
+## Objectif
+
+Décoder la personnalité de vos interlocuteurs pour adapter votre discours à leur fréquence et éviter les malentendus, transformant ainsi la diversité des profils en levier de performance.
 
 **Le principe : Nous émettons sur des fréquences différentes**  
 D'après Taibi Kahler (NASA). Nous avons tous les 6 profils en nous, mais nous avons une Base (langue maternelle) et une Phase (motivation actuelle).
@@ -98,5 +100,15 @@ Sous stress, les traits se caricaturent.
 
 Action : Si vous voyez ça, revenez sur son canal de base pour l'apaiser (Donnez des faits au Travaillomane, de l'opinion au Persévérant).
 
-**Pour aller plus loin**  
-[https://www.processcommunication.fr/](https://www.processcommunication.fr/) 
+## Ce qu'il faut retenir
+
+- Nous avons tous les 6 profils PCM en nous, mais notre Base (langue maternelle) et notre Phase (motivation actuelle) déterminent notre canal de communication préféré.
+- Le scan des 30 premières secondes d'une réunion vous permet d'identifier rapidement le profil dominant de votre interlocuteur.
+- Sous stress, les traits se caricaturent : revenez sur le canal de base de la personne pour l'apaiser.
+- Structurez vos présentations pour parler à tous les profils : titre percutant (Promoteur), intro humaine (Empathique), corps factuel (Travaillomane), conclusion engagée (Persévérant).
+
+## Pour aller plus loin
+
+- [Process Communication Model - Site officiel](https://www.processcommunication.fr/) — le site de référence pour découvrir le modèle PCM et passer le test
+- [Taibi Kahler, Process Therapy Model](https://kahlercom.com/) — les travaux originaux du créateur du modèle PCM
+- [Manager avec le Process Communication Model - Christian Becquereau](https://www.eyrolles.com/Entreprise/Livre/process-communication-en-pratique-9782729621216/) — guide pratique pour appliquer le PCM au management

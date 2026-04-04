@@ -5,6 +5,10 @@ description: "Exercice pratique : utiliser un README.md technique comme contexte
 
 # 📄 Pratique : Utiliser Gemini
 
+## Objectif
+
+Appliquer les principes de la fiche [Utiliser Gemini](utiliser-gemini.md) en utilisant un README.md technique comme contexte pour demander à Gemini de construire une stratégie de soutenance.
+
 Et maintenant, changeons de perspective : supposons que vous ayez déjà rédigé ce fichier README.md technique, et voyons comment l'utiliser comme contexte pour demander à Gemini de construire votre stratégie de soutenance.  
 ---
 

@@ -7,12 +7,15 @@ description: "Transformer des papiers de recherche denses en schémas logiques c
 
 ![Infographie](../../assets/images/s1-lire-visualiser.png)
 
-**Objectif :** Ne plus subir la lecture linéaire d'un papier de recherche dense. Transformer des paragraphes techniques indigestes en schémas logiques clairs pour comprendre le flux de données d'un coup d'œil.
+## Objectif
 
-**Le scénario**  
+Ne plus subir la lecture linéaire d'un papier de recherche dense. Transformer des paragraphes techniques indigestes en schémas logiques clairs pour comprendre le flux de données d'un coup d'oeil.
+
+## Le scénario
+
 Vous avez trouvé un papier sur ArXiv (ex: "[Attention is All You Need](https://arxiv.org/pdf/1706.03762)" ou une nouvelle architecture de RAG). Le texte est lourd, les explications de l'architecture sont éparpillées sur 10 pages. Vous n'arrivez pas à visualiser "qui envoie quoi à qui". Au lieu de lire 3 fois la même page, nous allons demander à Gemini de la dessiner.
 
-**La méthode**
+## La méthode
 
 1\. La lecture collaborative  
 Changez de mentalité : on ne lit plus un papier difficile tout seul. On le lit avec un assistant.
@@ -40,10 +43,16 @@ C'est la fonctionnalité clé pour les ingénieurs. Le texte décrit un processu
 
 - L'itération : Le diagramme est trop complexe ? Dites : "Simplifie le schéma, regroupe les couches d'encodage en une seule boîte."
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
-- Mermaid est votre ami : Apprenez à demander des diagrammes Mermaid. C'est le standard pour documenter du code et des architectures.
+- **Mermaid** est votre ami : apprenez à demander des diagrammes Mermaid. C'est le standard pour documenter du code et des architectures.
 
-- Ne restez pas bloqué : Si une phrase est obscure, faites-la traduire ou dessiner par l'IA immédiatement.
+- Ne restez pas bloqué : si une phrase est obscure, faites-la traduire ou dessiner par l'IA immédiatement.
 
-- Visualiser = Comprendre : Pour un Data Scientist, voir le flux des tenseurs (les dimensions des matrices) dans un diagramme vaut souvent mieux que 10 pages de texte.
+- Visualiser = Comprendre : pour un data scientist, voir le flux des tenseurs (les dimensions des matrices) dans un diagramme vaut souvent mieux que 10 pages de texte.
+
+## Pour aller plus loin
+
+- [Mermaid Live Editor](https://mermaid.live/) — l'éditeur en ligne pour tester et visualiser vos diagrammes Mermaid instantanément
+- [How to Read a Paper Efficiently](https://youtu.be/IORDYhXocZ8) — la méthode en trois passes pour lire un papier de recherche efficacement
+- [Attention is All You Need (papier original)](https://arxiv.org/pdf/1706.03762) — le papier fondateur de l'architecture Transformer, idéal pour s'exercer

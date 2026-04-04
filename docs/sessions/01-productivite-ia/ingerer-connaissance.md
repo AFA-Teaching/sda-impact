@@ -7,9 +7,12 @@ description: "Transformer une masse de documents hétérogènes en base de conna
 
 ![Infographie](../../assets/images/s1-ingerer-connaissance.png)
 
-**Objectif :** Ne plus laisser dormir vos notes dans un dossier. Transformer une masse de documents hétérogènes (PDFs, sites web, vidéos) en une base de connaissance interactive et auditive pour réviser efficacement, même dans le métro.
+## Objectif
 
-**Le scénario**  
+Ne plus laisser dormir vos notes dans un dossier. Transformer une masse de documents hétérogènes (PDFs, sites web, vidéos) en une base de connaissance interactive et auditive pour réviser efficacement, même dans le métro.
+
+## Le scénario
+
 Vous venez de finir un module important (ex: "Deep Learning"). Vous avez accumulé :
 
 - Les slides du prof (PDF).  
@@ -19,7 +22,7 @@ Vous venez de finir un module important (ex: "Deep Learning"). Vous avez accumul
 
 Vous devez réviser pour l'examen ou démarrer un projet, mais vous n'avez pas le temps de tout relire ligne par ligne. Vous avez besoin d'une vision d'ensemble et de pouvoir interroger vos cours.
 
-**La méthode**
+## La méthode
 
 1\. Centraliser les sources (le RAG personnel)  
 C'est ici qu'on change d'outil. On quitte Gemini pour NotebookLM.
@@ -57,7 +60,7 @@ NotebookLM propose aussi des formats écrits automatiques.
 
 - L'usage : Utilisez ces supports pour valider que vous avez bien compris les points clés identifiés par NotebookLM.
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
 - NotebookLM = Votre cerveau externe sécurisé. Il ne répond qu'avec vos sources (citations = vérité).
 
@@ -65,5 +68,8 @@ NotebookLM propose aussi des formats écrits automatiques.
 
 - Apprentissage passif : Ne sous-estimez pas le podcast généré. C'est un moyen puissant de "réviser sans réviser" en écoutant deux experts discuter de vos propres cours.
 
-**Pour aller plus loin**  
-[Master NotebookLM in One Video](https://youtu.be/uKPBIKF5FUI?si=-eZ_79HOvgyznAGf)
+## Pour aller plus loin
+
+- [Master NotebookLM in One Video](https://youtu.be/uKPBIKF5FUI?si=-eZ_79HOvgyznAGf) — tutoriel complet pour maîtriser toutes les fonctionnalités de NotebookLM
+- [Google NotebookLM Official Guide](https://notebooklm.google.com/) — la documentation officielle et l'accès direct à l'outil
+- [How to Study Effectively with AI](https://youtu.be/Z2aHJF5IWMA) — stratégies de révision augmentées par l'IA pour étudiants

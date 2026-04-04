@@ -7,7 +7,9 @@ description: "Transformer les réunions en outils de décision efficaces et prot
 
 ![Infographie](../../assets/images/s2-organiser-reunions.png)
 
-**Objectif :** Transformer les réunions en outils de décision redoutables et protéger votre temps de production en éliminant impitoyablement les rencontres sans valeur ajoutée.
+## Objectif
+
+Transformer les réunions en outils de décision redoutables et protéger votre temps de production en éliminant impitoyablement les rencontres sans valeur ajoutée.
 
 **La philosophie**  
 Une réunion coûte cher (Salaire x Nbre de personnes x Durée). Si rien n'en sort, c'est une perte sèche.
@@ -66,7 +68,7 @@ Cadrez immédiatement pour éviter le flou.
 La discipline de fer
 
 - No tech : "Laptops closed". Si les gens font leurs mails, ils ne servent à rien.  
-- Le parking lot  : Vital pour les data scientists. Si un débat technique dérape (ex: détail de l'API) et n'intéresse pas le décideur : "Marc, point intéressant mais hors-sujet ici. Je le note au parking lot et on le règle tous les deux après."  
+- Le parking lot : Vital pour les data scientists. Si un débat technique dérape (ex: détail de l'API) et n'intéresse pas le décideur : "Marc, point intéressant mais hors-sujet ici. Je le note au parking lot et on le règle tous les deux après."  
 - Le timekeeper : Désignez quelqu'un pour surveiller l'horloge. "Il reste 10 min et on n'a pas tranché."
 
 **Après : L'atterrissage**
@@ -101,3 +103,15 @@ Pour les réunions de type problem solving uniquement.
 
 Le timer visuel  
 Affichez un gros chronomètre sur l'écran partagé lors des brainstormings. La pression temporelle force la synthèse.
+
+## Ce qu'il faut retenir
+
+- Appliquez la règle "no agenda, no attenda" : refusez toute invitation sans ordre du jour clair et questions à trancher.
+- Cadrez les 30 premières secondes avec le GPS (Goal, Process, Stake) pour éviter que la réunion ne dérive.
+- Ne sortez jamais d'une réunion sans un WWW (Who Does What by When) et envoyez un compte-rendu IDR dans les 15 minutes.
+
+## Pour aller plus loin
+
+- [Miro](https://miro.com/) — tableau blanc collaboratif pour les réunions de brainstorming et de problem solving
+- [Fellow.app](https://fellow.app/) — outil de gestion d'agenda de réunion et de suivi des actions
+- [Amazon, An Insider Look at Amazon's Culture and Processes](https://www.aboutamazon.com/news/workplace/an-insider-look-at-amazons-culture-and-processes) — la culture des réunions efficaces chez Amazon

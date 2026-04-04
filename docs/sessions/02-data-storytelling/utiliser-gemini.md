@@ -7,9 +7,11 @@ description: "Utiliser Gemini comme accélérateur de réflexion pour structurer
 
 ![Infographie](../../assets/images/s2-utiliser-gemini.png)
 
-**Objectif :** Utiliser Gemini comme un accélérateur de réflexion et non comme un générateur automatique. Vous gardez le contrôle, Gemini gère la structure et le polissage.
+## Objectif
 
-**⚠️ Avertissement : Les outils magiques (Text-to-Slide)**  
+Utiliser Gemini comme un accélérateur de réflexion et non comme un générateur automatique. Vous gardez le contrôle, Gemini gère la structure et le polissage.
+
+**Avertissement : les outils magiques (Text-to-Slide)**  
 J'ai testé des outils comme Gamma.app ou les slide generators automatiques.  
 Le verdict : à éviter.
 
@@ -19,8 +21,8 @@ Le verdict : à éviter.
 
 - L'alternative : Utilisez Gemini pour construire le fond, et faites la forme vous-même (ou avec des templates).
 
-**Le process augmenté par de l'IA en 5 étapes**  
-Voici comment intégrer Gemini (ou ChatGPT/Claude) à chaque étape de la méthode vue précédemment.
+**Le process augmenté par l'IA en 5 étapes**  
+Voici comment intégrer Gemini (ou ChatGPT/Claude) à chaque étape de la méthode décrite dans la fiche [Suivre un process](suivre-process.md).
 
 1\. Le cadrage et le narratif  
 Vous avez votre README ou vos idées en vrac, mais vous bloquez devant la page blanche.
@@ -61,20 +63,25 @@ Avant le jour J, faites critiquer votre travail.
 
 - Cas d'usage : Anticiper les questions pièges (Q&A). "Je présente ce projet [Classification d'images] à un jury technique. Quelles sont les 5 questions les plus difficiles qu'ils pourraient me poser sur la méthodologie ou les biais ? Aide-moi à préparer les réponses."
 
-**Atelier pratique**  
+**Exercice pratique**  
 Vous avez le fichier README.md du projet "AudioFuture" (analyse de sentiments).  
-Votre mission : Utiliser Gemini pour générer le plan de la soutenance.
+Votre mission : utiliser Gemini pour générer le plan de la soutenance.
 
 1. Ouvrez Gemini (ou votre LLM préféré).  
 2. Copiez-collez le contexte du projet AudioFuture (les 3-4 points clés : 5000 avis, modèle NLP, problème de batterie identifié).  
 3. Lancez le Prompt : "Agis comme un expert en communication data. Je dois présenter ce projet en 10 minutes à un jury mixte (Tech + Business). Propose-moi un plan en 6 slides avec pour chaque slide : Le titre d'action et les éléments visuels à inclure."  
 4. Analysez le résultat : Est-ce que les titres racontent une histoire ? (Si non, challengez l'IA : "Rends les titres plus orientés résultats").
 
-**En vidéo**  
-[IA co-pilote : Prompts Gemini pour vos présentations data science](https://www.youtube.com/watch?v=YKF3nWJx8Iw&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=4)  
-[Créer des présentations HTML avec un assistant Gemini](https://www.youtube.com/watch?v=3vT4mwJcYio&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=5)  
-[Obtenir un feedback critique sur vos présentations avec Gemini](https://www.youtube.com/watch?v=JtnxD9Odp10&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=6)
+## Ce qu'il faut retenir
 
-**Des Gems**  
-[📺 Document to HTML Presentation Converter](https://gemini.google.com/gem/1ceG85dtOVdgsvqecXnKT3CS0zX9ZaHzU?usp=sharing)  
-[🧐 The Strict Professor](https://gemini.google.com/gem/1t5L-ZxcEYjvHckDbr0AKWN-_eAnpDpGP?usp=sharing)
+- Utilisez l'IA pour structurer votre pensée (cadrage, plan, titres), pas pour générer des slides automatiquement.
+- Les outils text-to-slide (Gamma.app, etc.) produisent des résultats génériques et creux : gardez la maîtrise de votre récit.
+- L'IA excelle pour trouver des action titles, simplifier le jargon, générer du code Python de visualisation propre et anticiper les questions du jury.
+
+## Pour aller plus loin
+
+- [IA co-pilote : Prompts Gemini pour vos présentations data science](https://www.youtube.com/watch?v=YKF3nWJx8Iw&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=4) — vidéo avec des prompts concrets pour chaque étape
+- [Créer des présentations HTML avec un assistant Gemini](https://www.youtube.com/watch?v=3vT4mwJcYio&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=5) — vidéo sur la génération de présentations HTML via l'IA
+- [Obtenir un feedback critique sur vos présentations avec Gemini](https://www.youtube.com/watch?v=JtnxD9Odp10&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=6) — vidéo sur l'utilisation de l'IA comme jury de répétition
+- [Document to HTML Presentation Converter](https://gemini.google.com/gem/1ceG85dtOVdgsvqecXnKT3CS0zX9ZaHzU?usp=sharing) — Gem Gemini pour convertir un document en présentation HTML
+- [The Strict Professor](https://gemini.google.com/gem/1t5L-ZxcEYjvHckDbr0AKWN-_eAnpDpGP?usp=sharing) — Gem Gemini pour obtenir un feedback critique sur vos travaux

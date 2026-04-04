@@ -3,12 +3,17 @@ title: "Rôles"
 description: "Les rôles clés d'une squad produit : product manager, designer, builders, QA et facilitateurs techniques."
 ---
 
-# Rôles
+# 🎭 Rôles
 
 ![Infographie](../../assets/images/s3-roles.png)
 
-**Qui fait quoi dans la squad ?**  
-Une squad (équipe produit autonome) est une petite équipe pluridisciplinaire. Imaginez un commando où chacun a sa spécialité mais où tout le monde partage la même mission.
+## Objectif
+
+Identifier les rôles clés d'une squad produit et comprendre comment chacun contribue à la réussite du produit.
+
+## Qui fait quoi dans la squad ?
+
+Une **squad** (équipe produit autonome) est une petite équipe pluridisciplinaire. Imaginez un commando où chacun a sa spécialité mais où tout le monde partage la même mission.
 
 Voici les profils avec qui vous allez passer vos journées :
 
@@ -58,7 +63,15 @@ Vous les croiserez peut-être moins souvent au quotidien, mais ils sont vitaux :
 - L'engineering manager (EM) : C'est souvent votre manager hiérarchique. Il ne gère pas le produit, il gère les gens (carrière, bien-être) et les process (comment on s'organise pour coder mieux).  
 - L'architecte : Il définit les grandes lignes techniques (les fondations) pour s'assurer que toutes les équipes ne partent pas dans tous les sens.
 
-**✍️Activité live :** Sur le tableau, plaçons chaque rôle. Qui parle le plus aux utilisateurs ? Qui parle le plus à la base de données ? Qui parle le plus au business ?
+**✍️ Exercice :** Pour chaque rôle, demandez-vous : qui parle le plus aux utilisateurs ? Qui parle le plus à la base de données ? Qui parle le plus au business ?
 
-**Scrum Life**  
-[Qui fait quoi ? 🤔 ATELIER Rôles & Responsabilités pour BIEN DEMARRER SCRUM (outil Scrum Master)](https://youtu.be/0ak7hjVA9vA?si=ux3W7sh5tNV3Rum1)
+## Ce qu'il faut retenir
+
+- Le **PM** est le garant du "pourquoi", pas le chef hiérarchique de l'équipe.
+- Le **designer** ne fait pas que des maquettes : il étudie comment le produit s'insère dans la vie réelle des gens.
+- En tant que data scientist, vous êtes un **builder** responsable de la faisabilité et de la maintenabilité de vos solutions.
+- La qualité est une responsabilité collective : chaque rôle a sa part de vérification.
+
+## Pour aller plus loin
+
+- [Scrum Life, Qui fait quoi ? Rôles & Responsabilités](https://youtu.be/0ak7hjVA9vA?si=ux3W7sh5tNV3Rum1) — atelier pratique pour comprendre les rôles Scrum

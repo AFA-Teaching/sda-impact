@@ -7,12 +7,15 @@ description: "Utiliser Gemini comme mentor pour construire sa mémoire musculair
 
 ![Infographie](../../assets/images/s1-apprendre-coder.png)
 
-**Objectif :** Utiliser Gemini pour construire votre mémoire musculaire en Python. L'objectif n'est pas d'obtenir le script final le plus vite possible, mais de comprendre chaque ligne pour être capable de l'expliquer lors d'une évaluation technique.
+## Objectif
 
-**Le scénario**  
+Utiliser Gemini pour construire votre mémoire musculaire en Python. L'objectif n'est pas d'obtenir le script final le plus vite possible, mais de comprendre chaque ligne pour être capable de l'expliquer lors d'une évaluation technique.
+
+## Le scénario
+
 Vous avez des bases en Python, mais vous savez que pour la data science, il faut passer au niveau supérieur (Pandas, Scikit-Learn). Vous avez peur de la page blanche. Au lieu d'attendre le prochain cours, vous allez pratiquer 15 minutes par jour en transformant Gemini en instituteur patient qui regarde par-dessus votre épaule.
 
-**La méthode**
+## La méthode
 
 1\. Trouver la matière première (Kaggle)  
 Pour coder, il faut des données. Ne perdez pas de temps à en chercher.
@@ -46,10 +49,16 @@ Vous entendrez parler d'outils comme Cursor. Ce sont des éditeurs de code surpu
 
 - Le verdict : En évaluation, si on vous demande "Pourquoi as-tu utilisé cette méthode ici ?", l'utilisateur de Cursor ne saura pas répondre. L'utilisateur de Gemini (méthode pas-à-pas) aura la réponse, car il aura souffert sur chaque ligne. Gardez Cursor pour plus tard, quand vous serez experts.
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
-- Régularité : Un peu de Python tous les jours avec Gemini vaut mieux qu'un gros bloc de code généré une fois par semaine.
+- Régularité : un peu de Python tous les jours avec Gemini vaut mieux qu'un gros bloc de code généré une fois par semaine.
 
-- Copier-Coller = Tricher (soi-même) : Forcez-vous à réécrire le code proposé par Gemini. C'est la seule façon d'ancrer la syntaxe.
+- Copier-Coller = Tricher (soi-même) : forcez-vous à réécrire le code proposé par Gemini. C'est la seule façon d'ancrer la syntaxe.
 
-- Gemini est votre prof, Cursor est votre usine : Utilisez le chat pour apprendre et comprendre (mode interactif). N'utilisez les générateurs de code automatiques que pour les tâches que vous savez déjà faire parfaitement à la main.
+- Gemini est votre prof, Cursor est votre usine : utilisez le chat pour apprendre et comprendre (mode interactif). N'utilisez les générateurs de code automatiques que pour les tâches que vous savez déjà faire parfaitement à la main.
+
+## Pour aller plus loin
+
+- [How to Learn Python FAST with AI](https://youtu.be/B9nFM0hpt8I) — stratégie d'apprentissage accéléré du Python avec l'IA comme tuteur
+- [Kaggle Learn](https://www.kaggle.com/learn) — parcours gratuits et interactifs pour apprendre Python, Pandas et le Machine Learning
+- [Google's Python Class](https://developers.google.com/edu/python) — cours officiel Google pour apprendre Python pas à pas

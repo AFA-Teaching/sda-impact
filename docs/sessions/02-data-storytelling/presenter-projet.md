@@ -7,7 +7,9 @@ description: "Transformer le stress en énergie communicative et gérer les impr
 
 ![Infographie](../../assets/images/s2-presenter-projet.png)
 
-**Objectif :** Transformer le stress en énergie communicative et gérer les imprévus techniques comme un professionnel. C'est le moment de vendre votre travail.
+## Objectif
+
+Transformer le stress en énergie communicative et gérer les imprévus techniques comme un professionnel. C'est le moment de vendre votre travail.
 
 **La préparation**  
 Ne laissez rien au hasard. L'improvisation technique est interdite.
@@ -61,3 +63,15 @@ C'est là qu'on juge votre honnêteté intellectuelle.
 Les slides sont un support, pas une béquille.
 
 - Si le jury vous interrompt pour aller directement à la conclusion : Faites-le. Ne dites pas "Attendez, j'y arrive dans 3 slides". Sautez les slides et adaptez-vous. Vous êtes là pour répondre à leur besoin, pas pour réciter un poème.
+
+## Ce qu'il faut retenir
+
+- Vérifiez toute votre infrastructure technique le matin (pas 30 minutes avant) pour avoir le temps de basculer sur un plan B.
+- En visio, parlez 20 % plus fort et ne partagez jamais votre écran entier : partagez uniquement la fenêtre de votre présentation.
+- Si vous ne savez pas répondre à une question, dites-le honnêtement : c'est une marque d'intégrité intellectuelle qui inspire confiance.
+
+## Pour aller plus loin
+
+- [Google Slides - Mode Présentateur](https://support.google.com/docs/answer/1696787) — documentation officielle du mode présentateur avec notes et chrono
+- [OBS Studio](https://obsproject.com/) — logiciel gratuit pour enregistrer vos démos en vidéo comme plan de secours
+- [Logitech Spotlight](https://www.logitech.com/fr-fr/products/presenters.html) — télécommandes de présentation pour se libérer du clavier

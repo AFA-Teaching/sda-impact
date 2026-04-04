@@ -3,7 +3,7 @@ title: "Exemple : Guide d'entretien"
 description: "Guide d'entretien utilisateur complet pour tester un prototype de recommandation personnalisée."
 ---
 
-# Projet Reco Homepage : Guide d'entretien utilisateur
+# 🎤 Projet Reco Homepage : Guide d'entretien utilisateur
 
 **Contexte**  
 Vous allez interviewer un utilisateur réel (ou un collègue jouant le rôle).  
@@ -14,7 +14,7 @@ Durée : 30 minutes.
 1. Comprendre comment il cherche des objets aujourd'hui (discovery).  
 2. Tester si notre nouvelle homepage personnalisée l'intéresse vraiment (test prototype).
 
-**👋 Phase 0 : Introduction (3 min)**  
+## Phase 0 : Introduction (3 min)  
 Mettre l'utilisateur à l'aise. Il n'y a pas de mauvaises réponses.
 
 - "Bonjour et merci de ton temps. Je travaille sur l'amélioration de l'application Leboncoin."  
@@ -22,7 +22,7 @@ Mettre l'utilisateur à l'aise. Il n'y a pas de mauvaises réponses.
 - "Sois honnête, même si c'est critique. C'est ce qui nous aide le plus."  
 - "Est-ce que je peux enregistrer la conversation pour ne pas perdre de détails ?"
 
-**🕵️ Phase 1 : Discovery et usages actuels (10 min)**  
+## Phase 1 : Discovery et usages actuels (10 min)  
 Objectif : Comprendre le "Job to be Done" et les douleurs actuelles sans parler de notre solution.
 
 L'échauffement
@@ -44,7 +44,7 @@ La douleur de la Homepage
 - "T'arrive-t-il de cliquer dessus ? Si non, pourquoi ?"  
   - Indice Data Scientist : On cherche à savoir si c'est un problème de pertinence (ce n'est pas pour moi) ou de confiance (ça a l'air d'une arnaque).
 
-**📱 Phase 2 : Test du prototype (15 min)**  
+## Phase 2 : Test du prototype (15 min)  
 Objectif : Valider l'algorithme Wizard of Oz.
 
 **Mise en scène :** "J'aimerais maintenant te montrer une version expérimentale de la page d'accueil. Imagine que nous sommes la semaine prochaine. Tu as cherché des articles de Décoration Vintage et des Vélos ces derniers jours."
@@ -69,13 +69,14 @@ Tâches guidées
 - "Sur une échelle de 1 à 10, à quel point cette page d'accueil t'aiderait à trouver ton bonheur plus vite ?"  
 - "Qu'est-ce qui te ferait mettre +1 point ?"
 
-**🏁 Phase 3 : Conclusion (2 min)**
+## Phase 3 : Conclusion (2 min)
 
 - La question "Baguette Magique" :  
   - "Si tu avais une baguette magique pour changer un seul truc sur la façon dont Leboncoin te propose des objets, tu ferais quoi ?"  
 - "Merci beaucoup, c'est très précieux pour nous."
 
-**Interprétations**  
+## Interprétations
+
 Voici comment interpréter les réponses pour votre futur modèle :
 
 | Ce que l'utilisateur dit | Traduction pour votre algorithme (feature engineering) |

@@ -7,14 +7,17 @@ description: "Transformer une idée en application fonctionnelle en quelques min
 
 ![Infographie](../../assets/images/s1-construire-app.png)
 
-**Objectif :** Transformer une idée abstraite en une application fonctionnelle en quelques minutes. Ce n'est pas encore du code de production, mais c'est le moyen le plus rapide de visualiser un concept (MVP) avant de se lancer dans le développement lourd.
+## Objectif
 
-**Note :** Ce sujet sera approfondi lors du module [Gestion de produit]() et du [TP]().
+Transformer une idée abstraite en une application fonctionnelle en quelques minutes. Ce n'est pas encore du code de production, mais c'est le moyen le plus rapide de visualiser un concept (**MVP** — Minimum Viable Product, la version minimale fonctionnelle de votre idée) avant de se lancer dans le développement lourd.
 
-**Le scénario**  
-Vous avez une idée géniale. Avant, il fallait coder le HTML, le CSS, le Python, gérer les API... C'était long. Aujourd'hui, via Google AI Studio, nous allons demander à l'IA de coder l'application entière sous nos yeux.
+**Note :** Ce sujet sera approfondi lors du module [Gestion de produit](../03-gestion-produit/index.md) et du [TP](../04-travaux-pratiques/index.md).
 
-**La méthode**
+## Le scénario
+
+Vous avez une idée géniale. Avant, il fallait coder le HTML, le CSS, le Python, gérer les API... C'était long. Aujourd'hui, via Google AI Studio, vous allez demander à l'IA de coder l'application entière sous vos yeux.
+
+## La méthode
 
 1\. Le laboratoire : Google AI Studio  
 On quitte l'interface grand public (Gemini) pour passer dans la salle des machines : Google AI Studio.
@@ -49,13 +52,16 @@ Votre prototype tourne dans le navigateur, mais vous voulez le partager ou le s�
 
 - Pourquoi c'est fort ? Vous passez d'un prototype généré par l'IA à un vrai repository de code sur lequel vous pourrez travailler proprement plus tard.
 
-**Ce qu'il faut retenir**
+## Ce qu'il faut retenir
 
 - MVP en 5 minutes : N'attendez plus de savoir coder parfaitement le CSS pour montrer votre idée. Prototypez d'abord, codez proprement ensuite.
 
 - L'IA brique : Ces applications intègrent nativement l'IA. Vous ne créez pas juste un site web, mais un outil intelligent.
 
-- Vers le hackathon : Gardez cette technique en tête. Lors d'une présentation, c'est ce qui fera la différence entre ceux qui parlent d'une idée et ceux qui la montrent un prototype fonctionnel sur grand écran.
+- Vers le hackathon : Gardez cette technique en tête. Lors d'une présentation, c'est ce qui fera la différence entre ceux qui parlent d'une idée et ceux qui montrent un prototype fonctionnel sur grand écran.
 
-**Pour aller plus loin**  
-[Google AI Studio: Build, Test & Deploy a Real AI App (Full Guide)](https://youtu.be/Lnkv0-GLU3w?si=NWlHH9265cMPUNdL)
+## Pour aller plus loin
+
+- [Google AI Studio: Build, Test & Deploy a Real AI App (Full Guide)](https://youtu.be/Lnkv0-GLU3w?si=NWlHH9265cMPUNdL) — guide complet pour construire, tester et déployer une application IA avec AI Studio
+- [Google AI Studio](https://aistudio.google.com/) — accès direct à la plateforme pour commencer à prototyper
+- [How to Build an MVP in One Day with AI](https://youtu.be/rUK10YaSFcE) — prototyper un MVP rapidement grâce à l'IA générative

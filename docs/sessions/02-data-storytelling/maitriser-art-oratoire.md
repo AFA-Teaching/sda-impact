@@ -7,7 +7,9 @@ description: "Développer votre executive presence pour inspirer confiance et au
 
 ![Infographie](../../assets/images/s2-art-oratoire.png)
 
-**Objectif :** Développer votre executive presence pour inspirer confiance et autorité dès votre entrée dans la pièce, en transformant votre corps et votre voix en instruments de persuasion.
+## Objectif
+
+Développer votre **executive presence** (la capacité à inspirer confiance et autorité par votre seule présence) dès votre entrée dans la pièce, en transformant votre corps et votre voix en instruments de persuasion.
 
 **La méthode R.D.V.**  
 En présentiel, vous n'êtes plus une voix sur un écran. Vous êtes une présence physique. Tout repose sur le triptyque :
@@ -95,20 +97,28 @@ Les 30 premières secondes déterminent si on vous écoute.
 
 Résultat : Vous avez gagné la salle avant même la slide 1.
 
-En vidéo  
-[Les secrets des présentations TED : La philosophie et le fil conducteur](https://www.youtube.com/watch?v=3ZfjagXNBCk&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=11)
+**En vidéo :** [Les secrets des présentations TED : La philosophie et le fil conducteur](https://www.youtube.com/watch?v=3ZfjagXNBCk&list=PLAO2ui_9t-UQiTCLs2yiQO2m9_oq-ItWQ&index=11)
 
-Interventions d'orateurs  
-[Do schools kill creativity? | Sir Ken Robinson | TED](https://youtu.be/iG9CE55wbtY?si=BTNKGw_NvNEDZpsf)  
-[Inside the Mind of a Master Procrastinator | Tim Urban | TED](https://youtu.be/arj7oStGLkU?si=zE4b6uJ2cjZJ1O1Dy)  
-[The power of vulnerability | Brené Brown | TEDxHouston](https://www.google.com/search?q=https://youtu.be/X4Qm9cGRub0%3Fsi%3DAXuKpkfIbtKcI8D_)  
-[Steve Jobs' 2005 Stanford Commencement Address](https://youtu.be/UF8uR6Z6KLc?si=Um8XOHGwGSE-BO0Z)  
-[The best stats you've ever seen | Hans Rosling](https://youtu.be/hVimVzgtD6w?si=uX7nK1e9G9Vl4oHj)  
-[The thrilling potential of SixthSense technology | Pranav Mistry](https://youtu.be/YrtANPtnhyg?si=sJZ_HUqEtUiqXeck)  
-[How Great Leaders Inspire Action | Simon Sinek | TED](https://youtu.be/qp0HIF3SfI4?si=1Wv5jC0vGjD8lR3M)
+**Interventions d'orateurs inspirantes :**
 
-Pour aller plus loin  
-[Chris Anderson, TED Talks: The Official TED Guide to Public Speaking](https://www.ted.com/read/ted-talks-the-official-ted-guide-to-public-speaking)  
-[TED's secret to great public speaking](https://www.youtube.com/watch?v=-FOCpMAww28)  
-[Blog TED Ideas \- How to give a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)  
-[Carmine Gallo, The Presentation Secrets of Steve Jobs](https://www.carminegallo.com/books/presentation-secrets-of-steve-jobs/)
+- [Do schools kill creativity? | Sir Ken Robinson | TED](https://youtu.be/iG9CE55wbtY?si=BTNKGw_NvNEDZpsf) — l'un des TED Talks les plus vus de l'histoire
+- [Inside the Mind of a Master Procrastinator | Tim Urban | TED](https://youtu.be/arj7oStGLkU?si=zE4b6uJ2cjZJ1O1Dy) — humour et storytelling visuel magistral
+- [The power of vulnerability | Brene Brown | TEDxHouston](https://youtu.be/X4Qm9cGRub0?si=AXuKpkfIbtKcI8D_) — la puissance de l'authenticité sur scène
+- [Steve Jobs' 2005 Stanford Commencement Address](https://youtu.be/UF8uR6Z6KLc?si=Um8XOHGwGSE-BO0Z) — chef-d'oeuvre de narration personnelle
+- [The best stats you've ever seen | Hans Rosling](https://youtu.be/hVimVzgtD6w?si=uX7nK1e9G9Vl4oHj) — data storytelling en action par un maître du genre
+- [The thrilling potential of SixthSense technology | Pranav Mistry](https://youtu.be/YrtANPtnhyg?si=sJZ_HUqEtUiqXeck) — démonstration technologique captivante
+- [How Great Leaders Inspire Action | Simon Sinek | TED](https://youtu.be/qp0HIF3SfI4?si=1Wv5jC0vGjD8lR3M) — le framework Start With Why
+
+## Ce qu'il faut retenir
+
+- La méthode R.D.V. (Regard, Dos, Voix) est votre triptyque pour incarner votre message physiquement.
+- Le silence après un chiffre clé est une marque d'autorité : comptez mentalement jusqu'à 3 après une information importante.
+- Les 30 premières secondes déterminent si on vous écoute : commencez par une accroche directe, pas par "Bonjour, je m'appelle X".
+- Ne lisez jamais vos slides : l'écran est pour votre audience, pas pour vous.
+
+## Pour aller plus loin
+
+- [Chris Anderson, TED Talks: The Official TED Guide to Public Speaking](https://www.ted.com/read/ted-talks-the-official-ted-guide-to-public-speaking) — le guide officiel TED pour maîtriser l'art oratoire
+- [TED's secret to great public speaking](https://www.youtube.com/watch?v=-FOCpMAww28) — vidéo courte sur les secrets des meilleurs orateurs TED
+- [Blog TED Ideas - How to give a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation) — playlist de ressources TED sur la prise de parole
+- [Carmine Gallo, The Presentation Secrets of Steve Jobs](https://www.carminegallo.com/books/presentation-secrets-of-steve-jobs/) — les techniques de présentation de Steve Jobs décryptées

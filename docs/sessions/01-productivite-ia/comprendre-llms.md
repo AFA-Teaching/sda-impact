@@ -15,7 +15,7 @@ Comprendre les concepts fondamentaux des **LLMs** (Large Language Models — gra
 
 Je vous ai promis de privilégier la pratique, mais pour bien piloter une F1, il faut comprendre comment fonctionne le moteur. En tant que data scientists, ces concepts vous aideront à intuiter pourquoi le modèle réagit de telle ou telle façon.
 
-Mon conseil : pour visualiser ces concepts de manière interactive, j'ai créé avec Gemini un [site dédié qui illustre les principes clés](https://adamfaik.github.io/llm-explainer/).
+Mon conseil : pour visualiser ces concepts de manière interactive, j'ai créé avec Gemini un [site dédié qui illustre les principes clés](https://the-ai-thinker.github.io/llm-explainer/).
 
 ## Le coeur du réacteur : next token prediction
 
@@ -68,4 +68,4 @@ Le modèle que vous utilisez a subi trois phases distinctes (et coûteuses) :
 
 - [Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?si=TLxwzQAx7a87PHG-) — Andrej Karpathy explique en profondeur le fonctionnement interne des LLMs
 - [How I use LLMs](https://youtu.be/EWvNQjAaOHw?si=oDRyuYE--wTbgCsd) — retour d'expérience concret sur l'utilisation quotidienne des LLMs
-- [LLM Explainer Interactif](https://adamfaik.github.io/llm-explainer/) — site interactif créé pour ce cours, illustrant les principes clés des LLMs
+- [LLM Explainer Interactif](https://the-ai-thinker.github.io/llm-explainer/) — site interactif créé pour ce cours, illustrant les principes clés des LLMs

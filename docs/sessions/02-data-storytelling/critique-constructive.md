@@ -23,8 +23,8 @@ Analysez les exemples réels de présentations ci-dessous pour aiguiser votre re
   - [Quels sont les facteurs qui influencent la qualité de l'air à l'échelle mondiale ?](https://docs.google.com/presentation/d/1QjzpAI1io5qP2zDmkkeqBvKjl4oOwaDM/edit?usp=sharing&ouid=105244368786558390133&rtpof=true&sd=true)  
   - [Un système de reco de vins basé sur le traitement du langage naturel (NLP)](https://docs.google.com/presentation/d/1xWIFYjLLfpqlCYCQm_G5XOQfmWTq8J6n/edit?usp=sharing&ouid=105244368786558390133&rtpof=true&sd=true)  
   - [Deep Learning pour la classification de scènes naturelles](https://docs.google.com/presentation/d/1gwanFYHB2klHFXNnVGLix24ug8NFHUIv/edit?usp=sharing&ouid=105244368786558390133&rtpof=true&sd=true)  
-  - [Plateforme de données en temps réel sur les services de transport à la demande](https://adamfaik.github.io/ride-hailing-data-platform/presentation.html)  
-  - [Une solution prédictive pour le risque de défaut de paiement sur les prêts](https://adamfaik.github.io/loan-default-prediction/presentation.html)
+  - [Plateforme de données en temps réel sur les services de transport à la demande](https://afa-teaching.github.io/ride-hailing-data-platform/presentation.html)  
+  - [Une solution prédictive pour le risque de défaut de paiement sur les prêts](https://afa-teaching.github.io/loan-default-prediction/presentation.html)
 
 **À bannir absolument**  
 Ces erreurs tuent votre crédibilité. Si le jury voit ça, il arrête d'écouter le fond pour juger la forme.

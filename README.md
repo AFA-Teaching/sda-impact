@@ -1,12 +1,12 @@
 # Impact Data Scientist
 
-[![Deploy to GitHub Pages](https://github.com/adamfaik/sda-impact/actions/workflows/deploy.yml/badge.svg)](https://github.com/adamfaik/sda-impact/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/AFA-Teaching/sda-impact/actions/workflows/deploy.yml/badge.svg)](https://github.com/AFA-Teaching/sda-impact/actions/workflows/deploy.yml)
 
 **Les compétences transversales essentielles pour le data scientist** — Sorbonne Data Analytics
 
 Ce dépôt contient les supports de cours pour le module **Impact Data Scientist** du [Diplôme Sorbonne Data Analytics](https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/diplome-d-universite-DU/diplome-d-universite-KBVXM363/diplome-d-universite-sorbonne-data-analytics-KPMK3V7Z.html).
 
-**[Accéder au portail étudiant](https://adamfaik.github.io/sda-impact/)**
+**[Accéder au portail étudiant](https://afa-teaching.github.io/sda-impact/)**
 
 ## Sessions
 
@@ -20,7 +20,7 @@ Ce dépôt contient les supports de cours pour le module **Impact Data Scientist
 ## Stack technique
 
 - [MkDocs Material](https://squidfundamentals.github.io/mkdocs-material/) — générateur de site statique
-- [GitHub Actions](https://github.com/adamfaik/sda-impact/actions) — déploiement automatique sur GitHub Pages
+- [GitHub Actions](https://github.com/AFA-Teaching/sda-impact/actions) — déploiement automatique sur GitHub Pages
 - Markdown avec extensions : admonitions, onglets, détails dépliables, emoji
 
 ## Structure du projet

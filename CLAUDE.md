@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Educational portal for the "Impact Data Scientist" module at Sorbonne Data Analytics. Static site built with MkDocs Material, entirely in French.
 
-Live site: https://afa-teaching.github.io/sda-impact/
+Live site: https://the-ai-thinker.github.io/training-sda-impact/
 
 ## Commands
 
